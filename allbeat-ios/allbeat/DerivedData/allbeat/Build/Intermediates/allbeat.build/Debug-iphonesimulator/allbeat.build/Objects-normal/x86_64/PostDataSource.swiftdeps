@@ -1,0 +1,529 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostDataSource"
+provides-nominal:
+- "C7allbeat14PostDataSource"
+- "OC7allbeat14PostDataSource6Source"
+provides-member:
+- ["C7allbeat14PostDataSource", ""]
+- ["OC7allbeat14PostDataSource6Source", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AudioDataSourceCallback"
+- "BrowsingItem"
+- "Dictionary"
+- "PostDataSource"
+- "Int"
+- !private ">="
+- "BrowseRequestItemsCallback"
+- !private "!="
+- !private "CastingPrecedence"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "URL"
+- !private "print"
+- "String"
+- !private "-"
+- !private "+"
+- "AudioPlayerDataSource"
+- "Bool"
+- !private "StringLiteralType"
+- "PostData"
+- !private "NSDataAsset"
+- !private "Data"
+- "CountableRange"
+- !private "Array"
+- "BrowseDataSource"
+depends-member:
+- !private ["Ps9AnyObject", "Array"]
+- !private ["Ps9AnyObject", "Data"]
+- !private ["Ps9AnyObject", "NSDataAsset"]
+- !private ["Ps9AnyObject", "PostData"]
+- !private ["Ps9AnyObject", "audio"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "download"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "itemCount"]
+- !private ["Ps9AnyObject", "items"]
+- !private ["Ps9AnyObject", "localUrl"]
+- ["Ps9AnyObject", "nextAudioPiece"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", "requestItems"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- ["O7allbeat29AudioDataSourceCallbackAction", "deinit"]
+- !private ["O7allbeat29AudioDataSourceCallbackAction", "finished"]
+- !private ["O7allbeat29AudioDataSourceCallbackAction", "next"]
+- !private ["P7allbeat21AudioPlayerDataSource", "Array"]
+- !private ["P7allbeat21AudioPlayerDataSource", "Data"]
+- !private ["P7allbeat21AudioPlayerDataSource", "NSDataAsset"]
+- !private ["P7allbeat21AudioPlayerDataSource", "PostData"]
+- !private ["P7allbeat21AudioPlayerDataSource", "itemCount"]
+- !private ["P7allbeat21AudioPlayerDataSource", "items"]
+- ["P7allbeat21AudioPlayerDataSource", "nextAudioPiece"]
+- !private ["P7allbeat21AudioPlayerDataSource", "print"]
+- ["P7allbeat21AudioPlayerDataSource", "requestItems"]
+- ["P7allbeat21AudioPlayerDataSource", ""]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "endIndex"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps23BidirectionalCollection", "startIndex"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "endIndex"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps22BidirectionalIndexable", "startIndex"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["P7allbeat16BrowseDataSource", "Array"]
+- !private ["P7allbeat16BrowseDataSource", "Data"]
+- !private ["P7allbeat16BrowseDataSource", "NSDataAsset"]
+- !private ["P7allbeat16BrowseDataSource", "PostData"]
+- !private ["P7allbeat16BrowseDataSource", "itemCount"]
+- !private ["P7allbeat16BrowseDataSource", "items"]
+- ["P7allbeat16BrowseDataSource", "nextAudioPiece"]
+- !private ["P7allbeat16BrowseDataSource", "print"]
+- ["P7allbeat16BrowseDataSource", "requestItems"]
+- ["P7allbeat16BrowseDataSource", ""]
+- ["O7allbeat12BrowsingItem", "deinit"]
+- !private ["O7allbeat12BrowsingItem", "post"]
+- !private ["Ps7CVarArg", "Iterator"]
+- ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "Stride"]
+- ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Iterator"]
+- ["Ps10Collection", "Key"]
+- ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "endIndex"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "startIndex"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "init"]
+- ["Vs14CountableRange", "deinit"]
+- !private ["Vs14CountableRange", "endIndex"]
+- !private ["Vs14CountableRange", "startIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "endIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "startIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "endIndex"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "startIndex"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "endIndex"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "startIndex"]
+- ["V10Foundation4Data", "deinit"]
+- !private ["V10Foundation4Data", "init"]
+- !private ["Vs10Dictionary", "Iterator"]
+- ["Vs10Dictionary", "Key"]
+- ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "endIndex"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "startIndex"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps9Indexable", "Iterator"]
+- ["Ps9Indexable", "Key"]
+- ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "endIndex"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "startIndex"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- ["Ps13IndexableBase", "Key"]
+- ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "endIndex"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "startIndex"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "Stride"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P7allbeat17JSONInitializable", "audio"]
+- !private ["P7allbeat17JSONInitializable", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["P7allbeat5Model", "audio"]
+- !private ["P7allbeat5Model", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo11NSDataAsset", "data"]
+- ["CSo11NSDataAsset", "deinit"]
+- !private ["CSo11NSDataAsset", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "data"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["C7allbeat8PostData", "audio"]
+- ["C7allbeat8PostData", "deinit"]
+- !private ["C7allbeat8PostData", "init"]
+- !private ["C7allbeat14PostDataSource", "Array"]
+- ["C7allbeat14PostDataSource", "AudioDataSourceCallback"]
+- ["C7allbeat14PostDataSource", "Bool"]
+- ["C7allbeat14PostDataSource", "BrowseRequestItemsCallback"]
+- ["C7allbeat14PostDataSource", "BrowsingItem"]
+- ["C7allbeat14PostDataSource", "CountableRange"]
+- !private ["C7allbeat14PostDataSource", "Data"]
+- ["C7allbeat14PostDataSource", "Int"]
+- !private ["C7allbeat14PostDataSource", "NSDataAsset"]
+- ["C7allbeat14PostDataSource", "PostData"]
+- ["C7allbeat14PostDataSource", "Source"]
+- ["C7allbeat14PostDataSource", "String"]
+- !private ["C7allbeat14PostDataSource", "URL"]
+- ["C7allbeat14PostDataSource", "audioItems"]
+- ["C7allbeat14PostDataSource", "deinit"]
+- ["C7allbeat14PostDataSource", "finished"]
+- ["C7allbeat14PostDataSource", "init"]
+- ["C7allbeat14PostDataSource", "itemCount"]
+- ["C7allbeat14PostDataSource", "items"]
+- !private ["C7allbeat14PostDataSource", "loadAudio"]
+- ["C7allbeat14PostDataSource", "nextAudioPiece"]
+- !private ["C7allbeat14PostDataSource", "print"]
+- ["C7allbeat14PostDataSource", "requestItems"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "endIndex"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps22RandomAccessCollection", "startIndex"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "endIndex"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps21RandomAccessIndexable", "startIndex"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["O7allbeat15S3DownloadError", "deinit"]
+- !private ["C7allbeat8S3Object", "deinit"]
+- !private ["C7allbeat8S3Object", "download"]
+- !private ["C7allbeat8S3Object", "localUrl"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- ["Ps8Sequence", "Key"]
+- ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "endIndex"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "startIndex"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps12SignedNumber", "Stride"]
+- ["OC7allbeat14PostDataSource6Source", "String"]
+- ["OC7allbeat14PostDataSource6Source", "feed"]
+- ["OC7allbeat14PostDataSource6Source", "user"]
+- !private ["Ps10Strideable", "Stride"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["V10Foundation3URL", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["P10Foundation18_MutablePairBoxing", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps11_Strideable", "Stride"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "O7allbeat29AudioDataSourceCallbackAction"
+- "P7allbeat21AudioPlayerDataSource"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "P7allbeat16BrowseDataSource"
+- "O7allbeat12BrowsingItem"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Collection"
+- !private "Ps10Comparable"
+- "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps8Hashable"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "P7allbeat17JSONInitializable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "P7allbeat5Model"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo11NSDataAsset"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "C7allbeat8PostData"
+- "C7allbeat14PostDataSource"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "O7allbeat15S3DownloadError"
+- !private "C7allbeat8S3Object"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "OC7allbeat14PostDataSource6Source"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "V10Foundation3URL"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "P10Foundation18_MutablePairBoxing"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "db50f5d9a29b5ec4d48900e8131be5bb"

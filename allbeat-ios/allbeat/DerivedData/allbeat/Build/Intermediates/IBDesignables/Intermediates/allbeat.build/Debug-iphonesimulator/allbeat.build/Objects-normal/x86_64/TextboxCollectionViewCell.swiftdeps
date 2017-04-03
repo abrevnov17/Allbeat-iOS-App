@@ -1,0 +1,417 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextboxCollectionViewCell"
+provides-nominal:
+- "C7allbeat25TextboxCollectionViewCell"
+provides-member:
+- ["C7allbeat25TextboxCollectionViewCell", ""]
+provides-dynamic-lookup:
+- "bounds"
+- "placeholder"
+- "textbox"
+- "layoutSubviews"
+depends-top-level:
+- "CGRect"
+- "AssignmentPrecedence"
+- "UICollectionViewCell"
+- "UITextField"
+- "TextboxCollectionViewCell"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "contentView"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "layoutSubviews"]
+- ["Ps9AnyObject", "placeholder"]
+- ["Ps9AnyObject", "textbox"]
+- ["Ps9AnyObject", ""]
+- ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "contentView"]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "layoutSubviews"]
+- ["PSo15CALayerDelegate", "placeholder"]
+- ["PSo15CALayerDelegate", "textbox"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC6CGRect", "deinit"]
+- ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "contentView"]
+- !private ["Ps7CVarArg", "frame"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "layoutSubviews"]
+- ["Ps7CVarArg", "placeholder"]
+- ["Ps7CVarArg", "textbox"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "contentView"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "layoutSubviews"]
+- ["Ps28CustomDebugStringConvertible", "placeholder"]
+- ["Ps28CustomDebugStringConvertible", "textbox"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "contentView"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "layoutSubviews"]
+- ["Ps23CustomStringConvertible", "placeholder"]
+- ["Ps23CustomStringConvertible", "textbox"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "contentView"]
+- !private ["Ps9Equatable", "frame"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "layoutSubviews"]
+- ["Ps9Equatable", "placeholder"]
+- ["Ps9Equatable", "textbox"]
+- ["Ps9Equatable", ""]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "contentView"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "layoutSubviews"]
+- ["Ps8Hashable", "placeholder"]
+- ["Ps8Hashable", "textbox"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "contentView"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "layoutSubviews"]
+- ["PSo8NSCoding", "placeholder"]
+- ["PSo8NSCoding", "textbox"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "UITextField"]
+- ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "contentView"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "layoutSubviews"]
+- ["CSo8NSObject", "placeholder"]
+- ["CSo8NSObject", "textbox"]
+- ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "layoutSubviews"]
+- ["PSo16NSObjectProtocol", "placeholder"]
+- ["PSo16NSObjectProtocol", "textbox"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C7allbeat25TextboxCollectionViewCell", "CGRect"]
+- ["C7allbeat25TextboxCollectionViewCell", "UITextField"]
+- ["C7allbeat25TextboxCollectionViewCell", "bounds"]
+- !private ["C7allbeat25TextboxCollectionViewCell", "contentView"]
+- ["C7allbeat25TextboxCollectionViewCell", "deinit"]
+- ["C7allbeat25TextboxCollectionViewCell", "init"]
+- ["C7allbeat25TextboxCollectionViewCell", "layoutSubviews"]
+- ["C7allbeat25TextboxCollectionViewCell", "placeholder"]
+- ["C7allbeat25TextboxCollectionViewCell", "textbox"]
+- ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "contentView"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
+- ["PSo29UIAccessibilityIdentification", "placeholder"]
+- ["PSo29UIAccessibilityIdentification", "textbox"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "contentView"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "layoutSubviews"]
+- ["PSo12UIAppearance", "placeholder"]
+- ["PSo12UIAppearance", "textbox"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "contentView"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "layoutSubviews"]
+- ["PSo21UIAppearanceContainer", "placeholder"]
+- ["PSo21UIAppearanceContainer", "textbox"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["CSo24UICollectionReusableView", "CGRect"]
+- ["CSo24UICollectionReusableView", "UITextField"]
+- ["CSo24UICollectionReusableView", "bounds"]
+- !private ["CSo24UICollectionReusableView", "contentView"]
+- ["CSo24UICollectionReusableView", "init"]
+- ["CSo24UICollectionReusableView", "layoutSubviews"]
+- ["CSo24UICollectionReusableView", "placeholder"]
+- ["CSo24UICollectionReusableView", "textbox"]
+- ["CSo20UICollectionViewCell", "CGRect"]
+- ["CSo20UICollectionViewCell", "UITextField"]
+- ["CSo20UICollectionViewCell", "bounds"]
+- !private ["CSo20UICollectionViewCell", "contentView"]
+- ["CSo20UICollectionViewCell", "deinit"]
+- ["CSo20UICollectionViewCell", "init"]
+- ["CSo20UICollectionViewCell", "layoutSubviews"]
+- ["CSo20UICollectionViewCell", "placeholder"]
+- ["CSo20UICollectionViewCell", "textbox"]
+- ["CSo20UICollectionViewCell", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "placeholder"]
+- !private ["CSo9UIControl", "placeholder"]
+- ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "contentView"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "layoutSubviews"]
+- ["PSo17UICoordinateSpace", "placeholder"]
+- ["PSo17UICoordinateSpace", "textbox"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "contentView"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "layoutSubviews"]
+- ["PSo13UIDynamicItem", "placeholder"]
+- ["PSo13UIDynamicItem", "textbox"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "contentView"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "layoutSubviews"]
+- ["PSo18UIFocusEnvironment", "placeholder"]
+- ["PSo18UIFocusEnvironment", "textbox"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "contentView"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "layoutSubviews"]
+- ["PSo11UIFocusItem", "placeholder"]
+- ["PSo11UIFocusItem", "textbox"]
+- ["PSo11UIFocusItem", ""]
+- !private ["PSo10UIKeyInput", "placeholder"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "UITextField"]
+- ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "contentView"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "layoutSubviews"]
+- ["CSo11UIResponder", "placeholder"]
+- ["CSo11UIResponder", "textbox"]
+- ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "contentView"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "layoutSubviews"]
+- ["PSo30UIResponderStandardEditActions", "placeholder"]
+- ["PSo30UIResponderStandardEditActions", "textbox"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo11UITextField", "placeholder"]
+- !private ["PSo11UITextInput", "placeholder"]
+- !private ["PSo17UITextInputTraits", "placeholder"]
+- ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "contentView"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "layoutSubviews"]
+- ["PSo18UITraitEnvironment", "placeholder"]
+- ["PSo18UITraitEnvironment", "textbox"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "UITextField"]
+- ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "contentView"]
+- ["CSo6UIView", "deinit"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "layoutSubviews"]
+- ["CSo6UIView", "placeholder"]
+- ["CSo6UIView", "textbox"]
+- ["P9Alamofire20URLStringConvertible", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "contentView"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutSubviews"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "placeholder"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "textbox"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "contentView"]
+- !private ["Ps9_Hashable", "frame"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "layoutSubviews"]
+- ["Ps9_Hashable", "placeholder"]
+- ["Ps9_Hashable", "textbox"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo15CALayerDelegate"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Sq"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C7allbeat25TextboxCollectionViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo24UICollectionReusableView"
+- "CSo20UICollectionViewCell"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- !private "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- !private "CSo11UITextField"
+- !private "PSo11UITextInput"
+- !private "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "P9Alamofire20URLStringConvertible"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "de0e865bdd0a4d98f1a905f4e3267142"

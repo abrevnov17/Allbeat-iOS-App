@@ -1,0 +1,6 @@
+framework module Pods_allbeat {
+  umbrella header "Pods-allbeat-umbrella.h"
+
+  export *
+  module * { export * }
+}

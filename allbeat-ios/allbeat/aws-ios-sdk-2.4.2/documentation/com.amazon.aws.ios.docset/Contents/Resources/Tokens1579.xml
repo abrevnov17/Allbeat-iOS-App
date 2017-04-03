@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSNSTag.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSTag</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1579"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSTag/setKey:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="1579"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSTag/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="1579"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSTag/key</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *key</Declaration>
+			
+			
+			<Anchor>//api/name/key</Anchor>
+            <NodeRef refid="1579"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSTag/setValue:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="1579"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSTag/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="1579"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSTag/value</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+            <NodeRef refid="1579"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

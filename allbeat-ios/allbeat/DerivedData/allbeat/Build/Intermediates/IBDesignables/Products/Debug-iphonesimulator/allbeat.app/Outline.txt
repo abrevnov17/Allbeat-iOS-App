@@ -1,0 +1,20 @@
+- BrowseViewController
+	- Can display posts and user profiles
+- BrowseViewControllerDataSource
+	- Inherets from AudioDataSource
+	- nextCell(index: Int, callback: BrowseViewControllerDataSourceCallback) -> BrowseCell
+
+- AudioDataSource
+	- Used for background audio playback
+	- nextAudioPiece(index: Int, callback: AudioDataSourceCallback) -> Audio
+- AudioPlayer
+	- playing: Bool {get set}
+	- next()
+	- previous()
+	- stop()
+- AudioPlayerDelegate
+	- Used to determine player change
+	- startedPlayingAudio(audioPlayer: AudioPlayer, audio: Audio)
+	- timeChanged(audioPlayer: AudioPlayer, time: Float)
+	- paused(audioPlayer: AudioPlayer)
+	- played(audioPlayer: AudioPlayer)

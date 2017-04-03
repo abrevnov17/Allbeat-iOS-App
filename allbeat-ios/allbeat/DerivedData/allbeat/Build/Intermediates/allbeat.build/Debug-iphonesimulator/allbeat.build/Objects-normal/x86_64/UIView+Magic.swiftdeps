@@ -1,0 +1,912 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo6UIView", ""]
+- ["CSo7UILabel", ""]
+- ["CSo6UIView", "forceLayout"]
+- ["CSo6UIView", "snapshotView"]
+- ["CSo6UIView", "addQuickConstraints"]
+- ["CSo7UILabel", "textSize"]
+- ["CSo7UILabel", "isTruncated"]
+provides-dynamic-lookup:
+- "forceLayout"
+- "snapshotView"
+- "textSize"
+- "isTruncated"
+depends-top-level:
+- "TernaryPrecedence"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "String"
+- "Bool"
+- !private "UIGraphicsEndImageContext"
+- !private "NSLayoutConstraint"
+- !private "+="
+- "AssignmentPrecedence"
+- "UIView"
+- "CGFloat"
+- !private "UIGraphicsGetCurrentContext"
+- !private "!="
+- !private "Array"
+- !private "Dictionary"
+- !private "NSString"
+- "NSLayoutFormatOptions"
+- !private "StringLiteralType"
+- !private "UIGraphicsBeginImageContext"
+- !private "||"
+- !private "BooleanLiteralType"
+- !private "??"
+- "UIImage"
+- !private "NSFontAttributeName"
+- !private ">"
+- "UILabel"
+- "CGSize"
+depends-member:
+- !private ["Ps9AnyObject", "NSFontAttributeName"]
+- !private ["Ps9AnyObject", "NSLayoutConstraint"]
+- !private ["Ps9AnyObject", "NSString"]
+- !private ["Ps9AnyObject", "UIGraphicsBeginImageContext"]
+- !private ["Ps9AnyObject", "UIGraphicsEndImageContext"]
+- !private ["Ps9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9AnyObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9AnyObject", "addConstraints"]
+- ["Ps9AnyObject", "addQuickConstraints"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "constraints"]
+- !private ["Ps9AnyObject", "font"]
+- ["Ps9AnyObject", "forceLayout"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isTruncated"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "layoutIfNeeded"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "setNeedsLayout"]
+- !private ["Ps9AnyObject", "setNeedsUpdateConstraints"]
+- !private ["Ps9AnyObject", "size"]
+- ["Ps9AnyObject", "snapshotView"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "textSize"]
+- !private ["Ps9AnyObject", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "_Element"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["CSo7CALayer", "deinit"]
+- !private ["CSo7CALayer", "render"]
+- !private ["PSo15CALayerDelegate", "NSFontAttributeName"]
+- !private ["PSo15CALayerDelegate", "NSLayoutConstraint"]
+- !private ["PSo15CALayerDelegate", "NSString"]
+- !private ["PSo15CALayerDelegate", "UIGraphicsBeginImageContext"]
+- !private ["PSo15CALayerDelegate", "UIGraphicsEndImageContext"]
+- !private ["PSo15CALayerDelegate", "UIGraphicsGetCurrentContext"]
+- !private ["PSo15CALayerDelegate", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo15CALayerDelegate", "addConstraints"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- !private ["PSo15CALayerDelegate", "font"]
+- ["PSo15CALayerDelegate", "isTruncated"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- !private ["PSo15CALayerDelegate", "layoutIfNeeded"]
+- !private ["PSo15CALayerDelegate", "setNeedsLayout"]
+- !private ["PSo15CALayerDelegate", "setNeedsUpdateConstraints"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", "textSize"]
+- !private ["PSo15CALayerDelegate", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo13CAMediaTiming", "render"]
+- ["CSo9CGContext", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGRect", "width"]
+- ["VSC6CGSize", "deinit"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Key"]
+- !private ["Ps7CVarArg", "NSFontAttributeName"]
+- !private ["Ps7CVarArg", "NSLayoutConstraint"]
+- !private ["Ps7CVarArg", "NSString"]
+- !private ["Ps7CVarArg", "UIGraphicsBeginImageContext"]
+- !private ["Ps7CVarArg", "UIGraphicsEndImageContext"]
+- !private ["Ps7CVarArg", "UIGraphicsGetCurrentContext"]
+- !private ["Ps7CVarArg", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps7CVarArg", "Value"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "addConstraints"]
+- ["Ps7CVarArg", "addQuickConstraints"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "constraints"]
+- !private ["Ps7CVarArg", "font"]
+- ["Ps7CVarArg", "forceLayout"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isTruncated"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "layoutIfNeeded"]
+- !private ["Ps7CVarArg", "render"]
+- !private ["Ps7CVarArg", "setNeedsLayout"]
+- !private ["Ps7CVarArg", "setNeedsUpdateConstraints"]
+- !private ["Ps7CVarArg", "size"]
+- ["Ps7CVarArg", "snapshotView"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "textSize"]
+- !private ["Ps7CVarArg", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "Key"]
+- !private ["Ps10Collection", "Value"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- !private ["Ps28CustomDebugStringConvertible", "NSFontAttributeName"]
+- !private ["Ps28CustomDebugStringConvertible", "NSLayoutConstraint"]
+- !private ["Ps28CustomDebugStringConvertible", "NSString"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsBeginImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addConstraints"]
+- ["Ps28CustomDebugStringConvertible", "addQuickConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "constraints"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- ["Ps28CustomDebugStringConvertible", "forceLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isTruncated"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutIfNeeded"]
+- !private ["Ps28CustomDebugStringConvertible", "render"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsUpdateConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "size"]
+- ["Ps28CustomDebugStringConvertible", "snapshotView"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "textSize"]
+- !private ["Ps28CustomDebugStringConvertible", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "size"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Key"]
+- !private ["Ps17CustomReflectable", "Value"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "size"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["Ps23CustomStringConvertible", "NSLayoutConstraint"]
+- !private ["Ps23CustomStringConvertible", "NSString"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsBeginImageContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addConstraints"]
+- ["Ps23CustomStringConvertible", "addQuickConstraints"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "constraints"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- ["Ps23CustomStringConvertible", "forceLayout"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isTruncated"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "layoutIfNeeded"]
+- !private ["Ps23CustomStringConvertible", "render"]
+- !private ["Ps23CustomStringConvertible", "setNeedsLayout"]
+- !private ["Ps23CustomStringConvertible", "setNeedsUpdateConstraints"]
+- !private ["Ps23CustomStringConvertible", "size"]
+- ["Ps23CustomStringConvertible", "snapshotView"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "textSize"]
+- !private ["Ps23CustomStringConvertible", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Vs10Dictionary", "Iterator"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs18DictionaryIterator", "Element"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "NSFontAttributeName"]
+- !private ["Ps9Equatable", "NSLayoutConstraint"]
+- !private ["Ps9Equatable", "NSString"]
+- !private ["Ps9Equatable", "UIGraphicsBeginImageContext"]
+- !private ["Ps9Equatable", "UIGraphicsEndImageContext"]
+- !private ["Ps9Equatable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9Equatable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addConstraints"]
+- ["Ps9Equatable", "addQuickConstraints"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "constraints"]
+- !private ["Ps9Equatable", "font"]
+- ["Ps9Equatable", "forceLayout"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isTruncated"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "layoutIfNeeded"]
+- !private ["Ps9Equatable", "render"]
+- !private ["Ps9Equatable", "setNeedsLayout"]
+- !private ["Ps9Equatable", "setNeedsUpdateConstraints"]
+- !private ["Ps9Equatable", "size"]
+- ["Ps9Equatable", "snapshotView"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "textSize"]
+- !private ["Ps9Equatable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Iterator"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Key"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "Value"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "size"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "size"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "size"]
+- !private ["Ps8Hashable", "NSFontAttributeName"]
+- !private ["Ps8Hashable", "NSLayoutConstraint"]
+- !private ["Ps8Hashable", "NSString"]
+- !private ["Ps8Hashable", "UIGraphicsBeginImageContext"]
+- !private ["Ps8Hashable", "UIGraphicsEndImageContext"]
+- !private ["Ps8Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps8Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addConstraints"]
+- ["Ps8Hashable", "addQuickConstraints"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "constraints"]
+- !private ["Ps8Hashable", "font"]
+- ["Ps8Hashable", "forceLayout"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isTruncated"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "layoutIfNeeded"]
+- !private ["Ps8Hashable", "render"]
+- !private ["Ps8Hashable", "setNeedsLayout"]
+- !private ["Ps8Hashable", "setNeedsUpdateConstraints"]
+- !private ["Ps8Hashable", "size"]
+- ["Ps8Hashable", "snapshotView"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "textSize"]
+- !private ["Ps8Hashable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "Key"]
+- !private ["Ps13IndexableBase", "Value"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["PSo8NSCoding", "NSFontAttributeName"]
+- !private ["PSo8NSCoding", "NSLayoutConstraint"]
+- !private ["PSo8NSCoding", "NSString"]
+- !private ["PSo8NSCoding", "UIGraphicsBeginImageContext"]
+- !private ["PSo8NSCoding", "UIGraphicsEndImageContext"]
+- !private ["PSo8NSCoding", "UIGraphicsGetCurrentContext"]
+- !private ["PSo8NSCoding", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo8NSCoding", "addConstraints"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "isTruncated"]
+- !private ["PSo8NSCoding", "layer"]
+- !private ["PSo8NSCoding", "layoutIfNeeded"]
+- !private ["PSo8NSCoding", "render"]
+- !private ["PSo8NSCoding", "setNeedsLayout"]
+- !private ["PSo8NSCoding", "setNeedsUpdateConstraints"]
+- !private ["PSo8NSCoding", "size"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "textSize"]
+- !private ["PSo8NSCoding", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "size"]
+- !private ["CSo18NSLayoutConstraint", "constraints"]
+- !private ["VSC21NSLayoutFormatOptions", "Element"]
+- ["VSC21NSLayoutFormatOptions", "deinit"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "size"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSLayoutConstraint"]
+- ["CSo8NSObject", "NSLayoutFormatOptions"]
+- !private ["CSo8NSObject", "NSString"]
+- ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIGraphicsBeginImageContext"]
+- !private ["CSo8NSObject", "UIGraphicsEndImageContext"]
+- !private ["CSo8NSObject", "UIGraphicsGetCurrentContext"]
+- !private ["CSo8NSObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIView"]
+- !private ["CSo8NSObject", "addConstraints"]
+- ["CSo8NSObject", "addQuickConstraints"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "constraints"]
+- !private ["CSo8NSObject", "font"]
+- ["CSo8NSObject", "forceLayout"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "isTruncated"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "layoutIfNeeded"]
+- !private ["CSo8NSObject", "render"]
+- !private ["CSo8NSObject", "setNeedsLayout"]
+- !private ["CSo8NSObject", "setNeedsUpdateConstraints"]
+- !private ["CSo8NSObject", "size"]
+- ["CSo8NSObject", "snapshotView"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "textSize"]
+- !private ["CSo8NSObject", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSLayoutConstraint"]
+- !private ["PSo16NSObjectProtocol", "NSString"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsBeginImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsEndImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetCurrentContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo16NSObjectProtocol", "addConstraints"]
+- ["PSo16NSObjectProtocol", "addQuickConstraints"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "constraints"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- ["PSo16NSObjectProtocol", "forceLayout"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isTruncated"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "layoutIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "render"]
+- !private ["PSo16NSObjectProtocol", "setNeedsLayout"]
+- !private ["PSo16NSObjectProtocol", "setNeedsUpdateConstraints"]
+- !private ["PSo16NSObjectProtocol", "size"]
+- ["PSo16NSObjectProtocol", "snapshotView"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "textSize"]
+- !private ["PSo16NSObjectProtocol", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "size"]
+- ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "size"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "Key"]
+- !private ["Ps8Sequence", "Value"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps10SetAlgebra", "Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "NSFontAttributeName"]
+- !private ["PSo29UIAccessibilityIdentification", "NSLayoutConstraint"]
+- !private ["PSo29UIAccessibilityIdentification", "NSString"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsBeginImageContext"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsEndImageContext"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetCurrentContext"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo29UIAccessibilityIdentification", "addConstraints"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- ["PSo29UIAccessibilityIdentification", "isTruncated"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutIfNeeded"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsLayout"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsUpdateConstraints"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "textSize"]
+- !private ["PSo29UIAccessibilityIdentification", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo12UIAppearance", "NSFontAttributeName"]
+- !private ["PSo12UIAppearance", "NSLayoutConstraint"]
+- !private ["PSo12UIAppearance", "NSString"]
+- !private ["PSo12UIAppearance", "UIGraphicsBeginImageContext"]
+- !private ["PSo12UIAppearance", "UIGraphicsEndImageContext"]
+- !private ["PSo12UIAppearance", "UIGraphicsGetCurrentContext"]
+- !private ["PSo12UIAppearance", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo12UIAppearance", "addConstraints"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "font"]
+- ["PSo12UIAppearance", "isTruncated"]
+- !private ["PSo12UIAppearance", "layer"]
+- !private ["PSo12UIAppearance", "layoutIfNeeded"]
+- !private ["PSo12UIAppearance", "setNeedsLayout"]
+- !private ["PSo12UIAppearance", "setNeedsUpdateConstraints"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "textSize"]
+- !private ["PSo12UIAppearance", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo21UIAppearanceContainer", "NSFontAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "NSLayoutConstraint"]
+- !private ["PSo21UIAppearanceContainer", "NSString"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsBeginImageContext"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsEndImageContext"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsGetCurrentContext"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo21UIAppearanceContainer", "addConstraints"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- ["PSo21UIAppearanceContainer", "isTruncated"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- !private ["PSo21UIAppearanceContainer", "layoutIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsLayout"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsUpdateConstraints"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "textSize"]
+- !private ["PSo21UIAppearanceContainer", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "NSFontAttributeName"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "NSString"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "bounds"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "font"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "textSize"]
+- !private ["PSo17UICoordinateSpace", "NSFontAttributeName"]
+- !private ["PSo17UICoordinateSpace", "NSLayoutConstraint"]
+- !private ["PSo17UICoordinateSpace", "NSString"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsBeginImageContext"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsEndImageContext"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsGetCurrentContext"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo17UICoordinateSpace", "addConstraints"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- ["PSo17UICoordinateSpace", "isTruncated"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- !private ["PSo17UICoordinateSpace", "layoutIfNeeded"]
+- !private ["PSo17UICoordinateSpace", "setNeedsLayout"]
+- !private ["PSo17UICoordinateSpace", "setNeedsUpdateConstraints"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "textSize"]
+- !private ["PSo17UICoordinateSpace", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo13UIDynamicItem", "NSFontAttributeName"]
+- !private ["PSo13UIDynamicItem", "NSLayoutConstraint"]
+- !private ["PSo13UIDynamicItem", "NSString"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsBeginImageContext"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsEndImageContext"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsGetCurrentContext"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo13UIDynamicItem", "addConstraints"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "font"]
+- ["PSo13UIDynamicItem", "isTruncated"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- !private ["PSo13UIDynamicItem", "layoutIfNeeded"]
+- !private ["PSo13UIDynamicItem", "setNeedsLayout"]
+- !private ["PSo13UIDynamicItem", "setNeedsUpdateConstraints"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "textSize"]
+- !private ["PSo13UIDynamicItem", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo18UIFocusEnvironment", "NSFontAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "NSLayoutConstraint"]
+- !private ["PSo18UIFocusEnvironment", "NSString"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsBeginImageContext"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsEndImageContext"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsGetCurrentContext"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo18UIFocusEnvironment", "addConstraints"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- ["PSo18UIFocusEnvironment", "isTruncated"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- !private ["PSo18UIFocusEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsLayout"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsUpdateConstraints"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "textSize"]
+- !private ["PSo18UIFocusEnvironment", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo11UIFocusItem", "NSFontAttributeName"]
+- !private ["PSo11UIFocusItem", "NSLayoutConstraint"]
+- !private ["PSo11UIFocusItem", "NSString"]
+- !private ["PSo11UIFocusItem", "UIGraphicsBeginImageContext"]
+- !private ["PSo11UIFocusItem", "UIGraphicsEndImageContext"]
+- !private ["PSo11UIFocusItem", "UIGraphicsGetCurrentContext"]
+- !private ["PSo11UIFocusItem", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo11UIFocusItem", "addConstraints"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- !private ["PSo11UIFocusItem", "font"]
+- ["PSo11UIFocusItem", "isTruncated"]
+- !private ["PSo11UIFocusItem", "layer"]
+- !private ["PSo11UIFocusItem", "layoutIfNeeded"]
+- !private ["PSo11UIFocusItem", "setNeedsLayout"]
+- !private ["PSo11UIFocusItem", "setNeedsUpdateConstraints"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", "textSize"]
+- !private ["PSo11UIFocusItem", "translatesAutoresizingMaskIntoConstraints"]
+- ["CSo7UIImage", "deinit"]
+- ["CSo7UILabel", "Bool"]
+- ["CSo7UILabel", "CGSize"]
+- !private ["CSo7UILabel", "NSFontAttributeName"]
+- !private ["CSo7UILabel", "NSString"]
+- !private ["CSo7UILabel", "bounds"]
+- ["CSo7UILabel", "deinit"]
+- !private ["CSo7UILabel", "font"]
+- ["CSo7UILabel", "isTruncated"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo7UILabel", "textSize"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGSize"]
+- !private ["CSo11UIResponder", "NSFontAttributeName"]
+- !private ["CSo11UIResponder", "NSLayoutConstraint"]
+- ["CSo11UIResponder", "NSLayoutFormatOptions"]
+- !private ["CSo11UIResponder", "NSString"]
+- ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIGraphicsBeginImageContext"]
+- !private ["CSo11UIResponder", "UIGraphicsEndImageContext"]
+- !private ["CSo11UIResponder", "UIGraphicsGetCurrentContext"]
+- !private ["CSo11UIResponder", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIView"]
+- !private ["CSo11UIResponder", "addConstraints"]
+- ["CSo11UIResponder", "addQuickConstraints"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "font"]
+- ["CSo11UIResponder", "forceLayout"]
+- ["CSo11UIResponder", "isTruncated"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo11UIResponder", "layoutIfNeeded"]
+- !private ["CSo11UIResponder", "setNeedsLayout"]
+- !private ["CSo11UIResponder", "setNeedsUpdateConstraints"]
+- ["CSo11UIResponder", "snapshotView"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "textSize"]
+- !private ["CSo11UIResponder", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo30UIResponderStandardEditActions", "NSFontAttributeName"]
+- !private ["PSo30UIResponderStandardEditActions", "NSLayoutConstraint"]
+- !private ["PSo30UIResponderStandardEditActions", "NSString"]
+- !private ["PSo30UIResponderStandardEditActions", "UIGraphicsBeginImageContext"]
+- !private ["PSo30UIResponderStandardEditActions", "UIGraphicsEndImageContext"]
+- !private ["PSo30UIResponderStandardEditActions", "UIGraphicsGetCurrentContext"]
+- !private ["PSo30UIResponderStandardEditActions", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo30UIResponderStandardEditActions", "addConstraints"]
+- ["PSo30UIResponderStandardEditActions", "addQuickConstraints"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- !private ["PSo30UIResponderStandardEditActions", "font"]
+- ["PSo30UIResponderStandardEditActions", "forceLayout"]
+- ["PSo30UIResponderStandardEditActions", "isTruncated"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutIfNeeded"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsLayout"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsUpdateConstraints"]
+- ["PSo30UIResponderStandardEditActions", "snapshotView"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "textSize"]
+- !private ["PSo30UIResponderStandardEditActions", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["PSo18UITraitEnvironment", "NSFontAttributeName"]
+- !private ["PSo18UITraitEnvironment", "NSLayoutConstraint"]
+- !private ["PSo18UITraitEnvironment", "NSString"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsBeginImageContext"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsEndImageContext"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsGetCurrentContext"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo18UITraitEnvironment", "addConstraints"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- ["PSo18UITraitEnvironment", "isTruncated"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UITraitEnvironment", "setNeedsLayout"]
+- !private ["PSo18UITraitEnvironment", "setNeedsUpdateConstraints"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "textSize"]
+- !private ["PSo18UITraitEnvironment", "translatesAutoresizingMaskIntoConstraints"]
+- ["CSo6UIView", "Bool"]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGSize"]
+- !private ["CSo6UIView", "NSFontAttributeName"]
+- !private ["CSo6UIView", "NSLayoutConstraint"]
+- ["CSo6UIView", "NSLayoutFormatOptions"]
+- !private ["CSo6UIView", "NSString"]
+- ["CSo6UIView", "String"]
+- !private ["CSo6UIView", "UIGraphicsBeginImageContext"]
+- !private ["CSo6UIView", "UIGraphicsEndImageContext"]
+- !private ["CSo6UIView", "UIGraphicsGetCurrentContext"]
+- !private ["CSo6UIView", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "UIView"]
+- !private ["CSo6UIView", "addConstraints"]
+- ["CSo6UIView", "addQuickConstraints"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "deinit"]
+- !private ["CSo6UIView", "font"]
+- ["CSo6UIView", "forceLayout"]
+- ["CSo6UIView", "isTruncated"]
+- !private ["CSo6UIView", "layer"]
+- !private ["CSo6UIView", "layoutIfNeeded"]
+- !private ["CSo6UIView", "setNeedsLayout"]
+- !private ["CSo6UIView", "setNeedsUpdateConstraints"]
+- ["CSo6UIView", "snapshotView"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "textSize"]
+- !private ["CSo6UIView", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSFontAttributeName"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSLayoutConstraint"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "NSString"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIGraphicsBeginImageContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIGraphicsEndImageContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "addConstraints"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "isTruncated"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutIfNeeded"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsLayout"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsUpdateConstraints"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "textSize"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "size"]
+- !private ["Ps9_Hashable", "NSFontAttributeName"]
+- !private ["Ps9_Hashable", "NSLayoutConstraint"]
+- !private ["Ps9_Hashable", "NSString"]
+- !private ["Ps9_Hashable", "UIGraphicsBeginImageContext"]
+- !private ["Ps9_Hashable", "UIGraphicsEndImageContext"]
+- !private ["Ps9_Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9_Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addConstraints"]
+- ["Ps9_Hashable", "addQuickConstraints"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "constraints"]
+- !private ["Ps9_Hashable", "font"]
+- ["Ps9_Hashable", "forceLayout"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isTruncated"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "layoutIfNeeded"]
+- !private ["Ps9_Hashable", "render"]
+- !private ["Ps9_Hashable", "setNeedsLayout"]
+- !private ["Ps9_Hashable", "setNeedsUpdateConstraints"]
+- !private ["Ps9_Hashable", "size"]
+- ["Ps9_Hashable", "snapshotView"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "textSize"]
+- !private ["Ps9_Hashable", "translatesAutoresizingMaskIntoConstraints"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- "Sb"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "CSo9CGContext"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- !private "Vs18DictionaryIterator"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo18NSLayoutConstraint"
+- "VSC21NSLayoutFormatOptions"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "CSo8NSString"
+- !private "Ps9OptionSet"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- !private "Ps8Sequence"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo7UIImage"
+- "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Ps14_ArrayProtocol"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "9631268795e4c87068e80c89921514ad"

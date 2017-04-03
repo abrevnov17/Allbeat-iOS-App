@@ -1,0 +1,799 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ArcView"
+provides-nominal:
+- "C7allbeat7ArcView"
+provides-member:
+- ["C7allbeat7ArcView", ""]
+provides-dynamic-lookup:
+- "lineWidth"
+- "startAngle"
+- "color"
+- "clockwise"
+- "lineCap"
+- "endAngle"
+- "draw"
+depends-top-level:
+- "ArcView"
+- "UIColor"
+- !private "CGPath"
+- "CGFloat"
+- !private "CGPoint"
+- "CGRect"
+- "Bool"
+- !private "min"
+- !private "UIGraphicsGetCurrentContext"
+- "M_PI_2"
+- "-"
+- "UIView"
+- "BooleanLiteralType"
+- !private "CGAffineTransform"
+- "CGLineCap"
+- !private "CGLineJoin"
+- !private "UIBezierPath"
+- !private "withUnsafePointer"
+depends-member:
+- ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "CGLineCap"]
+- !private ["Ps9AnyObject", "CGLineJoin"]
+- !private ["Ps9AnyObject", "CGPath"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- ["Ps9AnyObject", "M_PI_2"]
+- !private ["Ps9AnyObject", "UIBezierPath"]
+- ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9AnyObject", "addPath"]
+- ["Ps9AnyObject", "black"]
+- !private ["Ps9AnyObject", "cgColor"]
+- !private ["Ps9AnyObject", "cgPath"]
+- ["Ps9AnyObject", "clockwise"]
+- ["Ps9AnyObject", "color"]
+- ["Ps9AnyObject", "draw"]
+- ["Ps9AnyObject", "endAngle"]
+- !private ["Ps9AnyObject", "fillPath"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lineCap"]
+- ["Ps9AnyObject", "lineWidth"]
+- !private ["Ps9AnyObject", "min"]
+- !private ["Ps9AnyObject", "setFillColor"]
+- ["Ps9AnyObject", "startAngle"]
+- !private ["Ps9AnyObject", "withUnsafePointer"]
+- ["Ps9AnyObject", ""]
+- ["C7allbeat7ArcView", "Bool"]
+- !private ["C7allbeat7ArcView", "CGAffineTransform"]
+- ["C7allbeat7ArcView", "CGFloat"]
+- ["C7allbeat7ArcView", "CGLineCap"]
+- !private ["C7allbeat7ArcView", "CGLineJoin"]
+- !private ["C7allbeat7ArcView", "CGPath"]
+- !private ["C7allbeat7ArcView", "CGPoint"]
+- ["C7allbeat7ArcView", "CGRect"]
+- ["C7allbeat7ArcView", "M_PI_2"]
+- !private ["C7allbeat7ArcView", "UIBezierPath"]
+- ["C7allbeat7ArcView", "UIColor"]
+- !private ["C7allbeat7ArcView", "UIGraphicsGetCurrentContext"]
+- ["C7allbeat7ArcView", "clockwise"]
+- ["C7allbeat7ArcView", "color"]
+- ["C7allbeat7ArcView", "deinit"]
+- ["C7allbeat7ArcView", "draw"]
+- ["C7allbeat7ArcView", "endAngle"]
+- ["C7allbeat7ArcView", "init"]
+- ["C7allbeat7ArcView", "lineCap"]
+- ["C7allbeat7ArcView", "lineWidth"]
+- !private ["C7allbeat7ArcView", "min"]
+- ["C7allbeat7ArcView", "startAngle"]
+- !private ["C7allbeat7ArcView", "withUnsafePointer"]
+- ["Ps19BinaryFloatingPoint", "init"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "CGAffineTransform"]
+- ["PSo15CALayerDelegate", "CGFloat"]
+- ["PSo15CALayerDelegate", "CGLineCap"]
+- !private ["PSo15CALayerDelegate", "CGLineJoin"]
+- !private ["PSo15CALayerDelegate", "CGPath"]
+- !private ["PSo15CALayerDelegate", "CGPoint"]
+- ["PSo15CALayerDelegate", "M_PI_2"]
+- !private ["PSo15CALayerDelegate", "UIBezierPath"]
+- ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "UIGraphicsGetCurrentContext"]
+- ["PSo15CALayerDelegate", "clockwise"]
+- ["PSo15CALayerDelegate", "color"]
+- ["PSo15CALayerDelegate", "draw"]
+- ["PSo15CALayerDelegate", "endAngle"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "lineCap"]
+- ["PSo15CALayerDelegate", "lineWidth"]
+- !private ["PSo15CALayerDelegate", "min"]
+- ["PSo15CALayerDelegate", "startAngle"]
+- !private ["PSo15CALayerDelegate", "withUnsafePointer"]
+- ["PSo15CALayerDelegate", ""]
+- ["VSC17CGAffineTransform", "deinit"]
+- !private ["VSC17CGAffineTransform", "identity"]
+- ["CSo7CGColor", "deinit"]
+- !private ["CSo9CGContext", "addPath"]
+- ["CSo9CGContext", "deinit"]
+- !private ["CSo9CGContext", "fillPath"]
+- !private ["CSo9CGContext", "setFillColor"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["OSC9CGLineCap", "butt"]
+- ["OSC9CGLineCap", "deinit"]
+- ["OSC10CGLineJoin", "deinit"]
+- !private ["OSC10CGLineJoin", "round"]
+- ["CSo6CGPath", "deinit"]
+- !private ["CSo6CGPath", "init"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "zero"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- ["Ps7CVarArg", "CGFloat"]
+- ["Ps7CVarArg", "CGLineCap"]
+- !private ["Ps7CVarArg", "CGLineJoin"]
+- !private ["Ps7CVarArg", "CGPath"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- ["Ps7CVarArg", "M_PI_2"]
+- !private ["Ps7CVarArg", "UIBezierPath"]
+- ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIGraphicsGetCurrentContext"]
+- ["Ps7CVarArg", "black"]
+- !private ["Ps7CVarArg", "cgColor"]
+- !private ["Ps7CVarArg", "cgPath"]
+- ["Ps7CVarArg", "clockwise"]
+- ["Ps7CVarArg", "color"]
+- ["Ps7CVarArg", "draw"]
+- ["Ps7CVarArg", "endAngle"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "lineCap"]
+- ["Ps7CVarArg", "lineWidth"]
+- !private ["Ps7CVarArg", "min"]
+- ["Ps7CVarArg", "startAngle"]
+- !private ["Ps7CVarArg", "withUnsafePointer"]
+- ["Ps7CVarArg", ""]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "CGLineCap"]
+- !private ["Ps28CustomDebugStringConvertible", "CGLineJoin"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPath"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- ["Ps28CustomDebugStringConvertible", "M_PI_2"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBezierPath"]
+- ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetCurrentContext"]
+- ["Ps28CustomDebugStringConvertible", "black"]
+- !private ["Ps28CustomDebugStringConvertible", "cgColor"]
+- !private ["Ps28CustomDebugStringConvertible", "cgPath"]
+- ["Ps28CustomDebugStringConvertible", "clockwise"]
+- ["Ps28CustomDebugStringConvertible", "color"]
+- ["Ps28CustomDebugStringConvertible", "draw"]
+- ["Ps28CustomDebugStringConvertible", "endAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lineCap"]
+- ["Ps28CustomDebugStringConvertible", "lineWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "min"]
+- ["Ps28CustomDebugStringConvertible", "startAngle"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "withUnsafePointer"]
+- !private ["Ps28CustomDebugStringConvertible", "zero"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "zero"]
+- !private ["Ps17CustomReflectable", "height"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "zero"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "CGLineCap"]
+- !private ["Ps23CustomStringConvertible", "CGLineJoin"]
+- !private ["Ps23CustomStringConvertible", "CGPath"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- ["Ps23CustomStringConvertible", "M_PI_2"]
+- !private ["Ps23CustomStringConvertible", "UIBezierPath"]
+- ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetCurrentContext"]
+- ["Ps23CustomStringConvertible", "black"]
+- !private ["Ps23CustomStringConvertible", "cgColor"]
+- !private ["Ps23CustomStringConvertible", "cgPath"]
+- ["Ps23CustomStringConvertible", "clockwise"]
+- ["Ps23CustomStringConvertible", "color"]
+- ["Ps23CustomStringConvertible", "draw"]
+- ["Ps23CustomStringConvertible", "endAngle"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lineCap"]
+- ["Ps23CustomStringConvertible", "lineWidth"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- ["Ps23CustomStringConvertible", "startAngle"]
+- !private ["Ps23CustomStringConvertible", "withUnsafePointer"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "CGLineCap"]
+- !private ["Ps9Equatable", "CGLineJoin"]
+- !private ["Ps9Equatable", "CGPath"]
+- !private ["Ps9Equatable", "CGPoint"]
+- ["Ps9Equatable", "M_PI_2"]
+- !private ["Ps9Equatable", "UIBezierPath"]
+- ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIGraphicsGetCurrentContext"]
+- ["Ps9Equatable", "black"]
+- ["Ps9Equatable", "butt"]
+- !private ["Ps9Equatable", "cgColor"]
+- !private ["Ps9Equatable", "cgPath"]
+- ["Ps9Equatable", "clockwise"]
+- ["Ps9Equatable", "color"]
+- ["Ps9Equatable", "draw"]
+- ["Ps9Equatable", "endAngle"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "identity"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lineCap"]
+- ["Ps9Equatable", "lineWidth"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9Equatable", "round"]
+- ["Ps9Equatable", "startAngle"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "withUnsafePointer"]
+- !private ["Ps9Equatable", "zero"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByFloatLiteral", "init"]
+- ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "CGLineCap"]
+- !private ["Ps8Hashable", "CGLineJoin"]
+- !private ["Ps8Hashable", "CGPath"]
+- !private ["Ps8Hashable", "CGPoint"]
+- ["Ps8Hashable", "M_PI_2"]
+- !private ["Ps8Hashable", "UIBezierPath"]
+- ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIGraphicsGetCurrentContext"]
+- ["Ps8Hashable", "black"]
+- ["Ps8Hashable", "butt"]
+- !private ["Ps8Hashable", "cgColor"]
+- !private ["Ps8Hashable", "cgPath"]
+- ["Ps8Hashable", "clockwise"]
+- ["Ps8Hashable", "color"]
+- ["Ps8Hashable", "draw"]
+- ["Ps8Hashable", "endAngle"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lineCap"]
+- ["Ps8Hashable", "lineWidth"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Ps8Hashable", "round"]
+- ["Ps8Hashable", "startAngle"]
+- !private ["Ps8Hashable", "withUnsafePointer"]
+- ["Ps8Hashable", ""]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CGAffineTransform"]
+- ["PSo8NSCoding", "CGFloat"]
+- ["PSo8NSCoding", "CGLineCap"]
+- !private ["PSo8NSCoding", "CGLineJoin"]
+- !private ["PSo8NSCoding", "CGPath"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- ["PSo8NSCoding", "M_PI_2"]
+- !private ["PSo8NSCoding", "UIBezierPath"]
+- ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIGraphicsGetCurrentContext"]
+- ["PSo8NSCoding", "black"]
+- !private ["PSo8NSCoding", "cgColor"]
+- !private ["PSo8NSCoding", "cgPath"]
+- ["PSo8NSCoding", "clockwise"]
+- ["PSo8NSCoding", "color"]
+- ["PSo8NSCoding", "draw"]
+- ["PSo8NSCoding", "endAngle"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lineCap"]
+- ["PSo8NSCoding", "lineWidth"]
+- !private ["PSo8NSCoding", "min"]
+- ["PSo8NSCoding", "startAngle"]
+- !private ["PSo8NSCoding", "withUnsafePointer"]
+- ["PSo8NSCoding", ""]
+- ["PSo9NSCopying", "black"]
+- !private ["PSo9NSCopying", "cgColor"]
+- !private ["PSo9NSCopying", "cgPath"]
+- !private ["PSo9NSCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGAffineTransform"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGLineCap"]
+- !private ["CSo8NSObject", "CGLineJoin"]
+- !private ["CSo8NSObject", "CGPath"]
+- !private ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "M_PI_2"]
+- !private ["CSo8NSObject", "UIBezierPath"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIGraphicsGetCurrentContext"]
+- ["CSo8NSObject", "black"]
+- !private ["CSo8NSObject", "cgColor"]
+- !private ["CSo8NSObject", "cgPath"]
+- ["CSo8NSObject", "clockwise"]
+- ["CSo8NSObject", "color"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "endAngle"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lineCap"]
+- ["CSo8NSObject", "lineWidth"]
+- !private ["CSo8NSObject", "min"]
+- ["CSo8NSObject", "startAngle"]
+- !private ["CSo8NSObject", "withUnsafePointer"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "CGLineCap"]
+- !private ["PSo16NSObjectProtocol", "CGLineJoin"]
+- !private ["PSo16NSObjectProtocol", "CGPath"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- ["PSo16NSObjectProtocol", "M_PI_2"]
+- !private ["PSo16NSObjectProtocol", "UIBezierPath"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetCurrentContext"]
+- ["PSo16NSObjectProtocol", "black"]
+- !private ["PSo16NSObjectProtocol", "cgColor"]
+- !private ["PSo16NSObjectProtocol", "cgPath"]
+- ["PSo16NSObjectProtocol", "clockwise"]
+- ["PSo16NSObjectProtocol", "color"]
+- ["PSo16NSObjectProtocol", "draw"]
+- ["PSo16NSObjectProtocol", "endAngle"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lineCap"]
+- ["PSo16NSObjectProtocol", "lineWidth"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- ["PSo16NSObjectProtocol", "startAngle"]
+- !private ["PSo16NSObjectProtocol", "withUnsafePointer"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "black"]
+- !private ["PSo14NSSecureCoding", "cgColor"]
+- ["Sq", "deinit"]
+- ["Ps16RawRepresentable", "butt"]
+- !private ["Ps16RawRepresentable", "round"]
+- ["Ps12SignedNumber", "init"]
+- ["Ps10Strideable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGAffineTransform"]
+- ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- ["PSo29UIAccessibilityIdentification", "CGLineCap"]
+- !private ["PSo29UIAccessibilityIdentification", "CGLineJoin"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPath"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPoint"]
+- ["PSo29UIAccessibilityIdentification", "M_PI_2"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBezierPath"]
+- ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetCurrentContext"]
+- ["PSo29UIAccessibilityIdentification", "clockwise"]
+- ["PSo29UIAccessibilityIdentification", "color"]
+- ["PSo29UIAccessibilityIdentification", "draw"]
+- ["PSo29UIAccessibilityIdentification", "endAngle"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "lineCap"]
+- ["PSo29UIAccessibilityIdentification", "lineWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "min"]
+- ["PSo29UIAccessibilityIdentification", "startAngle"]
+- !private ["PSo29UIAccessibilityIdentification", "withUnsafePointer"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGAffineTransform"]
+- ["PSo12UIAppearance", "CGFloat"]
+- ["PSo12UIAppearance", "CGLineCap"]
+- !private ["PSo12UIAppearance", "CGLineJoin"]
+- !private ["PSo12UIAppearance", "CGPath"]
+- !private ["PSo12UIAppearance", "CGPoint"]
+- ["PSo12UIAppearance", "M_PI_2"]
+- !private ["PSo12UIAppearance", "UIBezierPath"]
+- ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIGraphicsGetCurrentContext"]
+- ["PSo12UIAppearance", "clockwise"]
+- ["PSo12UIAppearance", "color"]
+- ["PSo12UIAppearance", "draw"]
+- ["PSo12UIAppearance", "endAngle"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "lineCap"]
+- ["PSo12UIAppearance", "lineWidth"]
+- !private ["PSo12UIAppearance", "min"]
+- ["PSo12UIAppearance", "startAngle"]
+- !private ["PSo12UIAppearance", "withUnsafePointer"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGAffineTransform"]
+- ["PSo21UIAppearanceContainer", "CGFloat"]
+- ["PSo21UIAppearanceContainer", "CGLineCap"]
+- !private ["PSo21UIAppearanceContainer", "CGLineJoin"]
+- !private ["PSo21UIAppearanceContainer", "CGPath"]
+- !private ["PSo21UIAppearanceContainer", "CGPoint"]
+- ["PSo21UIAppearanceContainer", "M_PI_2"]
+- !private ["PSo21UIAppearanceContainer", "UIBezierPath"]
+- ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsGetCurrentContext"]
+- ["PSo21UIAppearanceContainer", "clockwise"]
+- ["PSo21UIAppearanceContainer", "color"]
+- ["PSo21UIAppearanceContainer", "draw"]
+- ["PSo21UIAppearanceContainer", "endAngle"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "lineCap"]
+- ["PSo21UIAppearanceContainer", "lineWidth"]
+- !private ["PSo21UIAppearanceContainer", "min"]
+- ["PSo21UIAppearanceContainer", "startAngle"]
+- !private ["PSo21UIAppearanceContainer", "withUnsafePointer"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo12UIBezierPath", "cgPath"]
+- ["CSo12UIBezierPath", "deinit"]
+- !private ["CSo12UIBezierPath", "init"]
+- ["CSo7UIColor", "black"]
+- !private ["CSo7UIColor", "cgColor"]
+- ["CSo7UIColor", "deinit"]
+- !private ["PSo17UICoordinateSpace", "CGAffineTransform"]
+- ["PSo17UICoordinateSpace", "CGFloat"]
+- ["PSo17UICoordinateSpace", "CGLineCap"]
+- !private ["PSo17UICoordinateSpace", "CGLineJoin"]
+- !private ["PSo17UICoordinateSpace", "CGPath"]
+- !private ["PSo17UICoordinateSpace", "CGPoint"]
+- ["PSo17UICoordinateSpace", "M_PI_2"]
+- !private ["PSo17UICoordinateSpace", "UIBezierPath"]
+- ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsGetCurrentContext"]
+- ["PSo17UICoordinateSpace", "clockwise"]
+- ["PSo17UICoordinateSpace", "color"]
+- ["PSo17UICoordinateSpace", "draw"]
+- ["PSo17UICoordinateSpace", "endAngle"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "lineCap"]
+- ["PSo17UICoordinateSpace", "lineWidth"]
+- !private ["PSo17UICoordinateSpace", "min"]
+- ["PSo17UICoordinateSpace", "startAngle"]
+- !private ["PSo17UICoordinateSpace", "withUnsafePointer"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGAffineTransform"]
+- ["PSo13UIDynamicItem", "CGFloat"]
+- ["PSo13UIDynamicItem", "CGLineCap"]
+- !private ["PSo13UIDynamicItem", "CGLineJoin"]
+- !private ["PSo13UIDynamicItem", "CGPath"]
+- !private ["PSo13UIDynamicItem", "CGPoint"]
+- ["PSo13UIDynamicItem", "M_PI_2"]
+- !private ["PSo13UIDynamicItem", "UIBezierPath"]
+- ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsGetCurrentContext"]
+- ["PSo13UIDynamicItem", "clockwise"]
+- ["PSo13UIDynamicItem", "color"]
+- ["PSo13UIDynamicItem", "draw"]
+- ["PSo13UIDynamicItem", "endAngle"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "lineCap"]
+- ["PSo13UIDynamicItem", "lineWidth"]
+- !private ["PSo13UIDynamicItem", "min"]
+- ["PSo13UIDynamicItem", "startAngle"]
+- !private ["PSo13UIDynamicItem", "withUnsafePointer"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGAffineTransform"]
+- ["PSo18UIFocusEnvironment", "CGFloat"]
+- ["PSo18UIFocusEnvironment", "CGLineCap"]
+- !private ["PSo18UIFocusEnvironment", "CGLineJoin"]
+- !private ["PSo18UIFocusEnvironment", "CGPath"]
+- !private ["PSo18UIFocusEnvironment", "CGPoint"]
+- ["PSo18UIFocusEnvironment", "M_PI_2"]
+- !private ["PSo18UIFocusEnvironment", "UIBezierPath"]
+- ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UIFocusEnvironment", "clockwise"]
+- ["PSo18UIFocusEnvironment", "color"]
+- ["PSo18UIFocusEnvironment", "draw"]
+- ["PSo18UIFocusEnvironment", "endAngle"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "lineCap"]
+- ["PSo18UIFocusEnvironment", "lineWidth"]
+- !private ["PSo18UIFocusEnvironment", "min"]
+- ["PSo18UIFocusEnvironment", "startAngle"]
+- !private ["PSo18UIFocusEnvironment", "withUnsafePointer"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGAffineTransform"]
+- ["PSo11UIFocusItem", "CGFloat"]
+- ["PSo11UIFocusItem", "CGLineCap"]
+- !private ["PSo11UIFocusItem", "CGLineJoin"]
+- !private ["PSo11UIFocusItem", "CGPath"]
+- !private ["PSo11UIFocusItem", "CGPoint"]
+- ["PSo11UIFocusItem", "M_PI_2"]
+- !private ["PSo11UIFocusItem", "UIBezierPath"]
+- ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "UIGraphicsGetCurrentContext"]
+- ["PSo11UIFocusItem", "clockwise"]
+- ["PSo11UIFocusItem", "color"]
+- ["PSo11UIFocusItem", "draw"]
+- ["PSo11UIFocusItem", "endAngle"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "lineCap"]
+- ["PSo11UIFocusItem", "lineWidth"]
+- !private ["PSo11UIFocusItem", "min"]
+- ["PSo11UIFocusItem", "startAngle"]
+- !private ["PSo11UIFocusItem", "withUnsafePointer"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CGAffineTransform"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "CGLineCap"]
+- !private ["CSo11UIResponder", "CGLineJoin"]
+- !private ["CSo11UIResponder", "CGPath"]
+- !private ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "M_PI_2"]
+- !private ["CSo11UIResponder", "UIBezierPath"]
+- ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIGraphicsGetCurrentContext"]
+- ["CSo11UIResponder", "clockwise"]
+- ["CSo11UIResponder", "color"]
+- ["CSo11UIResponder", "draw"]
+- ["CSo11UIResponder", "endAngle"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lineCap"]
+- ["CSo11UIResponder", "lineWidth"]
+- !private ["CSo11UIResponder", "min"]
+- ["CSo11UIResponder", "startAngle"]
+- !private ["CSo11UIResponder", "withUnsafePointer"]
+- !private ["PSo30UIResponderStandardEditActions", "CGAffineTransform"]
+- ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- ["PSo30UIResponderStandardEditActions", "CGLineCap"]
+- !private ["PSo30UIResponderStandardEditActions", "CGLineJoin"]
+- !private ["PSo30UIResponderStandardEditActions", "CGPath"]
+- !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
+- ["PSo30UIResponderStandardEditActions", "M_PI_2"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBezierPath"]
+- ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIGraphicsGetCurrentContext"]
+- ["PSo30UIResponderStandardEditActions", "clockwise"]
+- ["PSo30UIResponderStandardEditActions", "color"]
+- ["PSo30UIResponderStandardEditActions", "draw"]
+- ["PSo30UIResponderStandardEditActions", "endAngle"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "lineCap"]
+- ["PSo30UIResponderStandardEditActions", "lineWidth"]
+- !private ["PSo30UIResponderStandardEditActions", "min"]
+- ["PSo30UIResponderStandardEditActions", "startAngle"]
+- !private ["PSo30UIResponderStandardEditActions", "withUnsafePointer"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGAffineTransform"]
+- ["PSo18UITraitEnvironment", "CGFloat"]
+- ["PSo18UITraitEnvironment", "CGLineCap"]
+- !private ["PSo18UITraitEnvironment", "CGLineJoin"]
+- !private ["PSo18UITraitEnvironment", "CGPath"]
+- !private ["PSo18UITraitEnvironment", "CGPoint"]
+- ["PSo18UITraitEnvironment", "M_PI_2"]
+- !private ["PSo18UITraitEnvironment", "UIBezierPath"]
+- ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UITraitEnvironment", "clockwise"]
+- ["PSo18UITraitEnvironment", "color"]
+- ["PSo18UITraitEnvironment", "draw"]
+- ["PSo18UITraitEnvironment", "endAngle"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "lineCap"]
+- ["PSo18UITraitEnvironment", "lineWidth"]
+- !private ["PSo18UITraitEnvironment", "min"]
+- ["PSo18UITraitEnvironment", "startAngle"]
+- !private ["PSo18UITraitEnvironment", "withUnsafePointer"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "Bool"]
+- !private ["CSo6UIView", "CGAffineTransform"]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "CGLineCap"]
+- !private ["CSo6UIView", "CGLineJoin"]
+- !private ["CSo6UIView", "CGPath"]
+- !private ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "M_PI_2"]
+- !private ["CSo6UIView", "UIBezierPath"]
+- ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIGraphicsGetCurrentContext"]
+- ["CSo6UIView", "clockwise"]
+- ["CSo6UIView", "color"]
+- ["CSo6UIView", "deinit"]
+- ["CSo6UIView", "draw"]
+- ["CSo6UIView", "endAngle"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "lineCap"]
+- ["CSo6UIView", "lineWidth"]
+- !private ["CSo6UIView", "min"]
+- ["CSo6UIView", "startAngle"]
+- !private ["CSo6UIView", "withUnsafePointer"]
+- ["CSo6UIView", ""]
+- ["SP", "deinit"]
+- ["Ps15_CVarArgAligned", "init"]
+- ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGAffineTransform"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGFloat"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGLineCap"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGLineJoin"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGPath"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGPoint"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "M_PI_2"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIBezierPath"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIGraphicsGetCurrentContext"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "clockwise"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "color"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "draw"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "endAngle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "lineCap"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "lineWidth"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "min"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "startAngle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "withUnsafePointer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- ["Ps26_ExpressibleByColorLiteral", "black"]
+- !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- ["Ps9_Hashable", "CGFloat"]
+- ["Ps9_Hashable", "CGLineCap"]
+- !private ["Ps9_Hashable", "CGLineJoin"]
+- !private ["Ps9_Hashable", "CGPath"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- ["Ps9_Hashable", "M_PI_2"]
+- !private ["Ps9_Hashable", "UIBezierPath"]
+- ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIGraphicsGetCurrentContext"]
+- ["Ps9_Hashable", "black"]
+- ["Ps9_Hashable", "butt"]
+- !private ["Ps9_Hashable", "cgColor"]
+- !private ["Ps9_Hashable", "cgPath"]
+- ["Ps9_Hashable", "clockwise"]
+- ["Ps9_Hashable", "color"]
+- ["Ps9_Hashable", "draw"]
+- ["Ps9_Hashable", "endAngle"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lineCap"]
+- ["Ps9_Hashable", "lineWidth"]
+- !private ["Ps9_Hashable", "min"]
+- !private ["Ps9_Hashable", "round"]
+- ["Ps9_Hashable", "startAngle"]
+- !private ["Ps9_Hashable", "withUnsafePointer"]
+- ["Ps9_Hashable", ""]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps11_Strideable", "init"]
+depends-nominal:
+- "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "C7allbeat7ArcView"
+- "Ps19BinaryFloatingPoint"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "VSC17CGAffineTransform"
+- "CSo7CGColor"
+- "CSo9CGContext"
+- "V12CoreGraphics7CGFloat"
+- "OSC9CGLineCap"
+- "OSC10CGLineJoin"
+- "CSo6CGPath"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- "Ps25ExpressibleByFloatLiteral"
+- "Ps27ExpressibleByIntegerLiteral"
+- "Ps13FloatingPoint"
+- "Ps8Hashable"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "Sq"
+- "Ps16RawRepresentable"
+- "Ps12SignedNumber"
+- "Ps10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo12UIBezierPath"
+- "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "SP"
+- "Ps15_CVarArgAligned"
+- "Ps22_CVarArgPassedAsDouble"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "b8a1215358b8919020163d3c20bac540"

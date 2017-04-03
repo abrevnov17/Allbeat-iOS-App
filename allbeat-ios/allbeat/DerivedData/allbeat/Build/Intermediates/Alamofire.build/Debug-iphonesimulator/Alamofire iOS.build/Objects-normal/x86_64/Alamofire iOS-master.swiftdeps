@@ -1,0 +1,20 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "6dfca371cf056242947f4ccf4d9b65fc"
+build_time: [528079726, 404625000]
+inputs:
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Timeline.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/SessionDelegate.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/ParameterEncoding.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Request.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/ResponseSerialization.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Error.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/SessionManager.swift": [527150173, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Response.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Alamofire.swift": [527150191, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/MultipartFormData.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/ServerTrustPolicy.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/NetworkReachabilityManager.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/TaskDelegate.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Validation.swift": [527149430, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Notifications.swift": [526004108, 0]
+  "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/Alamofire/Source/Result.swift": [526004108, 0]

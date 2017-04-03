@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AWSSNSListTagsForResourceResponse.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AWSSNSListTagsForResourceResponse</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1563"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListTagsForResourceResponse/setNextToken:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="1563"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListTagsForResourceResponse/nextToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="1563"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListTagsForResourceResponse/nextToken</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *nextToken</Declaration>
+			
+			
+			<Anchor>//api/name/nextToken</Anchor>
+            <NodeRef refid="1563"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListTagsForResourceResponse/setTags:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSSNSTag*&gt; *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="1563"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AWSSNSListTagsForResourceResponse/tags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSSNSTag*&gt; *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="1563"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AWSSNSListTagsForResourceResponse/tags</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AWSSNSModel.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray&lt;AWSSNSTag*&gt; *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="1563"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

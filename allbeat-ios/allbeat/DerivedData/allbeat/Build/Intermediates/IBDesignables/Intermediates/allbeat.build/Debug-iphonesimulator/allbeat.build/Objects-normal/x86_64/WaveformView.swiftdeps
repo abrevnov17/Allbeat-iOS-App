@@ -1,0 +1,1186 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WaveformView"
+provides-nominal:
+- "C7allbeat12WaveformView"
+provides-member:
+- ["C7allbeat12WaveformView", ""]
+provides-dynamic-lookup:
+- "frequency"
+- "phaseShift"
+- "secondaryLineWidth"
+- "waveColor"
+- "density"
+- "idleAmplitude"
+- "draw"
+- "primaryLineWidth"
+- "amplitude"
+- "numberOfWaves"
+depends-top-level:
+- !private "min"
+- !private "<"
+- !private "+="
+- !private "UIGraphicsGetCurrentContext"
+- !private "pow"
+- !private "max"
+- "AssignmentPrecedence"
+- !private "=="
+- "UIView"
+- !private "M_PI"
+- !private "UIBezierPath"
+- "CGFloat"
+- !private "*"
+- !private "TernaryPrecedence"
+- !private "+"
+- "Int"
+- !private "sin"
+- !private "BooleanLiteralType"
+- "WaveformView"
+- "UIColor"
+- !private "-"
+- "NSCoder"
+- !private "/"
+- !private "StringLiteralType"
+- !private "..<"
+- !private "CGPoint"
+- "CGRect"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "M_PI"]
+- !private ["Ps9AnyObject", "UIBezierPath"]
+- ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9AnyObject", "addLine"]
+- !private ["Ps9AnyObject", "alpha"]
+- ["Ps9AnyObject", "amplitude"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "cgColor"]
+- ["Ps9AnyObject", "density"]
+- ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "fill"]
+- ["Ps9AnyObject", "frequency"]
+- ["Ps9AnyObject", "idleAmplitude"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "lineWidth"]
+- !private ["Ps9AnyObject", "max"]
+- !private ["Ps9AnyObject", "min"]
+- !private ["Ps9AnyObject", "move"]
+- ["Ps9AnyObject", "numberOfWaves"]
+- ["Ps9AnyObject", "phase"]
+- ["Ps9AnyObject", "phaseShift"]
+- !private ["Ps9AnyObject", "pow"]
+- ["Ps9AnyObject", "primaryLineWidth"]
+- ["Ps9AnyObject", "secondaryLineWidth"]
+- !private ["Ps9AnyObject", "set"]
+- !private ["Ps9AnyObject", "setAllowsAntialiasing"]
+- !private ["Ps9AnyObject", "setNeedsDisplay"]
+- !private ["Ps9AnyObject", "sin"]
+- !private ["Ps9AnyObject", "stroke"]
+- ["Ps9AnyObject", "waveColor"]
+- ["Ps9AnyObject", "white"]
+- !private ["Ps9AnyObject", "withAlphaComponent"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps19BinaryFloatingPoint", "Stride"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "CGFloat"]
+- !private ["PSo15CALayerDelegate", "CGPoint"]
+- !private ["PSo15CALayerDelegate", "M_PI"]
+- !private ["PSo15CALayerDelegate", "UIBezierPath"]
+- ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "UIGraphicsGetCurrentContext"]
+- ["PSo15CALayerDelegate", "amplitude"]
+- !private ["PSo15CALayerDelegate", "backgroundColor"]
+- !private ["PSo15CALayerDelegate", "bounds"]
+- ["PSo15CALayerDelegate", "density"]
+- ["PSo15CALayerDelegate", "draw"]
+- ["PSo15CALayerDelegate", "frequency"]
+- ["PSo15CALayerDelegate", "idleAmplitude"]
+- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "max"]
+- !private ["PSo15CALayerDelegate", "min"]
+- ["PSo15CALayerDelegate", "numberOfWaves"]
+- ["PSo15CALayerDelegate", "phase"]
+- ["PSo15CALayerDelegate", "phaseShift"]
+- !private ["PSo15CALayerDelegate", "pow"]
+- ["PSo15CALayerDelegate", "primaryLineWidth"]
+- ["PSo15CALayerDelegate", "secondaryLineWidth"]
+- !private ["PSo15CALayerDelegate", "setNeedsDisplay"]
+- !private ["PSo15CALayerDelegate", "sin"]
+- ["PSo15CALayerDelegate", "waveColor"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["CSo7CGColor", "alpha"]
+- ["CSo7CGColor", "deinit"]
+- ["CSo9CGContext", "deinit"]
+- !private ["CSo9CGContext", "fill"]
+- !private ["CSo9CGContext", "setAllowsAntialiasing"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "init"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "M_PI"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "UIBezierPath"]
+- ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIGraphicsGetCurrentContext"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "addLine"]
+- ["Ps7CVarArg", "amplitude"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "cgColor"]
+- ["Ps7CVarArg", "density"]
+- ["Ps7CVarArg", "draw"]
+- ["Ps7CVarArg", "frequency"]
+- ["Ps7CVarArg", "idleAmplitude"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lineWidth"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "min"]
+- !private ["Ps7CVarArg", "move"]
+- ["Ps7CVarArg", "numberOfWaves"]
+- ["Ps7CVarArg", "phase"]
+- ["Ps7CVarArg", "phaseShift"]
+- !private ["Ps7CVarArg", "pow"]
+- ["Ps7CVarArg", "primaryLineWidth"]
+- ["Ps7CVarArg", "secondaryLineWidth"]
+- !private ["Ps7CVarArg", "set"]
+- !private ["Ps7CVarArg", "setNeedsDisplay"]
+- !private ["Ps7CVarArg", "sin"]
+- !private ["Ps7CVarArg", "stroke"]
+- ["Ps7CVarArg", "waveColor"]
+- ["Ps7CVarArg", "white"]
+- !private ["Ps7CVarArg", "withAlphaComponent"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Vs14CountableRange", "Iterator"]
+- !private ["Vs14CountableRange", "_Element"]
+- ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBezierPath"]
+- ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addLine"]
+- ["Ps28CustomDebugStringConvertible", "amplitude"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "cgColor"]
+- ["Ps28CustomDebugStringConvertible", "density"]
+- ["Ps28CustomDebugStringConvertible", "draw"]
+- ["Ps28CustomDebugStringConvertible", "frequency"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "idleAmplitude"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lineWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- !private ["Ps28CustomDebugStringConvertible", "min"]
+- !private ["Ps28CustomDebugStringConvertible", "move"]
+- ["Ps28CustomDebugStringConvertible", "numberOfWaves"]
+- ["Ps28CustomDebugStringConvertible", "phase"]
+- ["Ps28CustomDebugStringConvertible", "phaseShift"]
+- !private ["Ps28CustomDebugStringConvertible", "pow"]
+- ["Ps28CustomDebugStringConvertible", "primaryLineWidth"]
+- ["Ps28CustomDebugStringConvertible", "secondaryLineWidth"]
+- !private ["Ps28CustomDebugStringConvertible", "set"]
+- !private ["Ps28CustomDebugStringConvertible", "setNeedsDisplay"]
+- !private ["Ps28CustomDebugStringConvertible", "sin"]
+- !private ["Ps28CustomDebugStringConvertible", "stroke"]
+- ["Ps28CustomDebugStringConvertible", "waveColor"]
+- ["Ps28CustomDebugStringConvertible", "white"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "withAlphaComponent"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "M_PI"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "UIBezierPath"]
+- ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addLine"]
+- ["Ps23CustomStringConvertible", "amplitude"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "cgColor"]
+- ["Ps23CustomStringConvertible", "density"]
+- ["Ps23CustomStringConvertible", "draw"]
+- ["Ps23CustomStringConvertible", "frequency"]
+- ["Ps23CustomStringConvertible", "idleAmplitude"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lineWidth"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- !private ["Ps23CustomStringConvertible", "move"]
+- ["Ps23CustomStringConvertible", "numberOfWaves"]
+- ["Ps23CustomStringConvertible", "phase"]
+- ["Ps23CustomStringConvertible", "phaseShift"]
+- !private ["Ps23CustomStringConvertible", "pow"]
+- ["Ps23CustomStringConvertible", "primaryLineWidth"]
+- ["Ps23CustomStringConvertible", "secondaryLineWidth"]
+- !private ["Ps23CustomStringConvertible", "set"]
+- !private ["Ps23CustomStringConvertible", "setNeedsDisplay"]
+- !private ["Ps23CustomStringConvertible", "sin"]
+- !private ["Ps23CustomStringConvertible", "stroke"]
+- ["Ps23CustomStringConvertible", "waveColor"]
+- ["Ps23CustomStringConvertible", "white"]
+- !private ["Ps23CustomStringConvertible", "withAlphaComponent"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Date", "deinit"]
+- !private ["VSC7Decimal", "deinit"]
+- !private ["V8Dispatch12DispatchTime", "deinit"]
+- !private ["V8Dispatch16DispatchWallTime", "deinit"]
+- !private ["Sd", "Stride"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "M_PI"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "UIBezierPath"]
+- ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_Element"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addLine"]
+- !private ["Ps9Equatable", "alpha"]
+- ["Ps9Equatable", "amplitude"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "cgColor"]
+- ["Ps9Equatable", "density"]
+- ["Ps9Equatable", "draw"]
+- ["Ps9Equatable", "frequency"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "idleAmplitude"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lineWidth"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "min"]
+- !private ["Ps9Equatable", "move"]
+- ["Ps9Equatable", "numberOfWaves"]
+- ["Ps9Equatable", "phase"]
+- ["Ps9Equatable", "phaseShift"]
+- !private ["Ps9Equatable", "pow"]
+- ["Ps9Equatable", "primaryLineWidth"]
+- ["Ps9Equatable", "secondaryLineWidth"]
+- !private ["Ps9Equatable", "set"]
+- !private ["Ps9Equatable", "setNeedsDisplay"]
+- !private ["Ps9Equatable", "sin"]
+- !private ["Ps9Equatable", "stroke"]
+- ["Ps9Equatable", "waveColor"]
+- ["Ps9Equatable", "white"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "withAlphaComponent"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Stride"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "Stride"]
+- !private ["Sf", "deinit"]
+- !private ["Vs7Float80", "deinit"]
+- !private ["Ps13FloatingPoint", "Stride"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "M_PI"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "UIBezierPath"]
+- ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addLine"]
+- ["Ps8Hashable", "amplitude"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "cgColor"]
+- ["Ps8Hashable", "density"]
+- ["Ps8Hashable", "draw"]
+- ["Ps8Hashable", "frequency"]
+- ["Ps8Hashable", "idleAmplitude"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lineWidth"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "min"]
+- !private ["Ps8Hashable", "move"]
+- ["Ps8Hashable", "numberOfWaves"]
+- ["Ps8Hashable", "phase"]
+- ["Ps8Hashable", "phaseShift"]
+- !private ["Ps8Hashable", "pow"]
+- ["Ps8Hashable", "primaryLineWidth"]
+- ["Ps8Hashable", "secondaryLineWidth"]
+- !private ["Ps8Hashable", "set"]
+- !private ["Ps8Hashable", "setNeedsDisplay"]
+- !private ["Ps8Hashable", "sin"]
+- !private ["Ps8Hashable", "stroke"]
+- ["Ps8Hashable", "waveColor"]
+- ["Ps8Hashable", "white"]
+- !private ["Ps8Hashable", "withAlphaComponent"]
+- ["Ps8Hashable", ""]
+- !private ["V10Foundation9IndexPath", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "Stride"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["V10Foundation11Measurement", "deinit"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "M_PI"]
+- !private ["PSo8NSCoding", "UIBezierPath"]
+- ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIGraphicsGetCurrentContext"]
+- !private ["PSo8NSCoding", "addLine"]
+- ["PSo8NSCoding", "amplitude"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "cgColor"]
+- ["PSo8NSCoding", "density"]
+- ["PSo8NSCoding", "draw"]
+- ["PSo8NSCoding", "frequency"]
+- ["PSo8NSCoding", "idleAmplitude"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "lineWidth"]
+- !private ["PSo8NSCoding", "max"]
+- !private ["PSo8NSCoding", "min"]
+- !private ["PSo8NSCoding", "move"]
+- ["PSo8NSCoding", "numberOfWaves"]
+- ["PSo8NSCoding", "phase"]
+- ["PSo8NSCoding", "phaseShift"]
+- !private ["PSo8NSCoding", "pow"]
+- ["PSo8NSCoding", "primaryLineWidth"]
+- ["PSo8NSCoding", "secondaryLineWidth"]
+- !private ["PSo8NSCoding", "set"]
+- !private ["PSo8NSCoding", "setNeedsDisplay"]
+- !private ["PSo8NSCoding", "sin"]
+- !private ["PSo8NSCoding", "stroke"]
+- ["PSo8NSCoding", "waveColor"]
+- ["PSo8NSCoding", "white"]
+- !private ["PSo8NSCoding", "withAlphaComponent"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "addLine"]
+- !private ["PSo9NSCopying", "cgColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "lineWidth"]
+- !private ["PSo9NSCopying", "move"]
+- !private ["PSo9NSCopying", "set"]
+- !private ["PSo9NSCopying", "stroke"]
+- ["PSo9NSCopying", "white"]
+- !private ["PSo9NSCopying", "withAlphaComponent"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "M_PI"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "UIBezierPath"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIGraphicsGetCurrentContext"]
+- !private ["CSo8NSObject", "addLine"]
+- ["CSo8NSObject", "amplitude"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "cgColor"]
+- ["CSo8NSObject", "density"]
+- ["CSo8NSObject", "draw"]
+- ["CSo8NSObject", "frequency"]
+- ["CSo8NSObject", "idleAmplitude"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lineWidth"]
+- !private ["CSo8NSObject", "max"]
+- !private ["CSo8NSObject", "min"]
+- !private ["CSo8NSObject", "move"]
+- ["CSo8NSObject", "numberOfWaves"]
+- ["CSo8NSObject", "phase"]
+- ["CSo8NSObject", "phaseShift"]
+- !private ["CSo8NSObject", "pow"]
+- ["CSo8NSObject", "primaryLineWidth"]
+- ["CSo8NSObject", "secondaryLineWidth"]
+- !private ["CSo8NSObject", "set"]
+- !private ["CSo8NSObject", "setNeedsDisplay"]
+- !private ["CSo8NSObject", "sin"]
+- !private ["CSo8NSObject", "stroke"]
+- ["CSo8NSObject", "waveColor"]
+- ["CSo8NSObject", "white"]
+- !private ["CSo8NSObject", "withAlphaComponent"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "M_PI"]
+- !private ["PSo16NSObjectProtocol", "UIBezierPath"]
+- ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetCurrentContext"]
+- !private ["PSo16NSObjectProtocol", "addLine"]
+- ["PSo16NSObjectProtocol", "amplitude"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "cgColor"]
+- ["PSo16NSObjectProtocol", "density"]
+- ["PSo16NSObjectProtocol", "draw"]
+- ["PSo16NSObjectProtocol", "frequency"]
+- ["PSo16NSObjectProtocol", "idleAmplitude"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lineWidth"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- !private ["PSo16NSObjectProtocol", "move"]
+- ["PSo16NSObjectProtocol", "numberOfWaves"]
+- ["PSo16NSObjectProtocol", "phase"]
+- ["PSo16NSObjectProtocol", "phaseShift"]
+- !private ["PSo16NSObjectProtocol", "pow"]
+- ["PSo16NSObjectProtocol", "primaryLineWidth"]
+- ["PSo16NSObjectProtocol", "secondaryLineWidth"]
+- !private ["PSo16NSObjectProtocol", "set"]
+- !private ["PSo16NSObjectProtocol", "setNeedsDisplay"]
+- !private ["PSo16NSObjectProtocol", "sin"]
+- !private ["PSo16NSObjectProtocol", "stroke"]
+- ["PSo16NSObjectProtocol", "waveColor"]
+- ["PSo16NSObjectProtocol", "white"]
+- !private ["PSo16NSObjectProtocol", "withAlphaComponent"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "cgColor"]
+- !private ["PSo14NSSecureCoding", "set"]
+- ["PSo14NSSecureCoding", "white"]
+- !private ["PSo14NSSecureCoding", "withAlphaComponent"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "CGFloat"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPoint"]
+- !private ["PSo29UIAccessibilityIdentification", "M_PI"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBezierPath"]
+- ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetCurrentContext"]
+- ["PSo29UIAccessibilityIdentification", "amplitude"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- ["PSo29UIAccessibilityIdentification", "density"]
+- ["PSo29UIAccessibilityIdentification", "draw"]
+- ["PSo29UIAccessibilityIdentification", "frequency"]
+- ["PSo29UIAccessibilityIdentification", "idleAmplitude"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "max"]
+- !private ["PSo29UIAccessibilityIdentification", "min"]
+- ["PSo29UIAccessibilityIdentification", "numberOfWaves"]
+- ["PSo29UIAccessibilityIdentification", "phase"]
+- ["PSo29UIAccessibilityIdentification", "phaseShift"]
+- !private ["PSo29UIAccessibilityIdentification", "pow"]
+- ["PSo29UIAccessibilityIdentification", "primaryLineWidth"]
+- ["PSo29UIAccessibilityIdentification", "secondaryLineWidth"]
+- !private ["PSo29UIAccessibilityIdentification", "setNeedsDisplay"]
+- !private ["PSo29UIAccessibilityIdentification", "sin"]
+- ["PSo29UIAccessibilityIdentification", "waveColor"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGFloat"]
+- !private ["PSo12UIAppearance", "CGPoint"]
+- !private ["PSo12UIAppearance", "M_PI"]
+- !private ["PSo12UIAppearance", "UIBezierPath"]
+- ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIGraphicsGetCurrentContext"]
+- ["PSo12UIAppearance", "amplitude"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "bounds"]
+- ["PSo12UIAppearance", "density"]
+- ["PSo12UIAppearance", "draw"]
+- ["PSo12UIAppearance", "frequency"]
+- ["PSo12UIAppearance", "idleAmplitude"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "max"]
+- !private ["PSo12UIAppearance", "min"]
+- ["PSo12UIAppearance", "numberOfWaves"]
+- ["PSo12UIAppearance", "phase"]
+- ["PSo12UIAppearance", "phaseShift"]
+- !private ["PSo12UIAppearance", "pow"]
+- ["PSo12UIAppearance", "primaryLineWidth"]
+- ["PSo12UIAppearance", "secondaryLineWidth"]
+- !private ["PSo12UIAppearance", "setNeedsDisplay"]
+- !private ["PSo12UIAppearance", "sin"]
+- ["PSo12UIAppearance", "waveColor"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- !private ["PSo21UIAppearanceContainer", "CGPoint"]
+- !private ["PSo21UIAppearanceContainer", "M_PI"]
+- !private ["PSo21UIAppearanceContainer", "UIBezierPath"]
+- ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsGetCurrentContext"]
+- ["PSo21UIAppearanceContainer", "amplitude"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- ["PSo21UIAppearanceContainer", "density"]
+- ["PSo21UIAppearanceContainer", "draw"]
+- ["PSo21UIAppearanceContainer", "frequency"]
+- ["PSo21UIAppearanceContainer", "idleAmplitude"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "max"]
+- !private ["PSo21UIAppearanceContainer", "min"]
+- ["PSo21UIAppearanceContainer", "numberOfWaves"]
+- ["PSo21UIAppearanceContainer", "phase"]
+- ["PSo21UIAppearanceContainer", "phaseShift"]
+- !private ["PSo21UIAppearanceContainer", "pow"]
+- ["PSo21UIAppearanceContainer", "primaryLineWidth"]
+- ["PSo21UIAppearanceContainer", "secondaryLineWidth"]
+- !private ["PSo21UIAppearanceContainer", "setNeedsDisplay"]
+- !private ["PSo21UIAppearanceContainer", "sin"]
+- ["PSo21UIAppearanceContainer", "waveColor"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo12UIBezierPath", "addLine"]
+- !private ["CSo12UIBezierPath", "deinit"]
+- !private ["CSo12UIBezierPath", "init"]
+- !private ["CSo12UIBezierPath", "lineWidth"]
+- !private ["CSo12UIBezierPath", "move"]
+- !private ["CSo12UIBezierPath", "stroke"]
+- !private ["CSo7UIColor", "cgColor"]
+- ["CSo7UIColor", "deinit"]
+- !private ["CSo7UIColor", "set"]
+- ["CSo7UIColor", "white"]
+- !private ["CSo7UIColor", "withAlphaComponent"]
+- !private ["PSo17UICoordinateSpace", "CGFloat"]
+- !private ["PSo17UICoordinateSpace", "CGPoint"]
+- !private ["PSo17UICoordinateSpace", "M_PI"]
+- !private ["PSo17UICoordinateSpace", "UIBezierPath"]
+- ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsGetCurrentContext"]
+- ["PSo17UICoordinateSpace", "amplitude"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- ["PSo17UICoordinateSpace", "density"]
+- ["PSo17UICoordinateSpace", "draw"]
+- ["PSo17UICoordinateSpace", "frequency"]
+- ["PSo17UICoordinateSpace", "idleAmplitude"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "max"]
+- !private ["PSo17UICoordinateSpace", "min"]
+- ["PSo17UICoordinateSpace", "numberOfWaves"]
+- ["PSo17UICoordinateSpace", "phase"]
+- ["PSo17UICoordinateSpace", "phaseShift"]
+- !private ["PSo17UICoordinateSpace", "pow"]
+- ["PSo17UICoordinateSpace", "primaryLineWidth"]
+- ["PSo17UICoordinateSpace", "secondaryLineWidth"]
+- !private ["PSo17UICoordinateSpace", "setNeedsDisplay"]
+- !private ["PSo17UICoordinateSpace", "sin"]
+- ["PSo17UICoordinateSpace", "waveColor"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGFloat"]
+- !private ["PSo13UIDynamicItem", "CGPoint"]
+- !private ["PSo13UIDynamicItem", "M_PI"]
+- !private ["PSo13UIDynamicItem", "UIBezierPath"]
+- ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsGetCurrentContext"]
+- ["PSo13UIDynamicItem", "amplitude"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- ["PSo13UIDynamicItem", "density"]
+- ["PSo13UIDynamicItem", "draw"]
+- ["PSo13UIDynamicItem", "frequency"]
+- ["PSo13UIDynamicItem", "idleAmplitude"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "max"]
+- !private ["PSo13UIDynamicItem", "min"]
+- ["PSo13UIDynamicItem", "numberOfWaves"]
+- ["PSo13UIDynamicItem", "phase"]
+- ["PSo13UIDynamicItem", "phaseShift"]
+- !private ["PSo13UIDynamicItem", "pow"]
+- ["PSo13UIDynamicItem", "primaryLineWidth"]
+- ["PSo13UIDynamicItem", "secondaryLineWidth"]
+- !private ["PSo13UIDynamicItem", "setNeedsDisplay"]
+- !private ["PSo13UIDynamicItem", "sin"]
+- ["PSo13UIDynamicItem", "waveColor"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- !private ["PSo18UIFocusEnvironment", "CGPoint"]
+- !private ["PSo18UIFocusEnvironment", "M_PI"]
+- !private ["PSo18UIFocusEnvironment", "UIBezierPath"]
+- ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UIFocusEnvironment", "amplitude"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- ["PSo18UIFocusEnvironment", "density"]
+- ["PSo18UIFocusEnvironment", "draw"]
+- ["PSo18UIFocusEnvironment", "frequency"]
+- ["PSo18UIFocusEnvironment", "idleAmplitude"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "max"]
+- !private ["PSo18UIFocusEnvironment", "min"]
+- ["PSo18UIFocusEnvironment", "numberOfWaves"]
+- ["PSo18UIFocusEnvironment", "phase"]
+- ["PSo18UIFocusEnvironment", "phaseShift"]
+- !private ["PSo18UIFocusEnvironment", "pow"]
+- ["PSo18UIFocusEnvironment", "primaryLineWidth"]
+- ["PSo18UIFocusEnvironment", "secondaryLineWidth"]
+- !private ["PSo18UIFocusEnvironment", "setNeedsDisplay"]
+- !private ["PSo18UIFocusEnvironment", "sin"]
+- ["PSo18UIFocusEnvironment", "waveColor"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CGFloat"]
+- !private ["PSo11UIFocusItem", "CGPoint"]
+- !private ["PSo11UIFocusItem", "M_PI"]
+- !private ["PSo11UIFocusItem", "UIBezierPath"]
+- ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "UIGraphicsGetCurrentContext"]
+- ["PSo11UIFocusItem", "amplitude"]
+- !private ["PSo11UIFocusItem", "backgroundColor"]
+- !private ["PSo11UIFocusItem", "bounds"]
+- ["PSo11UIFocusItem", "density"]
+- ["PSo11UIFocusItem", "draw"]
+- ["PSo11UIFocusItem", "frequency"]
+- ["PSo11UIFocusItem", "idleAmplitude"]
+- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "max"]
+- !private ["PSo11UIFocusItem", "min"]
+- ["PSo11UIFocusItem", "numberOfWaves"]
+- ["PSo11UIFocusItem", "phase"]
+- ["PSo11UIFocusItem", "phaseShift"]
+- !private ["PSo11UIFocusItem", "pow"]
+- ["PSo11UIFocusItem", "primaryLineWidth"]
+- ["PSo11UIFocusItem", "secondaryLineWidth"]
+- !private ["PSo11UIFocusItem", "setNeedsDisplay"]
+- !private ["PSo11UIFocusItem", "sin"]
+- ["PSo11UIFocusItem", "waveColor"]
+- ["PSo11UIFocusItem", ""]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "M_PI"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "UIBezierPath"]
+- ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIGraphicsGetCurrentContext"]
+- ["CSo11UIResponder", "amplitude"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "bounds"]
+- ["CSo11UIResponder", "density"]
+- ["CSo11UIResponder", "draw"]
+- ["CSo11UIResponder", "frequency"]
+- ["CSo11UIResponder", "idleAmplitude"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "max"]
+- !private ["CSo11UIResponder", "min"]
+- ["CSo11UIResponder", "numberOfWaves"]
+- ["CSo11UIResponder", "phase"]
+- ["CSo11UIResponder", "phaseShift"]
+- !private ["CSo11UIResponder", "pow"]
+- ["CSo11UIResponder", "primaryLineWidth"]
+- ["CSo11UIResponder", "secondaryLineWidth"]
+- !private ["CSo11UIResponder", "setNeedsDisplay"]
+- !private ["CSo11UIResponder", "sin"]
+- ["CSo11UIResponder", "waveColor"]
+- !private ["PSo30UIResponderStandardEditActions", "CGFloat"]
+- !private ["PSo30UIResponderStandardEditActions", "CGPoint"]
+- !private ["PSo30UIResponderStandardEditActions", "M_PI"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBezierPath"]
+- ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIGraphicsGetCurrentContext"]
+- ["PSo30UIResponderStandardEditActions", "amplitude"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
+- !private ["PSo30UIResponderStandardEditActions", "bounds"]
+- ["PSo30UIResponderStandardEditActions", "density"]
+- ["PSo30UIResponderStandardEditActions", "draw"]
+- ["PSo30UIResponderStandardEditActions", "frequency"]
+- ["PSo30UIResponderStandardEditActions", "idleAmplitude"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "max"]
+- !private ["PSo30UIResponderStandardEditActions", "min"]
+- ["PSo30UIResponderStandardEditActions", "numberOfWaves"]
+- ["PSo30UIResponderStandardEditActions", "phase"]
+- ["PSo30UIResponderStandardEditActions", "phaseShift"]
+- !private ["PSo30UIResponderStandardEditActions", "pow"]
+- ["PSo30UIResponderStandardEditActions", "primaryLineWidth"]
+- ["PSo30UIResponderStandardEditActions", "secondaryLineWidth"]
+- !private ["PSo30UIResponderStandardEditActions", "setNeedsDisplay"]
+- !private ["PSo30UIResponderStandardEditActions", "sin"]
+- ["PSo30UIResponderStandardEditActions", "waveColor"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- !private ["PSo18UITraitEnvironment", "CGPoint"]
+- !private ["PSo18UITraitEnvironment", "M_PI"]
+- !private ["PSo18UITraitEnvironment", "UIBezierPath"]
+- ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UITraitEnvironment", "amplitude"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- ["PSo18UITraitEnvironment", "density"]
+- ["PSo18UITraitEnvironment", "draw"]
+- ["PSo18UITraitEnvironment", "frequency"]
+- ["PSo18UITraitEnvironment", "idleAmplitude"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "max"]
+- !private ["PSo18UITraitEnvironment", "min"]
+- ["PSo18UITraitEnvironment", "numberOfWaves"]
+- ["PSo18UITraitEnvironment", "phase"]
+- ["PSo18UITraitEnvironment", "phaseShift"]
+- !private ["PSo18UITraitEnvironment", "pow"]
+- ["PSo18UITraitEnvironment", "primaryLineWidth"]
+- ["PSo18UITraitEnvironment", "secondaryLineWidth"]
+- !private ["PSo18UITraitEnvironment", "setNeedsDisplay"]
+- !private ["PSo18UITraitEnvironment", "sin"]
+- ["PSo18UITraitEnvironment", "waveColor"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "Int"]
+- !private ["CSo6UIView", "M_PI"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "UIBezierPath"]
+- ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIGraphicsGetCurrentContext"]
+- ["CSo6UIView", "amplitude"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "bounds"]
+- ["CSo6UIView", "deinit"]
+- ["CSo6UIView", "density"]
+- ["CSo6UIView", "draw"]
+- ["CSo6UIView", "frequency"]
+- ["CSo6UIView", "idleAmplitude"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "max"]
+- !private ["CSo6UIView", "min"]
+- ["CSo6UIView", "numberOfWaves"]
+- ["CSo6UIView", "phase"]
+- ["CSo6UIView", "phaseShift"]
+- !private ["CSo6UIView", "pow"]
+- ["CSo6UIView", "primaryLineWidth"]
+- ["CSo6UIView", "secondaryLineWidth"]
+- !private ["CSo6UIView", "setNeedsDisplay"]
+- !private ["CSo6UIView", "sin"]
+- ["CSo6UIView", "waveColor"]
+- ["CSo6UIView", ""]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sp", "deinit"]
+- !private ["SP", "deinit"]
+- ["C7allbeat12WaveformView", "CGFloat"]
+- !private ["C7allbeat12WaveformView", "CGPoint"]
+- ["C7allbeat12WaveformView", "CGRect"]
+- ["C7allbeat12WaveformView", "Int"]
+- !private ["C7allbeat12WaveformView", "M_PI"]
+- ["C7allbeat12WaveformView", "NSCoder"]
+- !private ["C7allbeat12WaveformView", "UIBezierPath"]
+- ["C7allbeat12WaveformView", "UIColor"]
+- !private ["C7allbeat12WaveformView", "UIGraphicsGetCurrentContext"]
+- ["C7allbeat12WaveformView", "amplitude"]
+- !private ["C7allbeat12WaveformView", "backgroundColor"]
+- !private ["C7allbeat12WaveformView", "bounds"]
+- ["C7allbeat12WaveformView", "deinit"]
+- ["C7allbeat12WaveformView", "density"]
+- ["C7allbeat12WaveformView", "draw"]
+- ["C7allbeat12WaveformView", "frequency"]
+- ["C7allbeat12WaveformView", "idleAmplitude"]
+- ["C7allbeat12WaveformView", "init"]
+- !private ["C7allbeat12WaveformView", "max"]
+- !private ["C7allbeat12WaveformView", "min"]
+- ["C7allbeat12WaveformView", "numberOfWaves"]
+- !private ["C7allbeat12WaveformView", "phase"]
+- ["C7allbeat12WaveformView", "phaseShift"]
+- !private ["C7allbeat12WaveformView", "pow"]
+- ["C7allbeat12WaveformView", "primaryLineWidth"]
+- ["C7allbeat12WaveformView", "secondaryLineWidth"]
+- !private ["C7allbeat12WaveformView", "setNeedsDisplay"]
+- !private ["C7allbeat12WaveformView", "sin"]
+- ["C7allbeat12WaveformView", "waveColor"]
+- !private ["Ps15_CVarArgAligned", "Stride"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGFloat"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGPoint"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "M_PI"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIBezierPath"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIGraphicsGetCurrentContext"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "amplitude"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "bounds"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "density"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "draw"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "frequency"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "idleAmplitude"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "max"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "min"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "numberOfWaves"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "phase"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "phaseShift"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "pow"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "primaryLineWidth"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "secondaryLineWidth"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "setNeedsDisplay"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "sin"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "waveColor"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "cgColor"]
+- !private ["Ps26_ExpressibleByColorLiteral", "set"]
+- ["Ps26_ExpressibleByColorLiteral", "white"]
+- !private ["Ps26_ExpressibleByColorLiteral", "withAlphaComponent"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "M_PI"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "UIBezierPath"]
+- ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addLine"]
+- ["Ps9_Hashable", "amplitude"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "cgColor"]
+- ["Ps9_Hashable", "density"]
+- ["Ps9_Hashable", "draw"]
+- ["Ps9_Hashable", "frequency"]
+- ["Ps9_Hashable", "idleAmplitude"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lineWidth"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "min"]
+- !private ["Ps9_Hashable", "move"]
+- ["Ps9_Hashable", "numberOfWaves"]
+- ["Ps9_Hashable", "phase"]
+- ["Ps9_Hashable", "phaseShift"]
+- !private ["Ps9_Hashable", "pow"]
+- ["Ps9_Hashable", "primaryLineWidth"]
+- ["Ps9_Hashable", "secondaryLineWidth"]
+- !private ["Ps9_Hashable", "set"]
+- !private ["Ps9_Hashable", "setNeedsDisplay"]
+- !private ["Ps9_Hashable", "sin"]
+- !private ["Ps9_Hashable", "stroke"]
+- ["Ps9_Hashable", "waveColor"]
+- ["Ps9_Hashable", "white"]
+- !private ["Ps9_Hashable", "withAlphaComponent"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "CSo7CGColor"
+- "CSo9CGContext"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "VSC7Decimal"
+- !private "V8Dispatch12DispatchTime"
+- !private "V8Dispatch16DispatchWallTime"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Vs7Float80"
+- !private "Ps13FloatingPoint"
+- "Ps8Hashable"
+- !private "V10Foundation9IndexPath"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "Ps25LosslessStringConvertible"
+- !private "V10Foundation11Measurement"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "Os5Never"
+- "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "SS"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo12UIBezierPath"
+- "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sp"
+- !private "SP"
+- "C7allbeat12WaveformView"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps26_ExpressibleByColorLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "1e9d0ab4ffbfb10815721366e340dc17"

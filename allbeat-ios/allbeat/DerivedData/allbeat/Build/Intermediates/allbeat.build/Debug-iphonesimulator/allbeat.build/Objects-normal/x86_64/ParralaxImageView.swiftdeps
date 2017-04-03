@@ -1,0 +1,770 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ParralaxImageView"
+provides-nominal:
+- "C7allbeat17ParralaxImageView"
+provides-member:
+- ["C7allbeat17ParralaxImageView", ""]
+provides-dynamic-lookup:
+- "setup"
+- "targetImage"
+- "update"
+depends-top-level:
+- "CGRect"
+- "ParralaxImageView"
+- "AssignmentPrecedence"
+- !private "RunLoop"
+- "UIView"
+- !private "RunLoopMode"
+- !private "UIScreen"
+- !private "*"
+- !private "-"
+- !private "!="
+- "CADisplayLink"
+- "NSCoder"
+- !private "UIColor"
+- "CGPoint"
+- "UIImage"
+- !private "/"
+depends-member:
+- !private ["Ps9AnyObject", "CADisplayLink"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "RunLoop"]
+- !private ["Ps9AnyObject", "RunLoopMode"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIScreen"]
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "backgroundColor"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "cgImage"]
+- !private ["Ps9AnyObject", "contents"]
+- !private ["Ps9AnyObject", "contentsRect"]
+- !private ["Ps9AnyObject", "convert"]
+- !private ["Ps9AnyObject", "darkGray"]
+- ["Ps9AnyObject", "displayLink"]
+- ["Ps9AnyObject", "globalCenter"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invalidate"]
+- !private ["Ps9AnyObject", "layer"]
+- !private ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "setup"]
+- ["Ps9AnyObject", "targetImage"]
+- ["Ps9AnyObject", "update"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["CSo13CADisplayLink", "add"]
+- ["CSo13CADisplayLink", "deinit"]
+- !private ["CSo13CADisplayLink", "init"]
+- !private ["CSo13CADisplayLink", "invalidate"]
+- !private ["CSo7CALayer", "bounds"]
+- !private ["CSo7CALayer", "contents"]
+- !private ["CSo7CALayer", "contentsRect"]
+- ["CSo7CALayer", "deinit"]
+- !private ["PSo15CALayerDelegate", "CADisplayLink"]
+- !private ["PSo15CALayerDelegate", "CGRect"]
+- !private ["PSo15CALayerDelegate", "RunLoop"]
+- !private ["PSo15CALayerDelegate", "RunLoopMode"]
+- !private ["PSo15CALayerDelegate", "UIColor"]
+- !private ["PSo15CALayerDelegate", "UIScreen"]
+- !private ["PSo15CALayerDelegate", "backgroundColor"]
+- !private ["PSo15CALayerDelegate", "center"]
+- !private ["PSo15CALayerDelegate", "convert"]
+- ["PSo15CALayerDelegate", "displayLink"]
+- ["PSo15CALayerDelegate", "globalCenter"]
+- ["PSo15CALayerDelegate", "init"]
+- !private ["PSo15CALayerDelegate", "layer"]
+- ["PSo15CALayerDelegate", "setup"]
+- ["PSo15CALayerDelegate", "targetImage"]
+- ["PSo15CALayerDelegate", "update"]
+- ["PSo15CALayerDelegate", ""]
+- !private ["PSo13CAMediaTiming", "bounds"]
+- !private ["PSo13CAMediaTiming", "contents"]
+- !private ["PSo13CAMediaTiming", "contentsRect"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "aspectFitRect"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "origin"]
+- !private ["Ps7CVarArg", "CADisplayLink"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "RunLoop"]
+- !private ["Ps7CVarArg", "RunLoopMode"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "UIScreen"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "backgroundColor"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "cgImage"]
+- !private ["Ps7CVarArg", "contents"]
+- !private ["Ps7CVarArg", "contentsRect"]
+- !private ["Ps7CVarArg", "convert"]
+- !private ["Ps7CVarArg", "darkGray"]
+- ["Ps7CVarArg", "displayLink"]
+- ["Ps7CVarArg", "globalCenter"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "invalidate"]
+- !private ["Ps7CVarArg", "layer"]
+- !private ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "setup"]
+- ["Ps7CVarArg", "targetImage"]
+- ["Ps7CVarArg", "update"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "commonModes"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "rawValue"]
+- !private ["Ps28CustomDebugStringConvertible", "CADisplayLink"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "RunLoop"]
+- !private ["Ps28CustomDebugStringConvertible", "RunLoopMode"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "UIScreen"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "aspectFitRect"]
+- !private ["Ps28CustomDebugStringConvertible", "backgroundColor"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "cgImage"]
+- !private ["Ps28CustomDebugStringConvertible", "contents"]
+- !private ["Ps28CustomDebugStringConvertible", "contentsRect"]
+- !private ["Ps28CustomDebugStringConvertible", "convert"]
+- !private ["Ps28CustomDebugStringConvertible", "darkGray"]
+- ["Ps28CustomDebugStringConvertible", "displayLink"]
+- ["Ps28CustomDebugStringConvertible", "globalCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "invalidate"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- !private ["Ps28CustomDebugStringConvertible", "main"]
+- !private ["Ps28CustomDebugStringConvertible", "origin"]
+- ["Ps28CustomDebugStringConvertible", "setup"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "targetImage"]
+- ["Ps28CustomDebugStringConvertible", "update"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "aspectFitRect"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "origin"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "aspectFitRect"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "origin"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CADisplayLink"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "RunLoop"]
+- !private ["Ps23CustomStringConvertible", "RunLoopMode"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "UIScreen"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "backgroundColor"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "cgImage"]
+- !private ["Ps23CustomStringConvertible", "contents"]
+- !private ["Ps23CustomStringConvertible", "contentsRect"]
+- !private ["Ps23CustomStringConvertible", "convert"]
+- !private ["Ps23CustomStringConvertible", "darkGray"]
+- ["Ps23CustomStringConvertible", "displayLink"]
+- ["Ps23CustomStringConvertible", "globalCenter"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "invalidate"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- !private ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "setup"]
+- ["Ps23CustomStringConvertible", "targetImage"]
+- ["Ps23CustomStringConvertible", "update"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CADisplayLink"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "RunLoop"]
+- !private ["Ps9Equatable", "RunLoopMode"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "UIScreen"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "aspectFitRect"]
+- !private ["Ps9Equatable", "backgroundColor"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "cgImage"]
+- !private ["Ps9Equatable", "commonModes"]
+- !private ["Ps9Equatable", "contents"]
+- !private ["Ps9Equatable", "contentsRect"]
+- !private ["Ps9Equatable", "convert"]
+- !private ["Ps9Equatable", "darkGray"]
+- ["Ps9Equatable", "displayLink"]
+- ["Ps9Equatable", "globalCenter"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidate"]
+- !private ["Ps9Equatable", "layer"]
+- !private ["Ps9Equatable", "main"]
+- !private ["Ps9Equatable", "origin"]
+- !private ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "setup"]
+- ["Ps9Equatable", "targetImage"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps8Hashable", "CADisplayLink"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "RunLoop"]
+- !private ["Ps8Hashable", "RunLoopMode"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "UIScreen"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "backgroundColor"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "cgImage"]
+- !private ["Ps8Hashable", "commonModes"]
+- !private ["Ps8Hashable", "contents"]
+- !private ["Ps8Hashable", "contentsRect"]
+- !private ["Ps8Hashable", "convert"]
+- !private ["Ps8Hashable", "darkGray"]
+- ["Ps8Hashable", "displayLink"]
+- ["Ps8Hashable", "globalCenter"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidate"]
+- !private ["Ps8Hashable", "layer"]
+- !private ["Ps8Hashable", "main"]
+- !private ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "setup"]
+- ["Ps8Hashable", "targetImage"]
+- ["Ps8Hashable", "update"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "CADisplayLink"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "RunLoop"]
+- !private ["PSo8NSCoding", "RunLoopMode"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIScreen"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "cgImage"]
+- !private ["PSo8NSCoding", "contents"]
+- !private ["PSo8NSCoding", "contentsRect"]
+- !private ["PSo8NSCoding", "convert"]
+- !private ["PSo8NSCoding", "darkGray"]
+- ["PSo8NSCoding", "displayLink"]
+- ["PSo8NSCoding", "globalCenter"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "setup"]
+- ["PSo8NSCoding", "targetImage"]
+- ["PSo8NSCoding", "update"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "darkGray"]
+- ["CSo8NSObject", "CADisplayLink"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "RunLoop"]
+- !private ["CSo8NSObject", "RunLoopMode"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UIScreen"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "cgImage"]
+- !private ["CSo8NSObject", "contents"]
+- !private ["CSo8NSObject", "contentsRect"]
+- !private ["CSo8NSObject", "convert"]
+- !private ["CSo8NSObject", "darkGray"]
+- ["CSo8NSObject", "displayLink"]
+- ["CSo8NSObject", "globalCenter"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "invalidate"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "setup"]
+- ["CSo8NSObject", "targetImage"]
+- ["CSo8NSObject", "update"]
+- !private ["PSo16NSObjectProtocol", "CADisplayLink"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "RunLoop"]
+- !private ["PSo16NSObjectProtocol", "RunLoopMode"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIScreen"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "cgImage"]
+- !private ["PSo16NSObjectProtocol", "contents"]
+- !private ["PSo16NSObjectProtocol", "contentsRect"]
+- !private ["PSo16NSObjectProtocol", "convert"]
+- !private ["PSo16NSObjectProtocol", "darkGray"]
+- ["PSo16NSObjectProtocol", "displayLink"]
+- ["PSo16NSObjectProtocol", "globalCenter"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "invalidate"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- !private ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "setup"]
+- ["PSo16NSObjectProtocol", "targetImage"]
+- ["PSo16NSObjectProtocol", "update"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "cgImage"]
+- !private ["PSo14NSSecureCoding", "darkGray"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["C7allbeat17ParralaxImageView", "CADisplayLink"]
+- ["C7allbeat17ParralaxImageView", "CGPoint"]
+- ["C7allbeat17ParralaxImageView", "CGRect"]
+- ["C7allbeat17ParralaxImageView", "NSCoder"]
+- !private ["C7allbeat17ParralaxImageView", "RunLoop"]
+- !private ["C7allbeat17ParralaxImageView", "RunLoopMode"]
+- !private ["C7allbeat17ParralaxImageView", "UIColor"]
+- ["C7allbeat17ParralaxImageView", "UIImage"]
+- !private ["C7allbeat17ParralaxImageView", "UIScreen"]
+- !private ["C7allbeat17ParralaxImageView", "backgroundColor"]
+- !private ["C7allbeat17ParralaxImageView", "center"]
+- !private ["C7allbeat17ParralaxImageView", "convert"]
+- ["C7allbeat17ParralaxImageView", "deinit"]
+- !private ["C7allbeat17ParralaxImageView", "displayLink"]
+- !private ["C7allbeat17ParralaxImageView", "globalCenter"]
+- ["C7allbeat17ParralaxImageView", "init"]
+- !private ["C7allbeat17ParralaxImageView", "layer"]
+- ["C7allbeat17ParralaxImageView", "setup"]
+- ["C7allbeat17ParralaxImageView", "targetImage"]
+- ["C7allbeat17ParralaxImageView", "update"]
+- !private ["Ps16RawRepresentable", "commonModes"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- ["CSo7RunLoop", "deinit"]
+- !private ["CSo7RunLoop", "main"]
+- !private ["VSC11RunLoopMode", "commonModes"]
+- ["VSC11RunLoopMode", "deinit"]
+- !private ["VSC11RunLoopMode", "init"]
+- !private ["VSC11RunLoopMode", "rawValue"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "CADisplayLink"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "RunLoop"]
+- !private ["PSo29UIAccessibilityIdentification", "RunLoopMode"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIScreen"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "cgImage"]
+- !private ["PSo29UIAccessibilityIdentification", "convert"]
+- ["PSo29UIAccessibilityIdentification", "displayLink"]
+- ["PSo29UIAccessibilityIdentification", "globalCenter"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "setup"]
+- ["PSo29UIAccessibilityIdentification", "targetImage"]
+- ["PSo29UIAccessibilityIdentification", "update"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CADisplayLink"]
+- !private ["PSo12UIAppearance", "CGRect"]
+- !private ["PSo12UIAppearance", "RunLoop"]
+- !private ["PSo12UIAppearance", "RunLoopMode"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIScreen"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "convert"]
+- ["PSo12UIAppearance", "displayLink"]
+- ["PSo12UIAppearance", "globalCenter"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "setup"]
+- ["PSo12UIAppearance", "targetImage"]
+- ["PSo12UIAppearance", "update"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CADisplayLink"]
+- !private ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "RunLoop"]
+- !private ["PSo21UIAppearanceContainer", "RunLoopMode"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIScreen"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "convert"]
+- ["PSo21UIAppearanceContainer", "displayLink"]
+- ["PSo21UIAppearanceContainer", "globalCenter"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "setup"]
+- ["PSo21UIAppearanceContainer", "targetImage"]
+- ["PSo21UIAppearanceContainer", "update"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "darkGray"]
+- ["CSo7UIColor", "deinit"]
+- !private ["PSo17UICoordinateSpace", "CADisplayLink"]
+- !private ["PSo17UICoordinateSpace", "CGRect"]
+- !private ["PSo17UICoordinateSpace", "RunLoop"]
+- !private ["PSo17UICoordinateSpace", "RunLoopMode"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIScreen"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "convert"]
+- !private ["PSo17UICoordinateSpace", "deinit"]
+- ["PSo17UICoordinateSpace", "displayLink"]
+- ["PSo17UICoordinateSpace", "globalCenter"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "setup"]
+- ["PSo17UICoordinateSpace", "targetImage"]
+- ["PSo17UICoordinateSpace", "update"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CADisplayLink"]
+- !private ["PSo13UIDynamicItem", "CGRect"]
+- !private ["PSo13UIDynamicItem", "RunLoop"]
+- !private ["PSo13UIDynamicItem", "RunLoopMode"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIScreen"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "convert"]
+- ["PSo13UIDynamicItem", "displayLink"]
+- ["PSo13UIDynamicItem", "globalCenter"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "setup"]
+- ["PSo13UIDynamicItem", "targetImage"]
+- ["PSo13UIDynamicItem", "update"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CADisplayLink"]
+- !private ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "RunLoop"]
+- !private ["PSo18UIFocusEnvironment", "RunLoopMode"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIScreen"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "convert"]
+- ["PSo18UIFocusEnvironment", "displayLink"]
+- ["PSo18UIFocusEnvironment", "globalCenter"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "setup"]
+- ["PSo18UIFocusEnvironment", "targetImage"]
+- ["PSo18UIFocusEnvironment", "update"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "CADisplayLink"]
+- !private ["PSo11UIFocusItem", "CGRect"]
+- !private ["PSo11UIFocusItem", "RunLoop"]
+- !private ["PSo11UIFocusItem", "RunLoopMode"]
+- !private ["PSo11UIFocusItem", "UIColor"]
+- !private ["PSo11UIFocusItem", "UIScreen"]
+- !private ["PSo11UIFocusItem", "backgroundColor"]
+- !private ["PSo11UIFocusItem", "center"]
+- !private ["PSo11UIFocusItem", "convert"]
+- ["PSo11UIFocusItem", "displayLink"]
+- ["PSo11UIFocusItem", "globalCenter"]
+- ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "layer"]
+- ["PSo11UIFocusItem", "setup"]
+- ["PSo11UIFocusItem", "targetImage"]
+- ["PSo11UIFocusItem", "update"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo7UIImage", "cgImage"]
+- ["CSo11UIResponder", "CADisplayLink"]
+- ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "RunLoop"]
+- !private ["CSo11UIResponder", "RunLoopMode"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIImage"]
+- !private ["CSo11UIResponder", "UIScreen"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "convert"]
+- ["CSo11UIResponder", "displayLink"]
+- ["CSo11UIResponder", "globalCenter"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "setup"]
+- ["CSo11UIResponder", "targetImage"]
+- ["CSo11UIResponder", "update"]
+- !private ["PSo30UIResponderStandardEditActions", "CADisplayLink"]
+- !private ["PSo30UIResponderStandardEditActions", "CGRect"]
+- !private ["PSo30UIResponderStandardEditActions", "RunLoop"]
+- !private ["PSo30UIResponderStandardEditActions", "RunLoopMode"]
+- !private ["PSo30UIResponderStandardEditActions", "UIColor"]
+- !private ["PSo30UIResponderStandardEditActions", "UIScreen"]
+- !private ["PSo30UIResponderStandardEditActions", "backgroundColor"]
+- !private ["PSo30UIResponderStandardEditActions", "center"]
+- !private ["PSo30UIResponderStandardEditActions", "convert"]
+- ["PSo30UIResponderStandardEditActions", "displayLink"]
+- ["PSo30UIResponderStandardEditActions", "globalCenter"]
+- ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "layer"]
+- ["PSo30UIResponderStandardEditActions", "setup"]
+- ["PSo30UIResponderStandardEditActions", "targetImage"]
+- ["PSo30UIResponderStandardEditActions", "update"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- !private ["CSo8UIScreen", "bounds"]
+- ["CSo8UIScreen", "deinit"]
+- !private ["CSo8UIScreen", "main"]
+- !private ["PSo18UITraitEnvironment", "CADisplayLink"]
+- !private ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "RunLoop"]
+- !private ["PSo18UITraitEnvironment", "RunLoopMode"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIScreen"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "convert"]
+- ["PSo18UITraitEnvironment", "displayLink"]
+- ["PSo18UITraitEnvironment", "globalCenter"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- !private ["PSo18UITraitEnvironment", "main"]
+- ["PSo18UITraitEnvironment", "setup"]
+- ["PSo18UITraitEnvironment", "targetImage"]
+- ["PSo18UITraitEnvironment", "update"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CADisplayLink"]
+- ["CSo6UIView", "CGPoint"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "RunLoop"]
+- !private ["CSo6UIView", "RunLoopMode"]
+- !private ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "UIImage"]
+- !private ["CSo6UIView", "UIScreen"]
+- !private ["CSo6UIView", "backgroundColor"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "convert"]
+- ["CSo6UIView", "deinit"]
+- ["CSo6UIView", "displayLink"]
+- ["CSo6UIView", "globalCenter"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "setup"]
+- ["CSo6UIView", "targetImage"]
+- ["CSo6UIView", "update"]
+- ["CSo6UIView", ""]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CADisplayLink"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "CGRect"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RunLoop"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RunLoopMode"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIScreen"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backgroundColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "center"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "convert"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "displayLink"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "globalCenter"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layer"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setup"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "targetImage"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "update"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps26_ExpressibleByColorLiteral", "darkGray"]
+- !private ["Ps26_ExpressibleByImageLiteral", "cgImage"]
+- !private ["Ps9_Hashable", "CADisplayLink"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "RunLoop"]
+- !private ["Ps9_Hashable", "RunLoopMode"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "UIScreen"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "backgroundColor"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "cgImage"]
+- !private ["Ps9_Hashable", "commonModes"]
+- !private ["Ps9_Hashable", "contents"]
+- !private ["Ps9_Hashable", "contentsRect"]
+- !private ["Ps9_Hashable", "convert"]
+- !private ["Ps9_Hashable", "darkGray"]
+- ["Ps9_Hashable", "displayLink"]
+- ["Ps9_Hashable", "globalCenter"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidate"]
+- !private ["Ps9_Hashable", "layer"]
+- !private ["Ps9_Hashable", "main"]
+- !private ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", "setup"]
+- ["Ps9_Hashable", "targetImage"]
+- ["Ps9_Hashable", "update"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "commonModes"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "rawValue"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps20_SwiftNewtypeWrapper", "commonModes"]
+- !private ["Ps20_SwiftNewtypeWrapper", "init"]
+- !private ["Ps20_SwiftNewtypeWrapper", "rawValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "CSo13CADisplayLink"
+- "CSo7CALayer"
+- "PSo15CALayerDelegate"
+- !private "PSo13CAMediaTiming"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Si"
+- !private "Ps25LosslessStringConvertible"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "Sq"
+- "C7allbeat17ParralaxImageView"
+- !private "Ps16RawRepresentable"
+- "CSo7RunLoop"
+- "VSC11RunLoopMode"
+- "V10ObjectiveC8Selector"
+- "SS"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo7UIImage"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo8UIScreen"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+- !private "Ps20_SwiftNewtypeWrapper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "f2f5e3fcad86eb53f3c7bd81c1b4c1ef"

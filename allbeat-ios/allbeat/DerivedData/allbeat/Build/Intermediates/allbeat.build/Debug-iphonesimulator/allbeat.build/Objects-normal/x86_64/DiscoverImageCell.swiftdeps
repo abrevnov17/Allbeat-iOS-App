@@ -1,0 +1,860 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DiscoverImageCell"
+provides-nominal:
+- "C7allbeat17DiscoverImageCell"
+provides-member:
+- ["C7allbeat17DiscoverImageCell", ""]
+provides-dynamic-lookup:
+- "updateCellView"
+- "imgBackTopConstraint"
+- "lblTitle"
+- "imageParallaxFactor"
+- "imgBackBottomConstraint"
+- "imgBack"
+- "setBackgroundOffset"
+- "awakeFromNib"
+depends-top-level:
+- !private "*"
+- "UITableViewCell"
+- "DiscoverCellModel"
+- "AssignmentPrecedence"
+- "CGFloat"
+- "NSLayoutConstraint"
+- !private "max"
+- "DiscoverImageCell"
+- !private "UIImage"
+- "UIImageView"
+- !private "StringLiteralType"
+- "UILabel"
+- !private "min"
+- !private "BooleanLiteralType"
+- "Int"
+- !private "-="
+- !private "UIFont"
+- !private "-"
+- !private "+"
+depends-member:
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "UIImage"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "clipsToBounds"]
+- !private ["Ps9AnyObject", "constant"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "image"]
+- !private ["Ps9AnyObject", "imageName"]
+- ["Ps9AnyObject", "imageParallaxFactor"]
+- ["Ps9AnyObject", "imgBack"]
+- ["Ps9AnyObject", "imgBackBottomConstraint"]
+- ["Ps9AnyObject", "imgBackBottomInitial"]
+- ["Ps9AnyObject", "imgBackTopConstraint"]
+- ["Ps9AnyObject", "imgBackTopInitial"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "lastClicked"]
+- ["Ps9AnyObject", "lblTitle"]
+- !private ["Ps9AnyObject", "max"]
+- !private ["Ps9AnyObject", "min"]
+- ["Ps9AnyObject", "model"]
+- ["Ps9AnyObject", "setBackgroundOffset"]
+- !private ["Ps9AnyObject", "text"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", "updateCellView"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "UIFont"]
+- !private ["PSo15CALayerDelegate", "UIImage"]
+- ["PSo15CALayerDelegate", "awakeFromNib"]
+- !private ["PSo15CALayerDelegate", "clipsToBounds"]
+- !private ["PSo15CALayerDelegate", "font"]
+- !private ["PSo15CALayerDelegate", "image"]
+- ["PSo15CALayerDelegate", "imageParallaxFactor"]
+- ["PSo15CALayerDelegate", "imgBack"]
+- ["PSo15CALayerDelegate", "imgBackBottomConstraint"]
+- ["PSo15CALayerDelegate", "imgBackBottomInitial"]
+- ["PSo15CALayerDelegate", "imgBackTopConstraint"]
+- ["PSo15CALayerDelegate", "imgBackTopInitial"]
+- !private ["PSo15CALayerDelegate", "init"]
+- ["PSo15CALayerDelegate", "lastClicked"]
+- ["PSo15CALayerDelegate", "lblTitle"]
+- !private ["PSo15CALayerDelegate", "max"]
+- !private ["PSo15CALayerDelegate", "min"]
+- ["PSo15CALayerDelegate", "model"]
+- ["PSo15CALayerDelegate", "setBackgroundOffset"]
+- !private ["PSo15CALayerDelegate", "text"]
+- ["PSo15CALayerDelegate", "updateCellView"]
+- ["PSo15CALayerDelegate", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps7CVarArg", "UIFont"]
+- !private ["Ps7CVarArg", "UIImage"]
+- ["Ps7CVarArg", "awakeFromNib"]
+- !private ["Ps7CVarArg", "clipsToBounds"]
+- !private ["Ps7CVarArg", "constant"]
+- !private ["Ps7CVarArg", "font"]
+- !private ["Ps7CVarArg", "image"]
+- ["Ps7CVarArg", "imageParallaxFactor"]
+- ["Ps7CVarArg", "imgBack"]
+- ["Ps7CVarArg", "imgBackBottomConstraint"]
+- ["Ps7CVarArg", "imgBackBottomInitial"]
+- ["Ps7CVarArg", "imgBackTopConstraint"]
+- ["Ps7CVarArg", "imgBackTopInitial"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "lastClicked"]
+- ["Ps7CVarArg", "lblTitle"]
+- !private ["Ps7CVarArg", "max"]
+- !private ["Ps7CVarArg", "min"]
+- ["Ps7CVarArg", "model"]
+- ["Ps7CVarArg", "setBackgroundOffset"]
+- !private ["Ps7CVarArg", "text"]
+- ["Ps7CVarArg", "updateCellView"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "UIFont"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "clipsToBounds"]
+- !private ["Ps28CustomDebugStringConvertible", "constant"]
+- !private ["Ps28CustomDebugStringConvertible", "font"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "imageParallaxFactor"]
+- ["Ps28CustomDebugStringConvertible", "imgBack"]
+- ["Ps28CustomDebugStringConvertible", "imgBackBottomConstraint"]
+- ["Ps28CustomDebugStringConvertible", "imgBackBottomInitial"]
+- ["Ps28CustomDebugStringConvertible", "imgBackTopConstraint"]
+- ["Ps28CustomDebugStringConvertible", "imgBackTopInitial"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "lastClicked"]
+- ["Ps28CustomDebugStringConvertible", "lblTitle"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- !private ["Ps28CustomDebugStringConvertible", "min"]
+- ["Ps28CustomDebugStringConvertible", "model"]
+- ["Ps28CustomDebugStringConvertible", "setBackgroundOffset"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "updateCellView"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "UIFont"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "clipsToBounds"]
+- !private ["Ps23CustomStringConvertible", "constant"]
+- !private ["Ps23CustomStringConvertible", "font"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "imageParallaxFactor"]
+- ["Ps23CustomStringConvertible", "imgBack"]
+- ["Ps23CustomStringConvertible", "imgBackBottomConstraint"]
+- ["Ps23CustomStringConvertible", "imgBackBottomInitial"]
+- ["Ps23CustomStringConvertible", "imgBackTopConstraint"]
+- ["Ps23CustomStringConvertible", "imgBackTopInitial"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "lastClicked"]
+- ["Ps23CustomStringConvertible", "lblTitle"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "min"]
+- ["Ps23CustomStringConvertible", "model"]
+- ["Ps23CustomStringConvertible", "setBackgroundOffset"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "updateCellView"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["VSC7Decimal", "deinit"]
+- !private ["C7allbeat17DiscoverCellModel", "imageName"]
+- !private ["C7allbeat17DiscoverCellModel", "title"]
+- ["C7allbeat17DiscoverImageCell", "CGFloat"]
+- ["C7allbeat17DiscoverImageCell", "DiscoverCellModel"]
+- ["C7allbeat17DiscoverImageCell", "Int"]
+- ["C7allbeat17DiscoverImageCell", "NSLayoutConstraint"]
+- !private ["C7allbeat17DiscoverImageCell", "UIFont"]
+- !private ["C7allbeat17DiscoverImageCell", "UIImage"]
+- ["C7allbeat17DiscoverImageCell", "UIImageView"]
+- ["C7allbeat17DiscoverImageCell", "UILabel"]
+- ["C7allbeat17DiscoverImageCell", "awakeFromNib"]
+- !private ["C7allbeat17DiscoverImageCell", "clipsToBounds"]
+- ["C7allbeat17DiscoverImageCell", "deinit"]
+- ["C7allbeat17DiscoverImageCell", "imageParallaxFactor"]
+- ["C7allbeat17DiscoverImageCell", "imgBack"]
+- ["C7allbeat17DiscoverImageCell", "imgBackBottomConstraint"]
+- ["C7allbeat17DiscoverImageCell", "imgBackBottomInitial"]
+- ["C7allbeat17DiscoverImageCell", "imgBackTopConstraint"]
+- ["C7allbeat17DiscoverImageCell", "imgBackTopInitial"]
+- ["C7allbeat17DiscoverImageCell", "init"]
+- ["C7allbeat17DiscoverImageCell", "lastClicked"]
+- ["C7allbeat17DiscoverImageCell", "lblTitle"]
+- !private ["C7allbeat17DiscoverImageCell", "max"]
+- !private ["C7allbeat17DiscoverImageCell", "min"]
+- ["C7allbeat17DiscoverImageCell", "model"]
+- ["C7allbeat17DiscoverImageCell", "setBackgroundOffset"]
+- ["C7allbeat17DiscoverImageCell", "updateCellView"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "UIFont"]
+- !private ["Ps9Equatable", "UIImage"]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "clipsToBounds"]
+- !private ["Ps9Equatable", "constant"]
+- !private ["Ps9Equatable", "font"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "imageParallaxFactor"]
+- ["Ps9Equatable", "imgBack"]
+- ["Ps9Equatable", "imgBackBottomConstraint"]
+- ["Ps9Equatable", "imgBackBottomInitial"]
+- ["Ps9Equatable", "imgBackTopConstraint"]
+- ["Ps9Equatable", "imgBackTopInitial"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "lastClicked"]
+- ["Ps9Equatable", "lblTitle"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "min"]
+- ["Ps9Equatable", "model"]
+- ["Ps9Equatable", "setBackgroundOffset"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "updateCellView"]
+- ["Ps9Equatable", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Vs7Float80", "deinit"]
+- !private ["Ps8Hashable", "UIFont"]
+- !private ["Ps8Hashable", "UIImage"]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "clipsToBounds"]
+- !private ["Ps8Hashable", "constant"]
+- !private ["Ps8Hashable", "font"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "imageParallaxFactor"]
+- ["Ps8Hashable", "imgBack"]
+- ["Ps8Hashable", "imgBackBottomConstraint"]
+- ["Ps8Hashable", "imgBackBottomInitial"]
+- ["Ps8Hashable", "imgBackTopConstraint"]
+- ["Ps8Hashable", "imgBackTopInitial"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "lastClicked"]
+- ["Ps8Hashable", "lblTitle"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "min"]
+- ["Ps8Hashable", "model"]
+- ["Ps8Hashable", "setBackgroundOffset"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "updateCellView"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- ["CSo7NSCoder", "deinit"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "UIImage"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "clipsToBounds"]
+- !private ["PSo8NSCoding", "font"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "imageParallaxFactor"]
+- ["PSo8NSCoding", "imgBack"]
+- ["PSo8NSCoding", "imgBackBottomConstraint"]
+- ["PSo8NSCoding", "imgBackBottomInitial"]
+- ["PSo8NSCoding", "imgBackTopConstraint"]
+- ["PSo8NSCoding", "imgBackTopInitial"]
+- !private ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "lastClicked"]
+- ["PSo8NSCoding", "lblTitle"]
+- !private ["PSo8NSCoding", "max"]
+- !private ["PSo8NSCoding", "min"]
+- ["PSo8NSCoding", "model"]
+- ["PSo8NSCoding", "setBackgroundOffset"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "updateCellView"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo18NSLayoutConstraint", "constant"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "DiscoverCellModel"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSLayoutConstraint"]
+- !private ["CSo8NSObject", "UIFont"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "clipsToBounds"]
+- !private ["CSo8NSObject", "constant"]
+- !private ["CSo8NSObject", "font"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "imageParallaxFactor"]
+- ["CSo8NSObject", "imgBack"]
+- ["CSo8NSObject", "imgBackBottomConstraint"]
+- ["CSo8NSObject", "imgBackBottomInitial"]
+- ["CSo8NSObject", "imgBackTopConstraint"]
+- ["CSo8NSObject", "imgBackTopInitial"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "lastClicked"]
+- ["CSo8NSObject", "lblTitle"]
+- !private ["CSo8NSObject", "max"]
+- !private ["CSo8NSObject", "min"]
+- ["CSo8NSObject", "model"]
+- ["CSo8NSObject", "setBackgroundOffset"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "updateCellView"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "clipsToBounds"]
+- !private ["PSo16NSObjectProtocol", "constant"]
+- !private ["PSo16NSObjectProtocol", "font"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "imageParallaxFactor"]
+- ["PSo16NSObjectProtocol", "imgBack"]
+- ["PSo16NSObjectProtocol", "imgBackBottomConstraint"]
+- ["PSo16NSObjectProtocol", "imgBackBottomInitial"]
+- ["PSo16NSObjectProtocol", "imgBackTopConstraint"]
+- ["PSo16NSObjectProtocol", "imgBackTopInitial"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "lastClicked"]
+- ["PSo16NSObjectProtocol", "lblTitle"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- !private ["PSo16NSObjectProtocol", "min"]
+- ["PSo16NSObjectProtocol", "model"]
+- ["PSo16NSObjectProtocol", "setBackgroundOffset"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "updateCellView"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "UIFont"]
+- !private ["PSo29UIAccessibilityIdentification", "UIImage"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- !private ["PSo29UIAccessibilityIdentification", "clipsToBounds"]
+- !private ["PSo29UIAccessibilityIdentification", "font"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- ["PSo29UIAccessibilityIdentification", "imageParallaxFactor"]
+- ["PSo29UIAccessibilityIdentification", "imgBack"]
+- ["PSo29UIAccessibilityIdentification", "imgBackBottomConstraint"]
+- ["PSo29UIAccessibilityIdentification", "imgBackBottomInitial"]
+- ["PSo29UIAccessibilityIdentification", "imgBackTopConstraint"]
+- ["PSo29UIAccessibilityIdentification", "imgBackTopInitial"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "lastClicked"]
+- ["PSo29UIAccessibilityIdentification", "lblTitle"]
+- !private ["PSo29UIAccessibilityIdentification", "max"]
+- !private ["PSo29UIAccessibilityIdentification", "min"]
+- ["PSo29UIAccessibilityIdentification", "model"]
+- ["PSo29UIAccessibilityIdentification", "setBackgroundOffset"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- ["PSo29UIAccessibilityIdentification", "updateCellView"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "UIFont"]
+- !private ["PSo12UIAppearance", "UIImage"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- !private ["PSo12UIAppearance", "clipsToBounds"]
+- !private ["PSo12UIAppearance", "font"]
+- !private ["PSo12UIAppearance", "image"]
+- ["PSo12UIAppearance", "imageParallaxFactor"]
+- ["PSo12UIAppearance", "imgBack"]
+- ["PSo12UIAppearance", "imgBackBottomConstraint"]
+- ["PSo12UIAppearance", "imgBackBottomInitial"]
+- ["PSo12UIAppearance", "imgBackTopConstraint"]
+- ["PSo12UIAppearance", "imgBackTopInitial"]
+- !private ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "lastClicked"]
+- ["PSo12UIAppearance", "lblTitle"]
+- !private ["PSo12UIAppearance", "max"]
+- !private ["PSo12UIAppearance", "min"]
+- ["PSo12UIAppearance", "model"]
+- ["PSo12UIAppearance", "setBackgroundOffset"]
+- !private ["PSo12UIAppearance", "text"]
+- ["PSo12UIAppearance", "updateCellView"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- !private ["PSo21UIAppearanceContainer", "clipsToBounds"]
+- !private ["PSo21UIAppearanceContainer", "font"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "imageParallaxFactor"]
+- ["PSo21UIAppearanceContainer", "imgBack"]
+- ["PSo21UIAppearanceContainer", "imgBackBottomConstraint"]
+- ["PSo21UIAppearanceContainer", "imgBackBottomInitial"]
+- ["PSo21UIAppearanceContainer", "imgBackTopConstraint"]
+- ["PSo21UIAppearanceContainer", "imgBackTopInitial"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "lastClicked"]
+- ["PSo21UIAppearanceContainer", "lblTitle"]
+- !private ["PSo21UIAppearanceContainer", "max"]
+- !private ["PSo21UIAppearanceContainer", "min"]
+- ["PSo21UIAppearanceContainer", "model"]
+- ["PSo21UIAppearanceContainer", "setBackgroundOffset"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "updateCellView"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "font"]
+- !private ["PSo30UIContentSizeCategoryAdjusting", "text"]
+- !private ["PSo17UICoordinateSpace", "UIFont"]
+- !private ["PSo17UICoordinateSpace", "UIImage"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- !private ["PSo17UICoordinateSpace", "clipsToBounds"]
+- !private ["PSo17UICoordinateSpace", "font"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- ["PSo17UICoordinateSpace", "imageParallaxFactor"]
+- ["PSo17UICoordinateSpace", "imgBack"]
+- ["PSo17UICoordinateSpace", "imgBackBottomConstraint"]
+- ["PSo17UICoordinateSpace", "imgBackBottomInitial"]
+- ["PSo17UICoordinateSpace", "imgBackTopConstraint"]
+- ["PSo17UICoordinateSpace", "imgBackTopInitial"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "lastClicked"]
+- ["PSo17UICoordinateSpace", "lblTitle"]
+- !private ["PSo17UICoordinateSpace", "max"]
+- !private ["PSo17UICoordinateSpace", "min"]
+- ["PSo17UICoordinateSpace", "model"]
+- ["PSo17UICoordinateSpace", "setBackgroundOffset"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- ["PSo17UICoordinateSpace", "updateCellView"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "UIFont"]
+- !private ["PSo13UIDynamicItem", "UIImage"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- !private ["PSo13UIDynamicItem", "clipsToBounds"]
+- !private ["PSo13UIDynamicItem", "font"]
+- !private ["PSo13UIDynamicItem", "image"]
+- ["PSo13UIDynamicItem", "imageParallaxFactor"]
+- ["PSo13UIDynamicItem", "imgBack"]
+- ["PSo13UIDynamicItem", "imgBackBottomConstraint"]
+- ["PSo13UIDynamicItem", "imgBackBottomInitial"]
+- ["PSo13UIDynamicItem", "imgBackTopConstraint"]
+- ["PSo13UIDynamicItem", "imgBackTopInitial"]
+- !private ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "lastClicked"]
+- ["PSo13UIDynamicItem", "lblTitle"]
+- !private ["PSo13UIDynamicItem", "max"]
+- !private ["PSo13UIDynamicItem", "min"]
+- ["PSo13UIDynamicItem", "model"]
+- ["PSo13UIDynamicItem", "setBackgroundOffset"]
+- !private ["PSo13UIDynamicItem", "text"]
+- ["PSo13UIDynamicItem", "updateCellView"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- !private ["PSo18UIFocusEnvironment", "clipsToBounds"]
+- !private ["PSo18UIFocusEnvironment", "font"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "imageParallaxFactor"]
+- ["PSo18UIFocusEnvironment", "imgBack"]
+- ["PSo18UIFocusEnvironment", "imgBackBottomConstraint"]
+- ["PSo18UIFocusEnvironment", "imgBackBottomInitial"]
+- ["PSo18UIFocusEnvironment", "imgBackTopConstraint"]
+- ["PSo18UIFocusEnvironment", "imgBackTopInitial"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "lastClicked"]
+- ["PSo18UIFocusEnvironment", "lblTitle"]
+- !private ["PSo18UIFocusEnvironment", "max"]
+- !private ["PSo18UIFocusEnvironment", "min"]
+- ["PSo18UIFocusEnvironment", "model"]
+- ["PSo18UIFocusEnvironment", "setBackgroundOffset"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "updateCellView"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo11UIFocusItem", "UIFont"]
+- !private ["PSo11UIFocusItem", "UIImage"]
+- ["PSo11UIFocusItem", "awakeFromNib"]
+- !private ["PSo11UIFocusItem", "clipsToBounds"]
+- !private ["PSo11UIFocusItem", "font"]
+- !private ["PSo11UIFocusItem", "image"]
+- ["PSo11UIFocusItem", "imageParallaxFactor"]
+- ["PSo11UIFocusItem", "imgBack"]
+- ["PSo11UIFocusItem", "imgBackBottomConstraint"]
+- ["PSo11UIFocusItem", "imgBackBottomInitial"]
+- ["PSo11UIFocusItem", "imgBackTopConstraint"]
+- ["PSo11UIFocusItem", "imgBackTopInitial"]
+- !private ["PSo11UIFocusItem", "init"]
+- ["PSo11UIFocusItem", "lastClicked"]
+- ["PSo11UIFocusItem", "lblTitle"]
+- !private ["PSo11UIFocusItem", "max"]
+- !private ["PSo11UIFocusItem", "min"]
+- ["PSo11UIFocusItem", "model"]
+- ["PSo11UIFocusItem", "setBackgroundOffset"]
+- !private ["PSo11UIFocusItem", "text"]
+- ["PSo11UIFocusItem", "updateCellView"]
+- ["PSo11UIFocusItem", ""]
+- !private ["CSo6UIFont", "init"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIFont"]
+- !private ["PSo27UIGestureRecognizerDelegate", "UIImage"]
+- ["PSo27UIGestureRecognizerDelegate", "awakeFromNib"]
+- !private ["PSo27UIGestureRecognizerDelegate", "clipsToBounds"]
+- ["PSo27UIGestureRecognizerDelegate", "imageParallaxFactor"]
+- ["PSo27UIGestureRecognizerDelegate", "imgBack"]
+- ["PSo27UIGestureRecognizerDelegate", "imgBackBottomConstraint"]
+- ["PSo27UIGestureRecognizerDelegate", "imgBackBottomInitial"]
+- ["PSo27UIGestureRecognizerDelegate", "imgBackTopConstraint"]
+- ["PSo27UIGestureRecognizerDelegate", "imgBackTopInitial"]
+- !private ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "lastClicked"]
+- ["PSo27UIGestureRecognizerDelegate", "lblTitle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "max"]
+- !private ["PSo27UIGestureRecognizerDelegate", "min"]
+- ["PSo27UIGestureRecognizerDelegate", "model"]
+- ["PSo27UIGestureRecognizerDelegate", "setBackgroundOffset"]
+- ["PSo27UIGestureRecognizerDelegate", "updateCellView"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo7UILabel", "font"]
+- !private ["CSo7UILabel", "text"]
+- ["CSo11UIResponder", "CGFloat"]
+- ["CSo11UIResponder", "DiscoverCellModel"]
+- ["CSo11UIResponder", "Int"]
+- ["CSo11UIResponder", "NSLayoutConstraint"]
+- !private ["CSo11UIResponder", "UIFont"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- !private ["CSo11UIResponder", "clipsToBounds"]
+- !private ["CSo11UIResponder", "font"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "imageParallaxFactor"]
+- ["CSo11UIResponder", "imgBack"]
+- ["CSo11UIResponder", "imgBackBottomConstraint"]
+- ["CSo11UIResponder", "imgBackBottomInitial"]
+- ["CSo11UIResponder", "imgBackTopConstraint"]
+- ["CSo11UIResponder", "imgBackTopInitial"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "lastClicked"]
+- ["CSo11UIResponder", "lblTitle"]
+- !private ["CSo11UIResponder", "max"]
+- !private ["CSo11UIResponder", "min"]
+- ["CSo11UIResponder", "model"]
+- ["CSo11UIResponder", "setBackgroundOffset"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "updateCellView"]
+- !private ["PSo30UIResponderStandardEditActions", "UIFont"]
+- !private ["PSo30UIResponderStandardEditActions", "UIImage"]
+- ["PSo30UIResponderStandardEditActions", "awakeFromNib"]
+- !private ["PSo30UIResponderStandardEditActions", "clipsToBounds"]
+- !private ["PSo30UIResponderStandardEditActions", "font"]
+- !private ["PSo30UIResponderStandardEditActions", "image"]
+- ["PSo30UIResponderStandardEditActions", "imageParallaxFactor"]
+- ["PSo30UIResponderStandardEditActions", "imgBack"]
+- ["PSo30UIResponderStandardEditActions", "imgBackBottomConstraint"]
+- ["PSo30UIResponderStandardEditActions", "imgBackBottomInitial"]
+- ["PSo30UIResponderStandardEditActions", "imgBackTopConstraint"]
+- ["PSo30UIResponderStandardEditActions", "imgBackTopInitial"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- ["PSo30UIResponderStandardEditActions", "lastClicked"]
+- ["PSo30UIResponderStandardEditActions", "lblTitle"]
+- !private ["PSo30UIResponderStandardEditActions", "max"]
+- !private ["PSo30UIResponderStandardEditActions", "min"]
+- ["PSo30UIResponderStandardEditActions", "model"]
+- ["PSo30UIResponderStandardEditActions", "setBackgroundOffset"]
+- !private ["PSo30UIResponderStandardEditActions", "text"]
+- ["PSo30UIResponderStandardEditActions", "updateCellView"]
+- ["PSo30UIResponderStandardEditActions", ""]
+- ["CSo15UITableViewCell", "CGFloat"]
+- ["CSo15UITableViewCell", "DiscoverCellModel"]
+- ["CSo15UITableViewCell", "Int"]
+- ["CSo15UITableViewCell", "NSLayoutConstraint"]
+- !private ["CSo15UITableViewCell", "UIFont"]
+- !private ["CSo15UITableViewCell", "UIImage"]
+- ["CSo15UITableViewCell", "UIImageView"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "awakeFromNib"]
+- !private ["CSo15UITableViewCell", "clipsToBounds"]
+- ["CSo15UITableViewCell", "deinit"]
+- ["CSo15UITableViewCell", "imageParallaxFactor"]
+- ["CSo15UITableViewCell", "imgBack"]
+- ["CSo15UITableViewCell", "imgBackBottomConstraint"]
+- ["CSo15UITableViewCell", "imgBackBottomInitial"]
+- ["CSo15UITableViewCell", "imgBackTopConstraint"]
+- ["CSo15UITableViewCell", "imgBackTopInitial"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "lastClicked"]
+- ["CSo15UITableViewCell", "lblTitle"]
+- !private ["CSo15UITableViewCell", "max"]
+- !private ["CSo15UITableViewCell", "min"]
+- ["CSo15UITableViewCell", "model"]
+- ["CSo15UITableViewCell", "setBackgroundOffset"]
+- ["CSo15UITableViewCell", "updateCellView"]
+- ["CSo15UITableViewCell", ""]
+- ["OSC20UITableViewCellStyle", "deinit"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- !private ["PSo18UITraitEnvironment", "clipsToBounds"]
+- !private ["PSo18UITraitEnvironment", "font"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "imageParallaxFactor"]
+- ["PSo18UITraitEnvironment", "imgBack"]
+- ["PSo18UITraitEnvironment", "imgBackBottomConstraint"]
+- ["PSo18UITraitEnvironment", "imgBackBottomInitial"]
+- ["PSo18UITraitEnvironment", "imgBackTopConstraint"]
+- ["PSo18UITraitEnvironment", "imgBackTopInitial"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "lastClicked"]
+- ["PSo18UITraitEnvironment", "lblTitle"]
+- !private ["PSo18UITraitEnvironment", "max"]
+- !private ["PSo18UITraitEnvironment", "min"]
+- ["PSo18UITraitEnvironment", "model"]
+- ["PSo18UITraitEnvironment", "setBackgroundOffset"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "updateCellView"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- ["CSo6UIView", "DiscoverCellModel"]
+- ["CSo6UIView", "Int"]
+- ["CSo6UIView", "NSLayoutConstraint"]
+- !private ["CSo6UIView", "UIFont"]
+- !private ["CSo6UIView", "UIImage"]
+- ["CSo6UIView", "UIImageView"]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "awakeFromNib"]
+- !private ["CSo6UIView", "clipsToBounds"]
+- !private ["CSo6UIView", "font"]
+- !private ["CSo6UIView", "image"]
+- ["CSo6UIView", "imageParallaxFactor"]
+- ["CSo6UIView", "imgBack"]
+- ["CSo6UIView", "imgBackBottomConstraint"]
+- ["CSo6UIView", "imgBackBottomInitial"]
+- ["CSo6UIView", "imgBackTopConstraint"]
+- ["CSo6UIView", "imgBackTopInitial"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "lastClicked"]
+- ["CSo6UIView", "lblTitle"]
+- !private ["CSo6UIView", "max"]
+- !private ["CSo6UIView", "min"]
+- ["CSo6UIView", "model"]
+- ["CSo6UIView", "setBackgroundOffset"]
+- !private ["CSo6UIView", "text"]
+- ["CSo6UIView", "updateCellView"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIFont"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "UIImage"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "awakeFromNib"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "clipsToBounds"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "font"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "image"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imageParallaxFactor"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgBack"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgBackBottomConstraint"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgBackBottomInitial"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgBackTopConstraint"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "imgBackTopInitial"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "init"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "lastClicked"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "lblTitle"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "max"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "min"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "model"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "setBackgroundOffset"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "text"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "updateCellView"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", ""]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByImageLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "UIFont"]
+- !private ["Ps9_Hashable", "UIImage"]
+- ["Ps9_Hashable", "awakeFromNib"]
+- !private ["Ps9_Hashable", "clipsToBounds"]
+- !private ["Ps9_Hashable", "constant"]
+- !private ["Ps9_Hashable", "font"]
+- !private ["Ps9_Hashable", "image"]
+- ["Ps9_Hashable", "imageParallaxFactor"]
+- ["Ps9_Hashable", "imgBack"]
+- ["Ps9_Hashable", "imgBackBottomConstraint"]
+- ["Ps9_Hashable", "imgBackBottomInitial"]
+- ["Ps9_Hashable", "imgBackTopConstraint"]
+- ["Ps9_Hashable", "imgBackTopInitial"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "lastClicked"]
+- ["Ps9_Hashable", "lblTitle"]
+- !private ["Ps9_Hashable", "max"]
+- !private ["Ps9_Hashable", "min"]
+- ["Ps9_Hashable", "model"]
+- ["Ps9_Hashable", "setBackgroundOffset"]
+- !private ["Ps9_Hashable", "text"]
+- ["Ps9_Hashable", "updateCellView"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "PSo15CALayerDelegate"
+- "V12CoreGraphics7CGFloat"
+- "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "VSC7Decimal"
+- !private "C7allbeat17DiscoverCellModel"
+- "C7allbeat17DiscoverImageCell"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Vs7Float80"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- "CSo7NSCoder"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo18NSLayoutConstraint"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "PSo30UIContentSizeCategoryAdjusting"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- !private "CSo6UIFont"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo15UITableViewCell"
+- "OSC20UITableViewCellStyle"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "ab94982ae6030ccaf2d854566586d46a"

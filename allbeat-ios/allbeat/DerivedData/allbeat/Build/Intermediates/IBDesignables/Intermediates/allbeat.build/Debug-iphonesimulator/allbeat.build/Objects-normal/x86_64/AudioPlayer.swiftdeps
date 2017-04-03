@@ -1,0 +1,676 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AudioPlayer"
+provides-nominal:
+- "C7allbeat11AudioPlayer"
+provides-member:
+- ["C7allbeat11AudioPlayer", ""]
+provides-dynamic-lookup:
+- "stop"
+- "audioPlayerDidFinishPlaying"
+- "audioPlayer"
+- "sharedInstance"
+- "playing"
+- "next"
+- "playAtIndex"
+depends-top-level:
+- !private "??"
+- "Int"
+- "NSObject"
+- "AVAudioPlayer"
+- !private "*"
+- !private "/"
+- !private "AVAudioSessionCategoryPlayback"
+- !private "print"
+- "AssignmentPrecedence"
+- !private "CastingPrecedence"
+- "AudioPlayer"
+- "AudioPlayerDelegate"
+- "Bool"
+- !private "AudioDataSourceCallbackAction"
+- !private "AVAudioSession"
+- "AVAudioPlayerDelegate"
+- "AudioPlayerDataSource"
+- !private "Data"
+- !private "String"
+- "Delegates"
+- "TimeInterval"
+- !private "StringLiteralType"
+- !private "+"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["CSo13AVAudioPlayer", "currentTime"]
+- ["CSo13AVAudioPlayer", "deinit"]
+- !private ["CSo13AVAudioPlayer", "delegate"]
+- !private ["CSo13AVAudioPlayer", "duration"]
+- !private ["CSo13AVAudioPlayer", "init"]
+- !private ["CSo13AVAudioPlayer", "isPlaying"]
+- !private ["CSo13AVAudioPlayer", "pause"]
+- !private ["CSo13AVAudioPlayer", "play"]
+- !private ["CSo13AVAudioPlayer", "stop"]
+- !private ["PSo21AVAudioPlayerDelegate", "AVAudioPlayer"]
+- !private ["PSo21AVAudioPlayerDelegate", "AVAudioSession"]
+- !private ["PSo21AVAudioPlayerDelegate", "AVAudioSessionCategoryPlayback"]
+- ["PSo21AVAudioPlayerDelegate", "AudioPlayer"]
+- ["PSo21AVAudioPlayerDelegate", "Delegates"]
+- !private ["PSo21AVAudioPlayerDelegate", "audioPlayer"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerBeginInterruption"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerDecodeErrorDidOccur"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerDidFinishPlaying"]
+- ["PSo21AVAudioPlayerDelegate", "audioPlayerEndInterruption"]
+- !private ["PSo21AVAudioPlayerDelegate", "createAudioPlayer"]
+- !private ["PSo21AVAudioPlayerDelegate", "dataSource"]
+- !private ["PSo21AVAudioPlayerDelegate", "delegates"]
+- ["PSo21AVAudioPlayerDelegate", "init"]
+- !private ["PSo21AVAudioPlayerDelegate", "next"]
+- !private ["PSo21AVAudioPlayerDelegate", "nextAudioPiece"]
+- !private ["PSo21AVAudioPlayerDelegate", "playAtIndex"]
+- !private ["PSo21AVAudioPlayerDelegate", "playing"]
+- !private ["PSo21AVAudioPlayerDelegate", "playingIndex"]
+- !private ["PSo21AVAudioPlayerDelegate", "print"]
+- !private ["PSo21AVAudioPlayerDelegate", "stop"]
+- ["PSo21AVAudioPlayerDelegate", ""]
+- !private ["CSo14AVAudioSession", "deinit"]
+- !private ["CSo14AVAudioSession", "setActive"]
+- !private ["CSo14AVAudioSession", "setCategory"]
+- !private ["CSo14AVAudioSession", "sharedInstance"]
+- !private ["Ps9AnyObject", "AVAudioPlayer"]
+- !private ["Ps9AnyObject", "AVAudioSession"]
+- !private ["Ps9AnyObject", "AVAudioSessionCategoryPlayback"]
+- ["Ps9AnyObject", "AudioPlayer"]
+- ["Ps9AnyObject", "Delegates"]
+- ["Ps9AnyObject", "audioPlayer"]
+- ["Ps9AnyObject", "audioPlayerBeginInterruption"]
+- ["Ps9AnyObject", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps9AnyObject", "audioPlayerDidFinishPlaying"]
+- ["Ps9AnyObject", "audioPlayerEndInterruption"]
+- ["Ps9AnyObject", "createAudioPlayer"]
+- ["Ps9AnyObject", "currentTime"]
+- ["Ps9AnyObject", "dataSource"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "delegates"]
+- !private ["Ps9AnyObject", "duration"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isPlaying"]
+- ["Ps9AnyObject", "next"]
+- ["Ps9AnyObject", "nextAudioPiece"]
+- !private ["Ps9AnyObject", "pause"]
+- ["Ps9AnyObject", "percentComplete"]
+- !private ["Ps9AnyObject", "play"]
+- ["Ps9AnyObject", "playAtIndex"]
+- ["Ps9AnyObject", "playing"]
+- ["Ps9AnyObject", "playingIndex"]
+- !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "setActive"]
+- !private ["Ps9AnyObject", "setCategory"]
+- ["Ps9AnyObject", "sharedInstance"]
+- ["Ps9AnyObject", "stop"]
+- ["Ps9AnyObject", "trackDuration"]
+- !private ["Ps9AnyObject", "trigger"]
+- ["Ps9AnyObject", ""]
+- !private ["O7allbeat29AudioDataSourceCallbackAction", "deinit"]
+- !private ["O7allbeat29AudioDataSourceCallbackAction", "finished"]
+- !private ["O7allbeat29AudioDataSourceCallbackAction", "next"]
+- ["C7allbeat11AudioPlayer", "AVAudioPlayer"]
+- !private ["C7allbeat11AudioPlayer", "AVAudioSession"]
+- !private ["C7allbeat11AudioPlayer", "AVAudioSessionCategoryPlayback"]
+- !private ["C7allbeat11AudioPlayer", "AudioDataSourceCallbackAction"]
+- ["C7allbeat11AudioPlayer", "AudioPlayer"]
+- ["C7allbeat11AudioPlayer", "AudioPlayerDataSource"]
+- ["C7allbeat11AudioPlayer", "AudioPlayerDelegate"]
+- ["C7allbeat11AudioPlayer", "Bool"]
+- !private ["C7allbeat11AudioPlayer", "Data"]
+- ["C7allbeat11AudioPlayer", "Delegates"]
+- ["C7allbeat11AudioPlayer", "Int"]
+- !private ["C7allbeat11AudioPlayer", "String"]
+- ["C7allbeat11AudioPlayer", "TimeInterval"]
+- ["C7allbeat11AudioPlayer", "audioPlayer"]
+- ["C7allbeat11AudioPlayer", "audioPlayerBeginInterruption"]
+- ["C7allbeat11AudioPlayer", "audioPlayerDecodeErrorDidOccur"]
+- ["C7allbeat11AudioPlayer", "audioPlayerDidFinishPlaying"]
+- ["C7allbeat11AudioPlayer", "audioPlayerEndInterruption"]
+- !private ["C7allbeat11AudioPlayer", "createAudioPlayer"]
+- ["C7allbeat11AudioPlayer", "currentTime"]
+- ["C7allbeat11AudioPlayer", "dataSource"]
+- ["C7allbeat11AudioPlayer", "deinit"]
+- ["C7allbeat11AudioPlayer", "delegates"]
+- ["C7allbeat11AudioPlayer", "init"]
+- ["C7allbeat11AudioPlayer", "next"]
+- !private ["C7allbeat11AudioPlayer", "nextAudioPiece"]
+- ["C7allbeat11AudioPlayer", "percentComplete"]
+- ["C7allbeat11AudioPlayer", "playAtIndex"]
+- ["C7allbeat11AudioPlayer", "playing"]
+- ["C7allbeat11AudioPlayer", "playingIndex"]
+- !private ["C7allbeat11AudioPlayer", "print"]
+- ["C7allbeat11AudioPlayer", "sharedInstance"]
+- ["C7allbeat11AudioPlayer", "stop"]
+- ["C7allbeat11AudioPlayer", "trackDuration"]
+- !private ["P7allbeat21AudioPlayerDataSource", "nextAudioPiece"]
+- !private ["P7allbeat19AudioPlayerDelegate", "beganAudio"]
+- ["P7allbeat19AudioPlayerDelegate", "deinit"]
+- !private ["P7allbeat19AudioPlayerDelegate", "finishedAudio"]
+- !private ["P7allbeat19AudioPlayerDelegate", "paused"]
+- !private ["P7allbeat19AudioPlayerDelegate", "played"]
+- !private ["P7allbeat19AudioPlayerDelegate", "stopped"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "AVAudioPlayer"]
+- !private ["Ps7CVarArg", "AVAudioSession"]
+- !private ["Ps7CVarArg", "AVAudioSessionCategoryPlayback"]
+- ["Ps7CVarArg", "AudioPlayer"]
+- ["Ps7CVarArg", "Delegates"]
+- !private ["Ps7CVarArg", "Stride"]
+- ["Ps7CVarArg", "audioPlayer"]
+- ["Ps7CVarArg", "audioPlayerBeginInterruption"]
+- ["Ps7CVarArg", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps7CVarArg", "audioPlayerDidFinishPlaying"]
+- ["Ps7CVarArg", "audioPlayerEndInterruption"]
+- ["Ps7CVarArg", "createAudioPlayer"]
+- ["Ps7CVarArg", "currentTime"]
+- ["Ps7CVarArg", "dataSource"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "delegates"]
+- !private ["Ps7CVarArg", "duration"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isPlaying"]
+- ["Ps7CVarArg", "next"]
+- ["Ps7CVarArg", "nextAudioPiece"]
+- !private ["Ps7CVarArg", "pause"]
+- ["Ps7CVarArg", "percentComplete"]
+- !private ["Ps7CVarArg", "play"]
+- ["Ps7CVarArg", "playAtIndex"]
+- ["Ps7CVarArg", "playing"]
+- ["Ps7CVarArg", "playingIndex"]
+- !private ["Ps7CVarArg", "print"]
+- !private ["Ps7CVarArg", "setActive"]
+- !private ["Ps7CVarArg", "setCategory"]
+- ["Ps7CVarArg", "sharedInstance"]
+- ["Ps7CVarArg", "stop"]
+- ["Ps7CVarArg", "trackDuration"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioPlayer"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSession"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioSessionCategoryPlayback"]
+- ["Ps28CustomDebugStringConvertible", "AudioPlayer"]
+- ["Ps28CustomDebugStringConvertible", "Delegates"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayer"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerBeginInterruption"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerDidFinishPlaying"]
+- ["Ps28CustomDebugStringConvertible", "audioPlayerEndInterruption"]
+- ["Ps28CustomDebugStringConvertible", "createAudioPlayer"]
+- ["Ps28CustomDebugStringConvertible", "currentTime"]
+- ["Ps28CustomDebugStringConvertible", "dataSource"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "delegates"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isPlaying"]
+- ["Ps28CustomDebugStringConvertible", "next"]
+- ["Ps28CustomDebugStringConvertible", "nextAudioPiece"]
+- !private ["Ps28CustomDebugStringConvertible", "pause"]
+- ["Ps28CustomDebugStringConvertible", "percentComplete"]
+- !private ["Ps28CustomDebugStringConvertible", "play"]
+- ["Ps28CustomDebugStringConvertible", "playAtIndex"]
+- ["Ps28CustomDebugStringConvertible", "playing"]
+- ["Ps28CustomDebugStringConvertible", "playingIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "setActive"]
+- !private ["Ps28CustomDebugStringConvertible", "setCategory"]
+- ["Ps28CustomDebugStringConvertible", "sharedInstance"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- ["Ps28CustomDebugStringConvertible", "stop"]
+- ["Ps28CustomDebugStringConvertible", "trackDuration"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps23CustomStringConvertible", "AVAudioPlayer"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSession"]
+- !private ["Ps23CustomStringConvertible", "AVAudioSessionCategoryPlayback"]
+- ["Ps23CustomStringConvertible", "AudioPlayer"]
+- ["Ps23CustomStringConvertible", "Delegates"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "audioPlayer"]
+- ["Ps23CustomStringConvertible", "audioPlayerBeginInterruption"]
+- ["Ps23CustomStringConvertible", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps23CustomStringConvertible", "audioPlayerDidFinishPlaying"]
+- ["Ps23CustomStringConvertible", "audioPlayerEndInterruption"]
+- ["Ps23CustomStringConvertible", "createAudioPlayer"]
+- ["Ps23CustomStringConvertible", "currentTime"]
+- ["Ps23CustomStringConvertible", "dataSource"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "delegates"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isPlaying"]
+- ["Ps23CustomStringConvertible", "next"]
+- ["Ps23CustomStringConvertible", "nextAudioPiece"]
+- !private ["Ps23CustomStringConvertible", "pause"]
+- ["Ps23CustomStringConvertible", "percentComplete"]
+- !private ["Ps23CustomStringConvertible", "play"]
+- ["Ps23CustomStringConvertible", "playAtIndex"]
+- ["Ps23CustomStringConvertible", "playing"]
+- ["Ps23CustomStringConvertible", "playingIndex"]
+- !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "setActive"]
+- !private ["Ps23CustomStringConvertible", "setCategory"]
+- ["Ps23CustomStringConvertible", "sharedInstance"]
+- ["Ps23CustomStringConvertible", "stop"]
+- ["Ps23CustomStringConvertible", "trackDuration"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["V10Foundation4Data", "deinit"]
+- ["C7allbeat9Delegates", "deinit"]
+- ["C7allbeat9Delegates", "init"]
+- !private ["C7allbeat9Delegates", "trigger"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "AVAudioPlayer"]
+- !private ["Ps9Equatable", "AVAudioSession"]
+- !private ["Ps9Equatable", "AVAudioSessionCategoryPlayback"]
+- ["Ps9Equatable", "AudioPlayer"]
+- ["Ps9Equatable", "Delegates"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "audioPlayer"]
+- ["Ps9Equatable", "audioPlayerBeginInterruption"]
+- ["Ps9Equatable", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps9Equatable", "audioPlayerDidFinishPlaying"]
+- ["Ps9Equatable", "audioPlayerEndInterruption"]
+- ["Ps9Equatable", "createAudioPlayer"]
+- ["Ps9Equatable", "currentTime"]
+- ["Ps9Equatable", "dataSource"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "delegates"]
+- !private ["Ps9Equatable", "duration"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isPlaying"]
+- ["Ps9Equatable", "next"]
+- ["Ps9Equatable", "nextAudioPiece"]
+- !private ["Ps9Equatable", "pause"]
+- ["Ps9Equatable", "percentComplete"]
+- !private ["Ps9Equatable", "play"]
+- ["Ps9Equatable", "playAtIndex"]
+- ["Ps9Equatable", "playing"]
+- ["Ps9Equatable", "playingIndex"]
+- !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "setActive"]
+- !private ["Ps9Equatable", "setCategory"]
+- ["Ps9Equatable", "sharedInstance"]
+- ["Ps9Equatable", "stop"]
+- ["Ps9Equatable", "trackDuration"]
+- ["Ps9Equatable", ""]
+- !private ["Ps5Error", "deinit"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "AVAudioPlayer"]
+- !private ["Ps8Hashable", "AVAudioSession"]
+- !private ["Ps8Hashable", "AVAudioSessionCategoryPlayback"]
+- ["Ps8Hashable", "AudioPlayer"]
+- ["Ps8Hashable", "Delegates"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "audioPlayer"]
+- ["Ps8Hashable", "audioPlayerBeginInterruption"]
+- ["Ps8Hashable", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps8Hashable", "audioPlayerDidFinishPlaying"]
+- ["Ps8Hashable", "audioPlayerEndInterruption"]
+- ["Ps8Hashable", "createAudioPlayer"]
+- ["Ps8Hashable", "currentTime"]
+- ["Ps8Hashable", "dataSource"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "delegates"]
+- !private ["Ps8Hashable", "duration"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isPlaying"]
+- ["Ps8Hashable", "next"]
+- ["Ps8Hashable", "nextAudioPiece"]
+- !private ["Ps8Hashable", "pause"]
+- ["Ps8Hashable", "percentComplete"]
+- !private ["Ps8Hashable", "play"]
+- ["Ps8Hashable", "playAtIndex"]
+- ["Ps8Hashable", "playing"]
+- ["Ps8Hashable", "playingIndex"]
+- !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "setActive"]
+- !private ["Ps8Hashable", "setCategory"]
+- ["Ps8Hashable", "sharedInstance"]
+- ["Ps8Hashable", "stop"]
+- ["Ps8Hashable", "trackDuration"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "Stride"]
+- ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "AVAudioPlayer"]
+- !private ["CSo8NSObject", "AVAudioSession"]
+- !private ["CSo8NSObject", "AVAudioSessionCategoryPlayback"]
+- !private ["CSo8NSObject", "AudioDataSourceCallbackAction"]
+- ["CSo8NSObject", "AudioPlayer"]
+- ["CSo8NSObject", "AudioPlayerDataSource"]
+- ["CSo8NSObject", "AudioPlayerDelegate"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "Data"]
+- ["CSo8NSObject", "Delegates"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "TimeInterval"]
+- ["CSo8NSObject", "audioPlayer"]
+- ["CSo8NSObject", "audioPlayerBeginInterruption"]
+- ["CSo8NSObject", "audioPlayerDecodeErrorDidOccur"]
+- ["CSo8NSObject", "audioPlayerDidFinishPlaying"]
+- ["CSo8NSObject", "audioPlayerEndInterruption"]
+- ["CSo8NSObject", "createAudioPlayer"]
+- ["CSo8NSObject", "currentTime"]
+- ["CSo8NSObject", "dataSource"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "delegates"]
+- !private ["CSo8NSObject", "duration"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isPlaying"]
+- ["CSo8NSObject", "next"]
+- ["CSo8NSObject", "nextAudioPiece"]
+- !private ["CSo8NSObject", "pause"]
+- ["CSo8NSObject", "percentComplete"]
+- !private ["CSo8NSObject", "play"]
+- ["CSo8NSObject", "playAtIndex"]
+- ["CSo8NSObject", "playing"]
+- ["CSo8NSObject", "playingIndex"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "setActive"]
+- !private ["CSo8NSObject", "setCategory"]
+- ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "stop"]
+- ["CSo8NSObject", "trackDuration"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "AVAudioPlayer"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSession"]
+- !private ["PSo16NSObjectProtocol", "AVAudioSessionCategoryPlayback"]
+- ["PSo16NSObjectProtocol", "AudioPlayer"]
+- ["PSo16NSObjectProtocol", "Delegates"]
+- ["PSo16NSObjectProtocol", "audioPlayer"]
+- ["PSo16NSObjectProtocol", "audioPlayerBeginInterruption"]
+- ["PSo16NSObjectProtocol", "audioPlayerDecodeErrorDidOccur"]
+- ["PSo16NSObjectProtocol", "audioPlayerDidFinishPlaying"]
+- ["PSo16NSObjectProtocol", "audioPlayerEndInterruption"]
+- ["PSo16NSObjectProtocol", "createAudioPlayer"]
+- ["PSo16NSObjectProtocol", "currentTime"]
+- ["PSo16NSObjectProtocol", "dataSource"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "delegates"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isPlaying"]
+- ["PSo16NSObjectProtocol", "next"]
+- ["PSo16NSObjectProtocol", "nextAudioPiece"]
+- !private ["PSo16NSObjectProtocol", "pause"]
+- ["PSo16NSObjectProtocol", "percentComplete"]
+- !private ["PSo16NSObjectProtocol", "play"]
+- ["PSo16NSObjectProtocol", "playAtIndex"]
+- ["PSo16NSObjectProtocol", "playing"]
+- ["PSo16NSObjectProtocol", "playingIndex"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "setActive"]
+- !private ["PSo16NSObjectProtocol", "setCategory"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "stop"]
+- ["PSo16NSObjectProtocol", "trackDuration"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps10Strideable", "Stride"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["P9Alamofire20URLStringConvertible", "init"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "AVAudioPlayer"]
+- !private ["Ps9_Hashable", "AVAudioSession"]
+- !private ["Ps9_Hashable", "AVAudioSessionCategoryPlayback"]
+- ["Ps9_Hashable", "AudioPlayer"]
+- ["Ps9_Hashable", "Delegates"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "audioPlayer"]
+- ["Ps9_Hashable", "audioPlayerBeginInterruption"]
+- ["Ps9_Hashable", "audioPlayerDecodeErrorDidOccur"]
+- ["Ps9_Hashable", "audioPlayerDidFinishPlaying"]
+- ["Ps9_Hashable", "audioPlayerEndInterruption"]
+- ["Ps9_Hashable", "createAudioPlayer"]
+- ["Ps9_Hashable", "currentTime"]
+- ["Ps9_Hashable", "dataSource"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "delegates"]
+- !private ["Ps9_Hashable", "duration"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isPlaying"]
+- ["Ps9_Hashable", "next"]
+- ["Ps9_Hashable", "nextAudioPiece"]
+- !private ["Ps9_Hashable", "pause"]
+- ["Ps9_Hashable", "percentComplete"]
+- !private ["Ps9_Hashable", "play"]
+- ["Ps9_Hashable", "playAtIndex"]
+- ["Ps9_Hashable", "playing"]
+- ["Ps9_Hashable", "playingIndex"]
+- !private ["Ps9_Hashable", "print"]
+- !private ["Ps9_Hashable", "setActive"]
+- !private ["Ps9_Hashable", "setCategory"]
+- ["Ps9_Hashable", "sharedInstance"]
+- ["Ps9_Hashable", "stop"]
+- ["Ps9_Hashable", "trackDuration"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps11_Strideable", "Stride"]
+depends-nominal:
+- "CSo13AVAudioPlayer"
+- "PSo21AVAudioPlayerDelegate"
+- !private "CSo14AVAudioSession"
+- "Ps9AnyObject"
+- !private "O7allbeat29AudioDataSourceCallbackAction"
+- "C7allbeat11AudioPlayer"
+- !private "P7allbeat21AudioPlayerDataSource"
+- "P7allbeat19AudioPlayerDelegate"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- "C7allbeat9Delegates"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Sq"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "P9Alamofire20URLStringConvertible"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/allbeat/allbeat-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/DerivedData/allbeat/Build/Intermediates/IBDesignables/Products/Debug-iphonesimulator/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentityService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCognitoIdentity.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSResources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSTS.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSUICKeyChainStore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMMemoryCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMDiskCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTMCache.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSKSReachability.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseQueue.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabaseAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabasePool.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMResultSet.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDatabase.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSFMDB.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSGZIP.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTaskCompletionSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSTask.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSExecutor.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenSource.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationTokenRegistration.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCancellationToken.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBoltsVersion.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSBolts.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSInfo.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSValidation.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestRetryHandler.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSignature.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLSessionManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLResponseSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSURLRequestSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSerialization.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSSynchronizedMutableDictionary.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSClientContext.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSLogging.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCategory.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSIdentityProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCredentialsProvider.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLPredefinedTransformerAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSValueTransformer+AWSMTLInversionAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSObject+AWSMTLComparisonAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSDictionary+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/NSArray+AWSMTLManipulationAdditions.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLValueTransformer.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel+NSCoding.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLManagedObjectAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMTLJSONAdapter.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSMantle.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSModel.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSNetworking.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSService.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSServiceEnum.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Headers/AWSCore.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSCore.framework/Modules/module.modulemap"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferUtility.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3PreSignedURL.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3TransferManager.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Resources.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Model.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3Service.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Headers/AWSS3.h"
+- "/Users/Ari/Desktop/ArisAdditionsToAllBeat/allbeat-ios/allbeat/aws-ios-sdk-2.4.2/frameworks/AWSS3.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+interface-hash: "456df88f694fcecc503a8991253689c9"
