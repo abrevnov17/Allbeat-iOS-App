@@ -102,8 +102,7 @@ class BrowseViewController: UICollectionViewController {
                 self.updateCellSize()
                 
                 // Load a initial items
-                
-                self.title = "allbeat"
+                //self.title = "allbeat"
                 //self.collectionView?.reloadData()
 
             }
