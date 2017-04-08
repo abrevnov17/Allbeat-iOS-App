@@ -18,6 +18,7 @@ class UserProfileViewController: UIViewController, UICollectionViewDataSource, U
     var posts:[String] = []
     var postUrls:[String] = []
     var userID:String?
+    var globalTrackIDToPass:String = ""
     
     @IBOutlet var ArtistName: UILabel!
     @IBOutlet var profileView: UIImageView!
@@ -443,19 +444,6 @@ class UserProfileViewController: UIViewController, UICollectionViewDataSource, U
             
         }
         
-        
-        /* I think this unecessary but am leaving it in just in case
-         
-         Allbeat.getUserProPic(userID: (user1.uid)) { (url) in
-         if url != nil {
-         if let filePath = Bundle.main.path(forResource: url, ofType: "jpg"), let image = UIImage(contentsOfFile: filePath) {
-         self.userImg.contentMode = .scaleAspectFit
-         self.userImg.image = image
-         }
-         }
-         
-         }
-         */
         let audioPlayer = AudioPlayer.sharedInstance
         self.paused(audioPlayer)
         
@@ -569,6 +557,7 @@ extension UserProfileViewController: AudioClipCellDelegate {
             }.resume()
     }
     
+    
     func likeButtonTapped(_ cell: AudioClipCell) {
         
         if (cell.likeButton.currentImage == #imageLiteral(resourceName: "LikeIcon")){
@@ -594,7 +583,20 @@ extension UserProfileViewController: AudioClipCellDelegate {
     }
     
     func commentsButtonTapped(_ cell: AudioClipCell) {
+        globalTrackIDToPass = cell.trackIDCell
         performSegue(withIdentifier: "comment", sender: self)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if(segue.identifier == "comment") {
+            
+            let yourNextViewController = (segue.destination as! CommentViewController)
+            //need to do this
+            yourNextViewController.trackID = globalTrackIDToPass
+            
+        }
         
     }
 }

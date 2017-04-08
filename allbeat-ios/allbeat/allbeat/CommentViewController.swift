@@ -129,7 +129,7 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
             })
             Allbeat.getCommentUser(trackID: self.trackID!, commentID: self.songComments[indexPath.row], completionBlock: { (user) in
                 if(user != nil){
-                    Allbeat.getUserName(userID: self.trackID!, completionBlock: { (name) in
+                    Allbeat.getUserName(userID: user!, completionBlock: { (name) in
                         if(name != nil){
                             cell.name.text = name
                         }
@@ -142,7 +142,15 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
             })
             Allbeat.getCommentTime(trackID: self.trackID!, commentID: self.songComments[indexPath.row], completionBlock: { (time) in
                 if(time != nil){
-                    cell.time.text = String(describing: time)
+                    let d:Double? = Double(time!)
+                    let date = NSDate(timeIntervalSince1970: d!)
+                    
+                    let dayTimePeriodFormatter = DateFormatter()
+                    dayTimePeriodFormatter.dateFormat = "MMM dd YYYY hh:mm a"
+                    
+                    let dateString = dayTimePeriodFormatter.string(from: date as Date)
+                    print("time",dateString)
+                    cell.time.text = dateString
                 }
                 else{
                     cell.time.text = ""
