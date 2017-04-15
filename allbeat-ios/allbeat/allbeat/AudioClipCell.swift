@@ -190,7 +190,32 @@ class AudioClipCell: UICollectionViewCell {
             
             //NEED WAY TO GET ARTIST IMAGE
             
-            self.artistPicture.targetImage = #imageLiteral(resourceName: "untitledHuman")
+            Allbeat.getArtistArt(trackID: trackID) { (art: String?) in
+                if (art != nil){
+                    
+                    //convert string to url
+                    
+                    let url = NSURL(string: art!)
+                    
+                    //convert url to image
+                    
+                    self.getDataFromUrl(url: url as! URL) { (data, response, error)  in
+                        guard let data = data, error == nil else { return }
+                        DispatchQueue.main.async() { () -> Void in
+                            self.artistPicture.targetImage = UIImage(data: data)
+                        }
+                    }
+                }
+                else {
+                    
+                    self.artistPicture.targetImage = #imageLiteral(resourceName: "untitledHuman")
+                    
+                }
+                
+                
+            }
+
+            
 
             
             

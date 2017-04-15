@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "allbeat/AudioClipCell.swift"
-            timestampString = "512092889.759942"
+            timestampString = "513972940.442881"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
+            startingLineNumber = "241"
+            endingLineNumber = "241"
             landmarkName = "setData(_:index:trackID:)"
             landmarkType = "7">
          </BreakpointContent>
