@@ -410,13 +410,13 @@ open class Allbeat {
         }
     }
     
-    static func getNotificationText(userID: String, notifID: String, completionBlock : @escaping ((_ data : String?)-> Void)) {
+    static func getNotification(userID: String, notifID: String, completionBlock : @escaping ((_ data : NSDictionary?)-> Void)) {
         let url = http+"/getNotification?key=" + key + "&uid=" + userID + "&notifID=" + notifID
         httpGet(url) { (data: NSDictionary?) in
             if (data != nil) {
                 if let jsonResult = data?["result"] as? String {
                     if (jsonResult == "success") {
-                        if let results = data?["data"] as? String {
+                        if let results = data?["data"] as? NSDictionary {
                             completionBlock(results)
                         } else {
                             print("getNotification - EXCEPTION: could not parse 'data'")
@@ -427,11 +427,11 @@ open class Allbeat {
                         completionBlock(nil)
                     }
                 } else {
-                    print("getNotification - EXCEPTION: received data is nil")
+                    print("getNotification - EXCEPTION: could not find json result")
                     completionBlock(nil)
                 }
             } else {
-                print("getNotification - EXCEPTION: could not find json result")
+                print("getNotification - EXCEPTION: received data is nil")
                 completionBlock(nil)
             }
         }
@@ -805,6 +805,15 @@ open class Allbeat {
             completionBlock(dbData)
         }) { (error) in
             print("getNumLikes - data could not be retrieved - EXCEPTION: " + error.localizedDescription)
+        }
+    }
+    
+    static func getArtistArt(trackID: String, completionBlock : @escaping ((_ data : String?)-> Void)) {
+        self.database.child("tracks").child(trackID).observeSingleEvent(of: .value, with: { (snapshot) in
+            let dbData = (snapshot.value as? NSDictionary)?["artistArtURL"] as? String ?? nil
+            completionBlock(dbData)
+        }) { (error) in
+            print("getArtistArt - data could not be retrieved - EXCEPTION: " + error.localizedDescription)
         }
     }
     
