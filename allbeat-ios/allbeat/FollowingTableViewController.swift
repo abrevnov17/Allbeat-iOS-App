@@ -71,16 +71,6 @@ class FollowingTableViewController: UITableViewController {
         
         //sets image and data in custom cell
         
-        Allbeat.getUserDisplayName(userID: userIDS[indexPath.item]) { (displayName) in
-            if (displayName != nil){
-                cell.name.text = displayName!
-            }
-            else {
-                cell.name.text = ""
-            }
-            
-        }
-        
         Allbeat.getUserName(userID: userIDS[indexPath.item]) { (username) in
             
             cell.detail.text = "@" + username!

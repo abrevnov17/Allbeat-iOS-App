@@ -71,15 +71,19 @@ class FollowersTableViewController: UITableViewController {
         
         //sets image and data in custom cell
         
-        Allbeat.getUserDisplayName(userID: userIDS[indexPath.item]) { (displayName) in
-            
-            cell.name.text = displayName!
-            
-        }
-        
         Allbeat.getUserName(userID: userIDS[indexPath.item]) { (username) in
             
             cell.detail.text = "@" + username!
+            
+            Allbeat.getUserDisplayName(userID: self.userIDS[indexPath.item]) { (displayName) in
+                if (displayName != nil){
+                    cell.name.text = displayName!
+                }
+                else {
+                    cell.name.text = username!
+                }
+                
+            }
             
         }
         
