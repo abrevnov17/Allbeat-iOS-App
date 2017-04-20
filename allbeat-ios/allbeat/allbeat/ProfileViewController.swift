@@ -518,7 +518,7 @@ extension ProfileViewController: AudioClipCellDelegate {
             } else {
                 
                 let item = indexPath.item
-                
+                audioPlayer.stop();
                 //need this array to switch what im loading from a rebeat to a post
                 
                 var ultimateArray:[String] = rebeatUrls
@@ -673,6 +673,7 @@ extension ProfileViewController: AudioPlayerDelegate {
             cell.activeAudioCell = false
         }
     }
+
     
     private func cellAtIndex(index: Int?) -> AudioClipCell? {
         

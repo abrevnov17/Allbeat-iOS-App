@@ -361,11 +361,11 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="17" translatesAutoresizingMaskIntoConstraints="NO" id="WoK-g9-zmP">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="Ild-MX-Bgd" customClass="CommentTableViewCell" customModule="allbeat" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="100" id="Ild-MX-Bgd" customClass="CommentTableViewCell" customModule="allbeat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ild-MX-Bgd" id="HNh-Ps-hgK">
-                                            <frame key="frameInset" width="375" height="99"/>
+                                            <frame key="frameInset" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="02x-sK-JTR">
@@ -668,7 +668,7 @@
                 <navigationController title="Home" automaticallyAdjustsScrollViewInsets="NO" id="j0E-Cz-tpp" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="Home" id="Tqa-6w-nmV" userLabel="Home"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="wJp-4J-MRp">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wJp-4J-MRp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <textAttributes key="titleTextAttributes">
@@ -709,7 +709,7 @@
                 <navigationController title="Search" automaticallyAdjustsScrollViewInsets="NO" id="eMa-Xw-aAt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="SearchIcon" selectedImage="Search" id="UcF-kS-1Ba" userLabel="Search"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="0Gx-4R-2IJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="0Gx-4R-2IJ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -759,7 +759,7 @@
                                 <rect key="frame" x="0.0" y="152" width="375" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Db9-wf-a3z" id="Bsz-xC-gDh">
-                                    <frame key="frameInset" width="375" height="93"/>
+                                    <frame key="frameInset" width="375" height="93.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k3F-1q-ESU">
@@ -1099,7 +1099,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AhF-0W-iRJ" id="X5G-VG-DPh">
-                                            <frame key="frameInset" width="375" height="99"/>
+                                            <frame key="frameInset" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDF-Uw-Cq9">
@@ -1240,7 +1240,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Bjj-9a-2qK" id="P8z-fb-d6U">
-                                    <frame key="frameInset" width="375" height="93"/>
+                                    <frame key="frameInset" width="375" height="93.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5QI-ei-9zQ">
@@ -1319,7 +1319,7 @@
                 <navigationController title="Profile" automaticallyAdjustsScrollViewInsets="NO" id="cGx-yS-uJC" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="Profile" selectedImage="Profile" id="nvS-Kc-zrA" userLabel="Me"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="xRP-bl-0So">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xRP-bl-0So">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -1336,7 +1336,7 @@
         <scene sceneID="5PD-Ps-QiL">
             <objects>
                 <collectionViewController title="AllBeat" id="swM-GJ-gvQ" customClass="BrowseViewController" customModule="allbeat" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="liw-PT-8vj">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="liw-PT-8vj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1691,7 +1691,7 @@
                                 <rect key="frame" x="0.0" y="92" width="375" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KVE-XM-QER" id="fZl-lb-d0g">
-                                    <frame key="frameInset" width="375" height="93"/>
+                                    <frame key="frameInset" width="375" height="93.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9oO-0H-28F">
@@ -2050,6 +2050,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="playReleased:" destination="z5G-rZ-oro" eventType="touchUpOutside" id="BgX-aG-sbs"/>
+                                                        <action selector="playReleased:" destination="z5G-rZ-oro" eventType="touchUpInside" id="jXK-ZZ-sbg"/>
                                                         <action selector="playTapped:" destination="z5G-rZ-oro" eventType="touchDown" id="twD-tX-nOq"/>
                                                     </connections>
                                                 </view>
@@ -2252,11 +2253,12 @@
                         <outlet property="seg" destination="G7b-M1-fXz" id="EO6-e0-ehr"/>
                         <outlet property="userImg" destination="lgZ-QS-fgT" id="dsU-ps-93b"/>
                         <outlet property="username" destination="G5T-cp-fsI" id="gft-QE-3fE"/>
+                        <segue destination="Fb6-gz-kEW" kind="show" identifier="comment" id="bhU-Cr-0qj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TLd-0h-93g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4400.8000000000002" y="1294.0029985007498"/>
+            <point key="canvasLocation" x="4440.8000000000002" y="1307.4962518740631"/>
         </scene>
         <!--Accept View Controller-->
         <scene sceneID="2mi-gP-4NJ">
@@ -2858,6 +2860,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="playReleased:" destination="xLH-Hs-nyi" eventType="touchUpOutside" id="3ti-tP-ibG"/>
+                                                        <action selector="playReleased:" destination="xLH-Hs-nyi" eventType="touchUpInside" id="dhk-wY-BgB"/>
                                                         <action selector="playTapped:" destination="xLH-Hs-nyi" eventType="touchDown" id="VTo-KP-CJV"/>
                                                     </connections>
                                                 </view>
@@ -3035,7 +3038,7 @@
         <scene sceneID="afe-rF-UhJ">
             <objects>
                 <collectionViewController title="DiscoverBrowse" id="Q3e-av-7Yx" customClass="DiscoverBrowseViewController" customModule="allbeat" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="qcb-IH-AkQ">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="qcb-IH-AkQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.97807776492647269" green="1" blue="0.99029391172259684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -3466,7 +3469,7 @@
                                 <rect key="frame" x="0.0" y="152" width="375" height="94"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uGM-lj-OZo" id="EnC-nu-rLl">
-                                    <frame key="frameInset" width="375" height="93"/>
+                                    <frame key="frameInset" width="375" height="93.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4US-Ep-ipE">
@@ -3553,7 +3556,7 @@
                                         <rect key="frame" x="0.0" y="86" width="375" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fLi-B8-QIy" id="HVn-9k-sI7">
-                                            <frame key="frameInset" width="375" height="99"/>
+                                            <frame key="frameInset" width="375" height="99.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QLf-Vz-ulI">
@@ -3955,6 +3958,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                     <connections>
                                                         <action selector="playReleased:" destination="ZlF-cf-8OA" eventType="touchUpOutside" id="7Ky-A7-KNd"/>
+                                                        <action selector="playReleased:" destination="ZlF-cf-8OA" eventType="touchUpInside" id="xbJ-nO-18Y"/>
                                                         <action selector="playTapped:" destination="ZlF-cf-8OA" eventType="touchDown" id="DGN-Gf-oXL"/>
                                                     </connections>
                                                 </view>
@@ -4162,7 +4166,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Q5s-Gg-Vel" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="YwL-bf-65s">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YwL-bf-65s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -4178,16 +4182,16 @@
     </scenes>
     <resources>
         <image name="CommentIcon" width="23" height="20"/>
-        <image name="Disc" width="24" height="24"/>
-        <image name="Home" width="12" height="12"/>
+        <image name="Disc" width="40" height="40"/>
+        <image name="Home" width="40" height="40"/>
         <image name="LikeIcon" width="23" height="20"/>
-        <image name="Profile" width="20" height="24"/>
-        <image name="Search" width="24" height="24"/>
+        <image name="Profile" width="40" height="40"/>
+        <image name="Search" width="45" height="45"/>
         <image name="SearchIcon" width="12" height="12"/>
         <image name="Settings" width="32" height="32"/>
         <image name="ShareIcon" width="24" height="24"/>
         <image name="UnlikedIcon" width="23" height="20"/>
-        <image name="bell" width="12" height="12"/>
+        <image name="bell" width="50" height="50"/>
         <image name="commentBlue" width="50" height="43"/>
         <image name="emailSignUp" width="446" height="115"/>
         <image name="find" width="100" height="100"/>
@@ -4202,7 +4206,7 @@
         <segue reference="MAM-5D-5Wm"/>
         <segue reference="emR-Bp-gPA"/>
         <segue reference="q4r-2J-MIE"/>
-        <segue reference="R32-L7-ckm"/>
+        <segue reference="bhU-Cr-0qj"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
