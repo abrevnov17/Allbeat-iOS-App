@@ -665,7 +665,10 @@ open class Allbeat {
     }
     
     static func searchUsers(_ query: String, completionBlock : @escaping ((_ data : Array<String>?)-> Void)) {
-        let url = http+"/searchUser?key=" + key + "&query=" + query
+        //replace all spaces with '%20'
+        let replaced = query.replacingOccurrences(of:" " with "%20")
+        let replaced2 = replaced.replacingOccurrences(of:"/" with "%2F")
+        let url = http+"/searchUser?key=" + key + "&query=" + replaced2
         httpGet(url) { (data: NSDictionary?) in
             if (data != nil) {
                 if let jsonResult = data?["result"] as? String {
@@ -693,7 +696,9 @@ open class Allbeat {
     }
     
     static func searchTracks(_ query: String, completionBlock : @escaping ((_ data : Array<String>?)-> Void)) {
-        let url = http+"/searchTitle?key=" + key + "&query=" + query
+        let replaced = query.replacingOccurrences(of:" " with "%20")
+        let replaced2 = replaced.replacingOccurrences(of:"/" with "%2F")
+        let url = http+"/searchTitle?key=" + key + "&query=" + replaced2
         httpGet(url) { (data: NSDictionary?) in
             if (data != nil) {
                 if let jsonResult = data?["result"] as? String {
