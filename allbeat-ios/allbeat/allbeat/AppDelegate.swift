@@ -26,8 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             self.window = UIWindow(frame: UIScreen.main.bounds)
             
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            
-            let initialViewController = storyboard.instantiateViewController(withIdentifier: "FirstController")
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "TutorialPageViewController")
             
             self.window?.rootViewController = initialViewController
             self.window?.makeKeyAndVisible()

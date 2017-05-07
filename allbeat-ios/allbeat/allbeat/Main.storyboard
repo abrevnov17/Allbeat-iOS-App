@@ -32,7 +32,7 @@
         <!--Tutorial Page View Controller-->
         <scene sceneID="Fmc-vD-KBF">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="min" id="0d3-qw-ocn" customClass="TutorialPageViewController" customModule="allbeat" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="TutorialPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="min" id="0d3-qw-ocn" customClass="TutorialPageViewController" customModule="allbeat" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tD-c0-zDv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1430" y="-1218"/>
@@ -4203,9 +4203,9 @@
         <image name="you" width="86" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="MAM-5D-5Wm"/>
-        <segue reference="emR-Bp-gPA"/>
+        <segue reference="jzy-Ql-u2p"/>
         <segue reference="q4r-2J-MIE"/>
+        <segue reference="emR-Bp-gPA"/>
         <segue reference="bhU-Cr-0qj"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
