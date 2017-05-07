@@ -19,6 +19,10 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
     var posts:[String] = []
     var postUrls:[String] = []
     
+    //need to pass for commenting
+    var globalTrackIDToPass:String?
+
+    
     @IBOutlet var editProfile: UIButton?
     @IBOutlet var ArtistName: UILabel!
     @IBOutlet var profileView: UIImageView!
@@ -494,6 +498,17 @@ class ProfileViewController: UIViewController, UICollectionViewDataSource, UICol
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if(segue.identifier == "comment") {
+            
+            let yourNextViewController = (segue.destination as! CommentViewController)
+            yourNextViewController.trackID = globalTrackIDToPass
+            
+        }
+        
+    }
+    
 }
 
 
@@ -576,27 +591,39 @@ extension ProfileViewController: AudioClipCellDelegate {
         
         if (cell.likeButton.currentImage == #imageLiteral(resourceName: "LikeIcon")){
             cell.likeButton.setImage(#imageLiteral(resourceName: "UnlikedIcon"), for: .normal)
-            
+            Allbeat.like(userID: (FIRAuth.auth()?.currentUser?.uid)!,trackID: cell.trackIDCell) { (success: Bool) in
+                //optional print statement
+            }
             
         }
         else {
             cell.likeButton.setImage(#imageLiteral(resourceName: "LikeIcon"), for: .normal)
+            Allbeat.unlike(userID: (FIRAuth.auth()?.currentUser?.uid)!,trackID: cell.trackIDCell) { (success: Bool) in
+                //optional print statement
+            }
         }
+        
+        
     }
     
     func shareButtonTapped(_ cell: AudioClipCell) {
         if (cell.shareButton.currentImage == #imageLiteral(resourceName: "ShareIcon")){
             cell.shareButton.setImage(#imageLiteral(resourceName: "Rebeated"), for: .normal)
-            
+            Allbeat.rebeat(userID: (FIRAuth.auth()?.currentUser?.uid)!,trackID: cell.trackIDCell) { (success: Bool) in
+                //optional print statement
+            }
             
         }
         else {
             cell.shareButton.setImage(#imageLiteral(resourceName: "ShareIcon"), for: .normal)
+            Allbeat.unrebeat(userID: (FIRAuth.auth()?.currentUser?.uid)!,trackID: cell.trackIDCell) { (success: Bool) in
+                //optional print statement
+            }
         }
         
     }
-    
     func commentsButtonTapped(_ cell: AudioClipCell) {
+        globalTrackIDToPass = cell.trackIDCell
         performSegue(withIdentifier: "comment", sender: self)
         
     }
@@ -772,6 +799,9 @@ extension ProfileViewController: AudioPlayerDelegate {
         return audioCell
     }
 }
+
+
+
 /*
  // MARK: - Navigation
  

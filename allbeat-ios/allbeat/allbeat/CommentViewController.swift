@@ -42,6 +42,7 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
     override func viewWillAppear(_ animated:Bool) {
         super.viewWillAppear(animated)
         
+        print("hello1"+self.trackID!)
         
         Allbeat.aggregateComments(trackID: self.trackID!, num: 100) { (comments) in
             if(comments != nil){
@@ -86,7 +87,7 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
             let oldLastCellIndexPath = IndexPath(row: self.songComments.count-1, section: 0)
             self.tableView.scrollToRow(at: oldLastCellIndexPath, at: .bottom, animated: false)
         }
-        self.tableView.reloadData()
+        //self.tableView.reloadData()
     }
     
     func keyboardWillShow(notification: NSNotification) {
@@ -122,7 +123,11 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CommentTableViewCell
         if self.songComments.count > 0 {
+            print("hello"+self.trackID!)
+            print(self.songComments[indexPath.row])
             Allbeat.getCommentText(trackID: self.trackID!, commentID: self.songComments[indexPath.row], completionBlock: { (comment) in
+
+                print(comment)
                 if(comment != nil){
                     cell.comment.text = comment
                 }
@@ -220,6 +225,8 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
         
     }
     @IBAction func Post(_ sender: AnyObject) {
+        self.commentField.text = ""
+
         if ((commentField.text?.characters.count)! > 0){
                     
             Allbeat.comment(userID: (Allbeat.getCurrentUser().uid), trackID: self.trackID!, comment:self.commentField.text! ) { (went) in
@@ -235,7 +242,6 @@ class CommentViewController: UIViewController, UITextFieldDelegate, UITableViewD
             
             
         }
-            self.commentField.text = ""
         
         }
         
