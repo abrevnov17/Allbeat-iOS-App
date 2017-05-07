@@ -33,9 +33,62 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
         
         super.viewDidLoad()
         self.tableView.backgroundColor = UIColor(hex: 0x4A90E2)
-        //YOU NEED TO UNCOMMENT LINE BELOW TO ACTUALLY DO STUFF
-        //self.tableView.reloadData()
         self.tableView.contentInset = UIEdgeInsetsMake(-50, 0, 0, 0);
+        
+        if (Allbeat.isLoggedIn() != true){
+            self.performSegue(withIdentifier: "auth", sender: self)
+        }
+        
+        //loading in notifications
+        
+        Allbeat.aggregateNotifications(userID: Allbeat.getCurrentUser().uid){ (notifications) in
+            
+            for notification in notifications!{
+                Allbeat.getNotification(userID: Allbeat.getCurrentUser().uid, notifID: notification){ (notif) in
+                    let text = notif?["text"]
+                    let timestamp = notif?["timestamp"]
+                    let uid = notif?["uid"]
+                    let trackid = notif?["trackid"]
+                    
+                    Allbeat.getUserProPic(userID: uid as! String) { (art: String?) in
+                        if (art != nil){
+                            
+                            //convert string to url
+                            
+                            let url = NSURL(string: art!)
+                            
+                            //convert url to image
+                            
+                            self.getDataFromUrl(url: url as! URL) { (data, response, error)  in
+                                guard let data = data, error == nil else { return }
+                                DispatchQueue.main.async() { () -> Void in
+                                    self.albumIcon.append(UIImage(data: data)!)
+                                }
+                            }
+                        }
+                        else {
+                            
+                             self.albumIcon.append(#imageLiteral(resourceName: "untitledHuman"))
+                            
+                        }
+                        
+                        self.notificationDescription.append(text as! String)
+                        self.time.append(timestamp as! String)
+
+                        
+                        
+                    }
+
+                    
+                    
+                }
+            }
+            
+        }
+        
+        self.tableView.reloadData()
+
+        
 
        
     }
@@ -159,6 +212,14 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
         
     }
  
+    //used to get images from url's
+    func getDataFromUrl(url: URL, completion: @escaping (_ data: Data?, _  response: URLResponse?, _ error: Error?) -> Void) {
+        URLSession.shared.dataTask(with: url) {
+            (data, response, error) in
+            completion(data, response, error)
+            }.resume()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if(segue.identifier == "user") {
             

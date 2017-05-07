@@ -666,8 +666,10 @@ open class Allbeat {
     
     static func searchUsers(_ query: String, completionBlock : @escaping ((_ data : Array<String>?)-> Void)) {
         //replace all spaces with '%20'
-        let replaced = query.replacingOccurrences(of:" " with "%20")
-        let replaced2 = replaced.replacingOccurrences(of:"/" with "%2F")
+        let replaced = (query as NSString).replacingOccurrences(of: " ", with: "%20")
+        let replaced2 = (replaced as NSString).replacingOccurrences(of: "/", with: "%2F")
+        //let replaced = query.replacingOccurrences(of:" ", with: "%20")
+        //let replaced2 = replaced.replacingOccurrences(of:"/", with: "%2F")
         let url = http+"/searchUser?key=" + key + "&query=" + replaced2
         httpGet(url) { (data: NSDictionary?) in
             if (data != nil) {
@@ -696,8 +698,10 @@ open class Allbeat {
     }
     
     static func searchTracks(_ query: String, completionBlock : @escaping ((_ data : Array<String>?)-> Void)) {
-        let replaced = query.replacingOccurrences(of:" " with "%20")
-        let replaced2 = replaced.replacingOccurrences(of:"/" with "%2F")
+        let replaced = (query as NSString).replacingOccurrences(of: " ", with: "%20")
+        let replaced2 = (replaced as NSString).replacingOccurrences(of: "/", with: "%2F")
+        //let replaced = query.replacingOccurrences(of:" ", with: "%20")
+        //let replaced2 = replaced.replacingOccurrences(of:"/", with: "%2F")
         let url = http+"/searchTitle?key=" + key + "&query=" + replaced2
         httpGet(url) { (data: NSDictionary?) in
             if (data != nil) {
