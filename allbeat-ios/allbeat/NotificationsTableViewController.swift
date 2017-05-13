@@ -26,8 +26,7 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
     var notificationDescription: [String] = []
     var time:[String]=[]
 
-    
-
+    @IBOutlet var noNotificationsLabel: UILabel!
     
     override func viewDidLoad() {
         
@@ -42,7 +41,8 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
         //loading in notifications
         
         Allbeat.aggregateNotifications(userID: Allbeat.getCurrentUser().uid){ (notifications) in
-            
+            print("hello")
+            print(notifications)
             for notification in notifications!{
                 Allbeat.getNotification(userID: Allbeat.getCurrentUser().uid, notifID: notification){ (notif) in
                     let text = notif?["text"]
@@ -72,10 +72,23 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
                             
                         }
                         
-                        self.notificationDescription.append(text as! String)
-                        self.time.append(timestamp as! String)
-
+                        //self.notificationDescription.append(text as! String)
                         
+                        Allbeat.getUserName(userID: uid as! String) { (username: String?) in
+                            if (username != nil){
+                                self.name.append(username!)
+                                let replaced = (text as! NSString).replacingOccurrences(of: "null", with: username!)
+
+                                self.notificationDescription.append(replaced)
+                            }
+                            
+                            self.tableView.reloadData()
+
+                            
+                        }
+                        self.tableView.reloadData()
+
+                        //self.time.append(timestamp as! String)
                         
                     }
 
@@ -128,7 +141,7 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
         // Configure the cell...
         cell.selectionStyle = .none
         //loads view from when user starts typing
-                   self.tableView.backgroundColor  = UIColor.white
+        self.tableView.backgroundColor  = UIColor.white
             //error search view
             if name.count == 0 {
                 cell.backgroundColor = UIColor.white
@@ -154,7 +167,13 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
         
         //sets image and data in custom cell
         if(name.count != 0){
-            cell.name.text = self.name[indexPath.row]
+            //changing font size for top label in cell
+            
+            cell.name.font = cell.detail.font.withSize(15)
+            cell.name.adjustsFontSizeToFitWidth = true
+            
+            cell.detail.text = self.name[indexPath.row]
+            self.noNotificationsLabel.isHidden = true
             cell.imageView!.isHidden = true
             
             
@@ -166,8 +185,9 @@ class NotificationsTableViewController: UITableViewController, UITextFieldDelega
                 cell.imageView!.clipsToBounds = true
                 cell.imageView!.image = image
                 cell.imageView!.isHidden = false
-                cell.detail.text = self.name[indexPath.row] + " " + self.notificationDescription[indexPath.row] + " " + "a song"
-                cell.time.text=self.time[indexPath.row]
+                cell.name.text = self.notificationDescription[indexPath.row]
+                //NEED TO UNCOMMENT BELOW FOR TIME
+                //cell.time.text=self.time[indexPath.row]
                 
             
             
