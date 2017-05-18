@@ -1,1 +1,0 @@
-# Allbeat iOS App
